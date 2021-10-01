@@ -11,7 +11,7 @@
     {
       "name": "check-tg3.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/src/check-tg3.sh",
-      "sha256": "58ac47ce41eb1e813120e4f3f323229018d91d15f75d29c1750c74dc9df2e236",
+      "sha256": "8947f9c55c4aeb45fca61492f64dac29a72c21ce9b845a90fd357c46c79399e1",
       "packed": false
     }
 
