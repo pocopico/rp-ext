@@ -13,9 +13,7 @@
   "kmods": {
     "libphy.ko": "",
     "tg3.ko": ""
-  },
-
-  "scripts": {
   }
+
 }
 
