@@ -7,6 +7,12 @@
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.59plus.tgz",
       "sha256": "f25dbb1649958654ef4f16d2189315b72dba6df413421d601f2a246ae24c0424",
       "packed": true
+    },
+    {
+      "name": "check-mpt3sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mpt3sas.sh",
+      "sha256": "a721abdec6fb4b464662f36521573d047b561a52f0842ece708ab531afbcda1d",
+      "packed": false
     }
   ],
 
@@ -18,7 +24,7 @@
   },
 
   "scripts": {
-    "check_kmod": ""
+    "check_kmod": "check-mpt3sas.sh"
   }
 }
 
