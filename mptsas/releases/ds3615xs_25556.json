@@ -7,6 +7,12 @@
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/mptsas-3.10.105.tgz",
       "sha256": "8527ffb07361a5a5e710fc6c53ad105356bdc45edcd675bcc15b67d369d90004",
       "packed": true
+    },
+   {
+      "name": "check-mptsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mptsas.sh",
+      "sha256": "fcb127d71e4fd86f59891e12bb9acd9423801afbb02bfb700bb99cfa3f9ff2d2",
+      "packed": false
     }
   ],
 
@@ -18,7 +24,7 @@
   },
 
   "scripts": {
-    "check_kmod": ""
+    "check_kmod": "check-mptsas.sh"
   }
 }
 
