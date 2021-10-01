@@ -7,7 +7,14 @@
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-4.4.180plus.tgz",
       "sha256": "aab6c13bb392fc22800fc021222a3acadb3dd854eede15279f3fa7d2a189a28a",
       "packed": true
+    },
+    {
+      "name": "check-tg3.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/src/check-tg3.sh",
+      "sha256": "58ac47ce41eb1e813120e4f3f323229018d91d15f75d29c1750c74dc9df2e236",
+      "packed": false
     }
+
   ],
 
   "kmods": {
@@ -16,7 +23,7 @@
   },
 
   "scripts": {
-    "check_kmod": ""
+    "check_kmod": "check-tg3.sh"
   }
 }
 
