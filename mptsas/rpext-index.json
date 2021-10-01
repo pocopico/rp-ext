@@ -1,7 +1,7 @@
 
 {
   "id": "mptsas",
-  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/rpext-index.json",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json",
   "info": {
     "name": "mptsas",
     "description": "Adds LSI SAS support",
@@ -10,10 +10,10 @@
     "help_url": "<todo>"
   },
   "releases": {
-    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/releases/ds3615xs_41222.json",
-    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/releases/ds3615xs_25556.json",
-    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/releases/ds918p_41890.json",
-    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/releases/ds918p_25556.json"
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds3615xs_41222.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds3615xs_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds918p_25556.json"
   }
 }
 

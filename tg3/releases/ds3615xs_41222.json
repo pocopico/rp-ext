@@ -4,7 +4,7 @@
   "files": [
     {
       "name": "tg3-3.10.108.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/tg3/releases/tg3-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-3.10.108.tgz",
       "sha256": "2ef52420be2c852fb78c2d41854e6128401c5c998f6296115ff4faa62209f3e2",
       "packed": true
     }

@@ -1,7 +1,7 @@
 
 {
   "id": "mpt2sas",
-  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt2sas/rpext-index.json",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json",
   "info": {
     "name": "mpt2sas",
     "description": "Adds LSI MPT 2 SAS support",
@@ -10,10 +10,10 @@
     "help_url": "<todo>"
   },
   "releases": {
-    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt2sas/releases/ds3615xs_41222.json",
-    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt2sas/releases/ds3615xs_25556.json",
-    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt2sas/releases/ds918p_41890.json",
-    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt2sas/releases/ds918p_25556.json"
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/ds3615xs_41222.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/ds3615xs_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/ds918p_25556.json"
   }
 }
 

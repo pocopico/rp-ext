@@ -4,7 +4,7 @@
   "files": [
     {
       "name": "mpt3sas-4.4.59plus.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt3sas/releases/mpt3sas-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.59plus.tgz",
       "sha256": "f25dbb1649958654ef4f16d2189315b72dba6df413421d601f2a246ae24c0424",
       "packed": true
     }

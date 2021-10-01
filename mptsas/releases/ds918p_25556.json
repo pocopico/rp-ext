@@ -4,7 +4,7 @@
   "files": [
     {
       "name": "mptsas-4.4.59plus.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/releases/mptsas-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/mptsas-4.4.59plus.tgz",
       "sha256": "eba65a0da64b0ed89b1b4c128d1f66cadfc87d97946fca1b0b21a8a10fedb739",
       "packed": true
     }
