@@ -1,0 +1,22 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "tg3-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/tg3/releases/tg3-4.4.59plus.tgz",
+      "sha256": "dde5a6b1390f3d484a5073a901852ec3a68607f74641b22eecf215bf5dddc906",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+    "libphy.ko": "",
+    "tg3.ko": ""
+  },
+
+  "scripts": {
+    "check_kmod": ""
+  }
+}
+
