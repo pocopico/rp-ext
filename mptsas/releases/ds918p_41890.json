@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mptsas-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/releases/mptsas-4.4.180plus.tgz",
+      "sha256": "a9ba2af88ee13d05998a1e52b9ebbb86d1fb3285b4ccf712316343d3516ddf42",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+    "scsi_transport_sas.ko": "",
+    "libsas.ko": "",
+    "raid_class.ko": "",
+    "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "mptctl.ko": "",
+    "mptsas.ko": ""
+  },
+
+  "scripts": {
+    "check_kmod": ""
+  }
+}
+

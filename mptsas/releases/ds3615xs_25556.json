@@ -1,0 +1,24 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mptsas-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mptsas/releases/mptsas-3.10.105.tgz",
+      "sha256": "8527ffb07361a5a5e710fc6c53ad105356bdc45edcd675bcc15b67d369d90004",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+    "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "mptsas.ko": "",
+    "mptctl.ko": ""
+  },
+
+  "scripts": {
+    "check_kmod": ""
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mpt2sas-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt2sas/releases/mpt2sas-4.4.59plus.tgz",
+      "sha256": "f25dbb1649958654ef4f16d2189315b72dba6df413421d601f2a246ae24c0424",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+    "scsi_transport_sas.ko": "",
+    "libsas.ko": "",
+    "raid_class.ko": "",
+    "mpt3sas.ko": ""
+  },
+
+  "scripts": {
+    "check_kmod": ""
+  }
+}
+

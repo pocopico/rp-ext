@@ -1,0 +1,21 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mpt2sas-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt2sas/releases/mpt2sas-3.10.108.tgz",
+      "sha256": "6fe8dc85c54e1aac6e37b86609a7b6f463cce69ca2beb2f7c74f2119163cb79e",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+    "mpt2sas.ko": ""
+  },
+
+  "scripts": {
+    "check_kmod": ""
+  }
+}
+

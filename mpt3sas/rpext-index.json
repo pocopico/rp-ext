@@ -1,0 +1,19 @@
+
+{
+  "id": "mpt3sas",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt3sas/rpext-index.json",
+  "info": {
+    "name": "mpt3sas",
+    "description": "Adds LSI MPT 3 SAS support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/mpt3sas",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt3sas/releases/ds3615xs_41222.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt3sas/releases/ds3615xs_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt3sas/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/mpt3sas/releases/ds918p_25556.json"
+  }
+}
+
