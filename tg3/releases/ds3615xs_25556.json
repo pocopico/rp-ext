@@ -22,7 +22,7 @@
   },
 
     "scripts": {
-    "check_kmod": "check-tg3.sh"
+    "on_boot": "check-tg3.sh"
   }
 
 }

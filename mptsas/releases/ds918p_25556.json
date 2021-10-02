@@ -27,7 +27,7 @@
   },
 
   "scripts": {
-    "check_kmod": "check-mptsas.sh"
+    "on_boot": "check-mptsas.sh"
   }
 }
 

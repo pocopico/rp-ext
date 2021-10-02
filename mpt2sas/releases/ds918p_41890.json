@@ -25,7 +25,7 @@
   },
 
   "scripts": {
-    "check_kmod": "check-mpt2sas.sh"
+    "on_boot": "check-mpt2sas.sh"
   }
 }
 
