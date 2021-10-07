@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "hpsa-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-3.10.108.tgz",
+      "sha256": "4e7140788d6f88767c7fdf50ec7de4d701eb5974beefd3d4deed048a70fb1f24",
+      "packed": true
+    },
+   {
+      "name": "check-hpsa.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/src/check-hpsa.sh",
+      "sha256": "721b788ce120d5b6ea607fa20cd237777e19e0dd0ef9d3ac62c2e1999d01e254",
+      "packed": false
+    }
+
+  ],
+
+  "kmods": {
+    "hpsa.ko": ""
+  },
+
+  "scripts": {
+    "check_kmod": "check-hpsa.sh"
+  }
+}
+
