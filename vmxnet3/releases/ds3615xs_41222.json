@@ -5,7 +5,7 @@
     {
       "name": "vmxnet3-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-3.10.108.tgz",
-      "sha256": "3cc1ac70732fa5221cec867af91a584b6f4cfef8936df2759a1601afb3215bed",
+      "sha256": "0e2eb5f70214e7bc82ba8655b74864d8d1fd6dfcd846a079fd872eda1a668dc3",
       "packed": true
     },
     {
