@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vmwpvscsi-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmwpvscsi/releases/vmwpvscsi-4.4.180plus.tgz",
+      "sha256": "25cb949d2860c8fee8508b34a507e9210cf7bc3e92c87891a89ee343c0af9ff1",
+      "packed": true
+    },
+    {
+      "name": "check-vmwpvscsi.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmwpvscsi/src/check-vmwpvscsi.sh",
+      "sha256": "b4f01cb4b19d8eae211f5bb157c617eae19e5052a1fe0c7dee4b386b5d019eb7",
+      "packed": false
+    }
+
+  ],
+
+  "kmods": {
+    "vmw_pvscsi.ko": ""
+  },
+
+  "scripts": {
+    "on_boot": "check-vmwpvscsi.sh"
+  }
+}
+
