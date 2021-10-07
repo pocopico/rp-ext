@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "tg3-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-3.10.108.tgz",
+      "sha256": "e3466738251925e70781963c2af1455d71953e438b80e63f59fad884523f6e5b",
+      "packed": true
+    },
+    {
+      "name": "check-tg3.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/src/check-tg3.sh",
+      "sha256": "8947f9c55c4aeb45fca61492f64dac29a72c21ce9b845a90fd357c46c79399e1",
+      "packed": false
+    }
+
+  ],
+
+  "kmods": {
+    "libphy.ko": "",
+    "tg3.ko": ""
+  },
+
+  "scripts": {
+    "on_boot": "check-tg3.sh"
+  }
+}
+

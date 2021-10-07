@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mpt3sas-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-3.10.108.tgz",
+      "sha256": "5b0e0b43e252fd25a77969dd3a3d9f6f282e5a5b21c96b9c485101524edf7607",
+      "packed": true
+    },
+    {
+      "name": "check-mpt3sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/src/check-mpt3sas.sh",
+      "sha256": "a721abdec6fb4b464662f36521573d047b561a52f0842ece708ab531afbcda1d",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mpt3sas.ko": ""
+  },
+
+  "scripts": {
+    "on_boot": "check-mpt3sas.sh"
+  }
+}
+
