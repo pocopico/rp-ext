@@ -1,0 +1,19 @@
+
+{
+  "id": "pocopico.e1000",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json",
+  "info": {
+    "name": "e1000",
+    "description": "Adds Intel e1000 support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/e1000",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/ds3615xs_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/ds918p_41890.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/ds918p_42218.json"
+  }
+}
+
