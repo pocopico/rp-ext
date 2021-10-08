@@ -1,6 +1,6 @@
 {
   "id": "redpill-boot-wait",
-  "url": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+  "url": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/rpext-index.json",
   "info": {
     "name": "RedPill Bootwait",
     "description": "Simple extension which stops the execution early waiting for the boot device to appear",
