@@ -8,7 +8,7 @@
   else
 
         echo "---------={ Starting early telnet service }=---------"
-        /bin/inetd
+        /sbin/inetd
         if [ `netstat -an |grep "0.0.0.0:23" |wc -l` -gt 0 ] ;
         then
         echo "---------={ telnet service STARTED }=---------"
