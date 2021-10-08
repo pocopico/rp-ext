@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "name": "boot-wait.sh",
+      "url": "https://raw.githubusercontent.com/RedPill-TTG/redpill-boot-wait/master/src/boot-wait.sh",
+      "sha256": "d9d1c5c3ad90e745a79389c7fcaa5a2f61993769e534b82f03f9a112956c6fbc",
+      "packed": false
+    }
+  ],
+
+  "scripts": {
+    "on_boot": "boot-wait.sh"
+  }
+}
