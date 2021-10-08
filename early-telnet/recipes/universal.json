@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "name": "early-telnet.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/early-telnet/src/early-telnet.sh",
+      "sha256": "08fe005b21042005955c6b62e39607445492ea4dbcbc06d93c8ba379d99b7eaa",
+      "packed": false
+    }
+  ],
+
+  "scripts": {
+    "on_os_load": "early-telnet.sh"
+  }
+}
