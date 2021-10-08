@@ -9,6 +9,6 @@
   ],
 
   "scripts": {
-    "on_os_load": "early-telnet.sh"
+    "on_boot": "early-telnet.sh"
   }
 }
