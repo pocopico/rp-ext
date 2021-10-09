@@ -1,1 +1,1 @@
-Enabled telnet service for further troubleshooting during install
+Enables telnet service for further troubleshooting during install
