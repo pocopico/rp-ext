@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8101-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/releases/r8101-4.4.59plus.tgz",
+      "sha256": "061902e52ce3c2ec98528bdf0b40f41e6dce3f9ceef5428a2f797808f625b935",
+      "packed": true
+    },
+    {
+      "name": "check-r8101.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/src/check-r8101.sh",
+      "sha256": "daa3418fe9cc421bd7a556f19170df33627c5b21b69d5d21b684dd697ee2fec1",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8101.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8101.sh"
+  }
+
+}

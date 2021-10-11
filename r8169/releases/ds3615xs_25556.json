@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8169-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/r8169-3.10.105.tgz",
+      "sha256": "b1a3bf7771c000ea5b5ca202658458d3af2c0eb130f73cbe0c04e85d835192e9",
+      "packed": true
+    },
+    {
+      "name": "check-r8169.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/src/check-r8169.sh",
+      "sha256": "ba15b793c8e2de150f92bd1de7ccb63d57618f3f758e5594b55b0452c2d3aba1",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8169.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8169.sh"
+  }
+
+}

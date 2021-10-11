@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "sky2-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/sky2-4.4.180plus.tgz",
+      "sha256": "37c928ca2a4c712e7613e493027fac9fb3a4d4b2b56b7fb548708d6781f4c45c",
+      "packed": true
+    },
+    {
+      "name": "check-sky2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/src/check-sky2.sh",
+      "sha256": "263fbc572c48e51c06a7ac35dedfda079ae9b8cc9afa07656daf1b09e75a912a",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "sky2.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-sky2.sh"
+  }
+
+}

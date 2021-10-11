@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.r8169",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json",
+  "info": {
+    "name": "r8169",
+    "description": "Adds RealTek RTL-8169 Gigabit Ethernet driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "packerurl/r8169",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/ds3615xs_42218.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/ds918p_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/ds918p_25556.json"
+  }
+}
