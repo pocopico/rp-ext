@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8152-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/r8152-4.4.180plus.tgz",
+      "sha256": "dced3bd6d836488af6993d53b692116cf38311fd510596092fcc68763c95a439",
+      "packed": true
+    },
+    {
+      "name": "check-r8152.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/src/check-r8152.sh",
+      "sha256": "2b1452f9d2eddfe609fabc63aa601dce7f0525d0e86cfefb5c36b359637809b9",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "r8152.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8152.sh"
+  }
+
+}

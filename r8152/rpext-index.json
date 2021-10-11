@@ -1,0 +1,17 @@
+{
+  "id": "pocopico.r8152",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/rpext-index.json",
+  "info": {
+    "name": "r8152",
+    "description": "Adds Realtek RTL8152/RTL8153 Based USB Ethernet Adapters Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/r8152",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/ds3615xs_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/ds918p_41890.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/ds918p_42218.json"
+  }
+}

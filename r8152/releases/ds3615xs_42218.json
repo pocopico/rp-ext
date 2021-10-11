@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8152-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/r8152-3.10.108.tgz",
+      "sha256": "c6c8041a741cb59cbf5f11e33f8a24336580f450fb3211ae5d42973bfb9ca9d6",
+      "packed": true
+    },
+    {
+      "name": "check-r8152.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/src/check-r8152.sh",
+      "sha256": "2b1452f9d2eddfe609fabc63aa601dce7f0525d0e86cfefb5c36b359637809b9",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "r8152.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8152.sh"
+  }
+
+}
