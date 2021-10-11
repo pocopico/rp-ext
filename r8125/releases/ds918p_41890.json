@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8125-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/r8125-4.4.180plus.tgz",
+      "sha256": "4328dca2317bffe6ef0e0fd82847c34120ad44e1c64f6cc0672a27bc7b86ed3e",
+      "packed": true
+    },
+    {
+      "name": "check-r8125.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/src/check-r8125.sh",
+      "sha256": "2e2abee9c0fae2fb7848d43b87f434ba7b9e553fee52086c660d5317f5782751",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8125.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8125.sh"
+  }
+
+}

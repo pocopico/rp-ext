@@ -1,0 +1,16 @@
+{
+  "id": "pocopico.r8125",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/rpext-index.json",
+  "info": {
+    "name": "r8125",
+    "description": "Adds Realtek RTL8125 2.5Gigabit Ethernet driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/r8125",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/ds918p_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/ds918p_25556.json"
+  }
+}
