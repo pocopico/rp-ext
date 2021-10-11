@@ -5,7 +5,7 @@
     {
       "name": "igb-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-3.10.108.tgz",
-      "sha256": "69b392c9859b23911df98c3d477253577419e21d8fe36274f47d222cc3886e50",
+      "sha256": "a54fe2ca5d834107f8a67f0a0537e201652332056d40f9a7634e7788b618b965",
       "packed": true
     },
     {
@@ -17,7 +17,8 @@
   ],
 
   "kmods": {
-    "igb.ko": ""
+    "dca.ko": "",
+    "igb.ko":""
   },
 
     "scripts": {
