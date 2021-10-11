@@ -5,7 +5,7 @@
     {
       "name": "r8169-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/r8169-3.10.105.tgz",
-      "sha256": "6c7efebcfdcd9db26dc3d6f02a941bfb0952c42c98f4a3af70eddb4e7dbca904",
+      "sha256": "2f01cc66382b0256ddd7567f10e36409ca21694c350e5a2d4f7ba6954fa1b935",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    ".ko": "",
-    "r8169.ko":""
+    "r8169.ko": ""
   },
 
     "scripts": {
