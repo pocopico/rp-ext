@@ -50,4 +50,5 @@ Extension Name: "vmwpvscsi" Description : "Adds VMware vmwpvscsi support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmwpvscsi/rpext-index.json">URL</a><br>
 Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/rpext-index.json">URL</a><br>
-Extensions will be updated upon request, please open an issue to include extensions
+<br><br><br>
+<h3>Extensions will be updated upon request, please open an issue to include extensions</h3>
