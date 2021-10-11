@@ -5,7 +5,7 @@
     "name": "ax88179_178a",
     "description": "Adds ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "packerurl/ax88179_178a",
+    "packer_url": "https://github.com/pocopico/rp-ext/ax88179_178a",
     "help_url": "<todo>"
   },
   "releases": {
