@@ -16,6 +16,8 @@ Extension Name: "atlantic" Description : "Adds Marvell (Aquantia) Corporation(R)
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/rpext-index.json">LINK</a><br>
 Extension Name: "ax88179_178a" Description : "Adds ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/rpext-index.json">LINK</a><br>
+Extension Name: "bna" Description : "Adds QLogic BR-series 10G PCIe Ethernet driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/rpext-index.json">LINK</a><br>
 Extension Name: "bnx2" Description : "Adds QLogic BCM5706/5708/5709/5716 Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/rpext-index.json">LINK</a><br>
 Extension Name: "bnx2x" Description : "Adds QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver Support"
@@ -66,5 +68,7 @@ Extension Name: "vmwpvscsi" Description : "Adds VMware vmwpvscsi support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmwpvscsi/rpext-index.json">LINK</a><br>
 Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/rpext-index.json">LINK</a><br>
+Extension Name: "vxge" Description : "Adds Neterion's X3100 Series 10GbE PCIe I/OVirtualized Server Adapter Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/rpext-index.json">LINK</a><br>
 <br><br><br>
 <h3>Extensions will be updated upon request, please open an issue to include extensions</h3>
