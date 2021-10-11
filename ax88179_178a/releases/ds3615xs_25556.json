@@ -5,7 +5,7 @@
     {
       "name": "ax88179_178a-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/releases/ax88179_178a-3.10.105.tgz",
-      "sha256": "000b77d8bb8a3d699c3138e3af7c00e62a0da8b8ac88cc3f4f0a48d2fb3d0982",
+      "sha256": "7cdec2ed089d0844d5c1439a03a5e9a0576d938e55667f301bb934e342a89dc3",
       "packed": true
     },
     {
@@ -18,7 +18,6 @@
 
   "kmods": {
     "usbnet.ko": "",
-    "mii.ko": "",
     "ax88179_178a.ko":""
   },
 
