@@ -5,7 +5,7 @@
     {
       "name": "bnx2x-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-3.10.108.tgz",
-      "sha256": "3a9358c1058e93bad8af1bd6177475a3680720b1a1c82e8ec272168d96f577ca",
+      "sha256": "faf531dbb93402b2fb7ff23c6f5f07249c4db506117f73cc431d1c67b5f58da7",
       "packed": true
     },
     {
@@ -17,7 +17,9 @@
   ],
 
   "kmods": {
-    "bnx2x.ko": ""
+    "mdio.ko": "",
+    "libcrc32c.ko": "",
+    "bnx2x.ko":""
   },
 
     "scripts": {

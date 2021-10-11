@@ -5,7 +5,7 @@
     {
       "name": "atlantic-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/releases/atlantic-4.4.180plus.tgz",
-      "sha256": "d68d62b50337673896b1a005b87a67018e34de4313dce8de472fd6b789412ae2",
+      "sha256": "9f8b6450afbdc039b9f733e610f68387733196839e8a4f5f908beece8ca7ca1f",
       "packed": true
     },
     {
@@ -17,7 +17,8 @@
   ],
 
   "kmods": {
-    "atlantic.ko": ""
+    "crc-itu-t.ko": "",
+    "atlantic.ko":""
   },
 
     "scripts": {
