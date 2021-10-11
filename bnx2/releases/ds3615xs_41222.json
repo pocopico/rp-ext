@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "bnx2-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/bnx2-3.10.108.tgz",
+      "sha256": "a7d710d4d7002ee9198e667c7de741e1f67907c2b533f4b22eedd520b0198636",
+      "packed": true
+    },
+    {
+      "name": "check-bnx2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/src/check-bnx2.sh",
+      "sha256": "1ab983ba7c876c12250f829516f4c7b8c323e807395a513e3fd8d2245edbe651",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "bnx2.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-bnx2.sh"
+  }
+
+}

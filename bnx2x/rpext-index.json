@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.bnx2x",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/rpext-index.json",
+  "info": {
+    "name": "bnx2x",
+    "description": "Adds QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "packerurl/bnx2x",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/ds3615xs_42218.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/ds918p_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/ds918p_25556.json"
+  }
+}

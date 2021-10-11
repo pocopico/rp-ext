@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.bnx2",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/rpext-index.json",
+  "info": {
+    "name": "bnx2",
+    "description": "Adds QLogic BCM5706/5708/5709/5716 Driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "packerurl/bnx2",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/ds3615xs_42218.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/ds918p_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/ds918p_25556.json"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "skge-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/releases/skge-3.10.108.tgz",
+      "sha256": "f93cbd0f032b07a422bc8ed47cd30d474cda8406204a0efc68eb91de11beaf9e",
+      "packed": true
+    },
+    {
+      "name": "check-skge.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/src/check-skge.sh",
+      "sha256": "edae93b87147729bd88d7dd692a0cb980f2c628f58d7142171b84b23a4c2b99f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "skge.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-skge.sh"
+  }
+
+}

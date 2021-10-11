@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "skge-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/releases/skge-4.4.180plus.tgz",
+      "sha256": "4f5c06a6ad65c60dd57f262210b714cafd57ec5d27617375d39cf42f8309256d",
+      "packed": true
+    },
+    {
+      "name": "check-skge.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/src/check-skge.sh",
+      "sha256": "edae93b87147729bd88d7dd692a0cb980f2c628f58d7142171b84b23a4c2b99f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "skge.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-skge.sh"
+  }
+
+}
