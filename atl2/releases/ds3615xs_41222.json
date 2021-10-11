@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl2-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/releases/atl2-3.10.108.tgz",
+      "sha256": "02ff61d1dd3d278b035e5f635e936d113e4daa3b4f9697c790766123040aa900",
+      "packed": true
+    },
+    {
+      "name": "check-atl2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/src/check-atl2.sh",
+      "sha256": "92b77d5d1c4290e2a44fd958734889dd9578210ca2749cd02a9996c2a93b5a6a",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "atl2.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl2.sh"
+  }
+
+}

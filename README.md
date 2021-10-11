@@ -1,5 +1,17 @@
 <h3 align=”center”>This repo holds some redpill extensions, use at your own risk</h3>
 <h3 align=”center”>Test the extensions and if they do not work as intended please open an issue</h3>
+Extension Name: "aic94xx" Description : "Adds Adaptec aic94xx SAS/SATA driver  Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json">LINK</a><br>
+Extension Name: "alx" Description : "Adds Qualcomm Atheros(R) AR816x/AR817x Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json">LINK</a><br>
+Extension Name: "atl1" Description : "Adds Atheros L1 Gigabit Ethernet Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/rpext-index.json">LINK</a><br>
+Extension Name: "atl1c" Description : "Adds Qualcomm Atheros 100/1000M Ethernet Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1c/rpext-index.json">LINK</a><br>
+Extension Name: "atl1e" Description : "Adds Atheros 1000M Ethernet Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/rpext-index.json">LINK</a><br>
+Extension Name: "atl2" Description : "Adds Atheros Fast Ethernet Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/rpext-index.json">LINK</a><br>
 Extension Name: "atlantic" Description : "Adds Marvell (Aquantia) Corporation(R) Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/rpext-index.json">LINK</a><br>
 Extension Name: "ax88179_178a" Description : "Adds ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices Support"
@@ -46,6 +58,10 @@ Extension Name: "sky2" Description : "Adds Marvell Yukon 2 Gigabit Ethernet driv
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json">LINK</a><br>
 Extension Name: "tg3" Description : "Adds Broadcom Tigon 3 support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
+Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
+Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/rpext-index.json">LINK</a><br>
 Extension Name: "vmwpvscsi" Description : "Adds VMware vmwpvscsi support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmwpvscsi/rpext-index.json">LINK</a><br>
 Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 support"

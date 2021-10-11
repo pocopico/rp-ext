@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "alx-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/alx-3.10.105.tgz",
+      "sha256": "eacb9af51d547e55f74d8452f2fbf45000961ed51fb2ad4129989f71e04db228",
+      "packed": true
+    },
+    {
+      "name": "check-alx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/src/check-alx.sh",
+      "sha256": "03c01f5ac1d8f4323a32e52bbffedc0be156cc5c33744ccfbfa2f37f39177c18",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "alx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-alx.sh"
+  }
+
+}

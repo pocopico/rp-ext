@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "via-rhine-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/releases/via-rhine-4.4.59plus.tgz",
+      "sha256": "563f82f8074d96a169538183e953a76f49c91834409cd81b2fca8fb344acbc83",
+      "packed": true
+    },
+    {
+      "name": "check-via-rhine.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/src/check-via-rhine.sh",
+      "sha256": "04a154e23dad0676077eab137a7f4ca9aaac98b8144959350191ae2ab9715085",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "via-rhine.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-via-rhine.sh"
+  }
+
+}

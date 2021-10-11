@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl1e-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/releases/atl1e-4.4.180plus.tgz",
+      "sha256": "bbbabd7ec3bac151c2f645c01b0c54cee500d4498fc7c778086fc5f9b4cac35f",
+      "packed": true
+    },
+    {
+      "name": "check-atl1e.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/src/check-atl1e.sh",
+      "sha256": "b4c1188dceb093cc3ad9bf8ababd5e2a84b55c7662fc5800ab604f989bd3c1d7",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "atl1e.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl1e.sh"
+  }
+
+}

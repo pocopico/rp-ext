@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl1-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/releases/atl1-3.10.108.tgz",
+      "sha256": "7faaaba4ab1424cdeafe72f3652be97113d0d85fe78131c80fdeedcd7c395d44",
+      "packed": true
+    },
+    {
+      "name": "check-atl1.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/src/check-atl1.sh",
+      "sha256": "f099f2f95608da169d6950416ced29c32eac3bc77cc766f428b038bf79b22deb",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "atl1.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl1.sh"
+  }
+
+}

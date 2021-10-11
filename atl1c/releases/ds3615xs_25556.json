@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl1c-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1c/releases/atl1c-3.10.105.tgz",
+      "sha256": "fc8c3ab73d7c268f7339b616f56dc7aaddebb12f3039c6228a7d350174c0fac7",
+      "packed": true
+    },
+    {
+      "name": "check-atl1c.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1c/src/check-atl1c.sh",
+      "sha256": "c7f0bfc7a3782a1f745dcf377709ffbc07f3e0d5f2a0ff53718c156db80d9dfe",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "atl1c.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl1c.sh"
+  }
+
+}

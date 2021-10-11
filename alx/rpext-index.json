@@ -1,0 +1,16 @@
+{
+  "id": "pocopico.alx",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json",
+  "info": {
+    "name": "alx",
+    "description": "Adds Qualcomm Atheros(R) AR816x/AR817x Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/alx",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/ds3615xs_42218.json"
+  }
+}
