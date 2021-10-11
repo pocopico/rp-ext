@@ -5,7 +5,7 @@
     "name": "sky2",
     "description": "Adds Marvell Yukon 2 Gigabit Ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "packerurl/sky2",
+    "packer_url": "https://github.com/pocopico/rp-ext/sky2",
     "help_url": "<todo>"
   },
   "releases": {

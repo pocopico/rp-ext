@@ -5,7 +5,7 @@
     "name": "bnx2",
     "description": "Adds QLogic BCM5706/5708/5709/5716 Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "packerurl/bnx2",
+    "packer_url": "https://github.com/pocopico/rp-ext/bnx2",
     "help_url": "<todo>"
   },
   "releases": {

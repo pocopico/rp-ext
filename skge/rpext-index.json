@@ -5,7 +5,7 @@
     "name": "skge",
     "description": "Adds SysKonnect Gigabit Ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "packerurl/skge",
+    "packer_url": "https://github.com/pocopico/rp-ext/skge",
     "help_url": "<todo>"
   },
   "releases": {

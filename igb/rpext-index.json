@@ -5,7 +5,7 @@
     "name": "igb",
     "description": "Adds Intel(R) Gigabit Ethernet Linux Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "packerurl/igb",
+    "packer_url": "https://github.com/pocopico/rp-ext/igb",
     "help_url": "<todo>"
   },
   "releases": {
