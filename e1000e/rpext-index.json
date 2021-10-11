@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.e1000e",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json",
+  "info": {
+    "name": "e1000e",
+    "description": "Adds Intel(R) PRO/1000 Network Driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "packerurl/e1000e",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/ds3615xs_42218.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/ds918p_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/ds918p_25556.json"
+  }
+}

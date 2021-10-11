@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "e1000e-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/e1000e-3.10.105.tgz",
+      "sha256": "aed57db84a74d9b76c4f1f2c960c26806ed5469cb6472540d2839967bf613a1e",
+      "packed": true
+    },
+    {
+      "name": "check-e1000e.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/src/check-e1000e.sh",
+      "sha256": "b2189990b61869c8c7ca4482663b047e0ed543bd0c00f5de6fc33a7262612c4d",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "e1000e.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-e1000e.sh"
+  }
+
+}

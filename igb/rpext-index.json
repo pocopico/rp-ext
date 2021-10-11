@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.igb",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json",
+  "info": {
+    "name": "igb",
+    "description": "Adds Intel(R) Gigabit Ethernet Linux Driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "packerurl/igb",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/ds3615xs_42218.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/ds918p_42218.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/ds918p_41890.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/ds918p_25556.json"
+  }
+}
