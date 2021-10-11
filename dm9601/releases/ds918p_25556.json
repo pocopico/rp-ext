@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "dm9601-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/releases/dm9601-4.4.59plus.tgz",
+      "sha256": "005bde3228ab3fa457d939da11ab6aa3e507b4d30ce0548609be4311bf12c8d4",
+      "packed": true
+    },
+    {
+      "name": "check-dm9601.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/src/check-dm9601.sh",
+      "sha256": "5e5a5a863619d6b806307eb9346efd100d13aa5981c159faef7acd5357ab5521",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "dm9601.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-dm9601.sh"
+  }
+
+}

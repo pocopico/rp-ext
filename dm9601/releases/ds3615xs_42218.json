@@ -1,0 +1,30 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "dm9601-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/releases/dm9601-3.10.108.tgz",
+      "sha256": "f694a3079f4f9908b027e0e8ac96af9ad177fc445810582b09b95b36d6643d09",
+      "packed": true
+    },
+    {
+      "name": "check-dm9601.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/src/check-dm9601.sh",
+      "sha256": "5e5a5a863619d6b806307eb9346efd100d13aa5981c159faef7acd5357ab5521",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "dm9601.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-dm9601.sh"
+  }
+
+}
