@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "rtl8150-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/rtl8150-3.10.105.tgz",
+      "sha256": "e7cd55ee8937222be4b6096e5db708f5bdbfa8e2b4415ce62703c3134b0fba91",
+      "packed": true
+    },
+    {
+      "name": "check-rtl8150.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/src/check-rtl8150.sh",
+      "sha256": "b87e0b51b83febd992a9c16a02ff60180138f2be1418c846ea8b1b21faf97f18",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "rtl8150.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-rtl8150.sh"
+  }
+
+}

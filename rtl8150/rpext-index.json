@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.rtl8150",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/rpext-index.json",
+  "info": {
+    "name": "rtl8150",
+    "description": "Adds rtl8150 based usb-ethernet driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/rtl8150",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/ds3615xs_42218.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/ds918p_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/ds918p_41890.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/ds918p_42218.json"
+  }
+}
