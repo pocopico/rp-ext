@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.vxge",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/rpext-index.json",
+  "info": {
+    "name": "vxge",
+    "description": "Adds Neterion's X3100 Series 10GbE PCIe I/OVirtualized Server Adapter Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/vxge",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/ds3615xs_42218.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/ds918p_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/ds918p_41890.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/ds918p_42218.json"
+  }
+}
