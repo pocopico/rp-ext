@@ -6,7 +6,7 @@
     "name": "mpt2sas",
     "description": "Adds LSI MPT 2 SAS support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/mpt2sas",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/mpt2sas",
     "help_url": "<todo>"
   },
   "releases": {

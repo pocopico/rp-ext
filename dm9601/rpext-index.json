@@ -5,7 +5,7 @@
     "name": "dm9601",
     "description": "Adds Davicom DM96xx USB 10/100 ethernet devices Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/dm9601",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/dm9601",
     "help_url": "<todo>"
   },
   "releases": {

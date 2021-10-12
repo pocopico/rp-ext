@@ -5,7 +5,7 @@
     "name": "r8152",
     "description": "Adds Realtek RTL8152/RTL8153 Based USB Ethernet Adapters Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/r8152",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/r8152",
     "help_url": "<todo>"
   },
   "releases": {

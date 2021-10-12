@@ -5,7 +5,7 @@
     "name": "via-velocity",
     "description": "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/via-velocity",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/via-velocity",
     "help_url": "<todo>"
   },
   "releases": {

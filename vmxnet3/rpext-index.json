@@ -6,7 +6,7 @@
     "name": "vmxnet3",
     "description": "Adds VMware vmxnet3 support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/vmxnet3",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/vmxnet3",
     "help_url": "<todo>"
   },
   "releases": {

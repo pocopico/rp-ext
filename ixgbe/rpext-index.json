@@ -5,7 +5,7 @@
     "name": "ixgbe",
     "description": "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/ixgbe",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/tree/main/ixgbe",
     "help_url": "<todo>"
   },
   "releases": {

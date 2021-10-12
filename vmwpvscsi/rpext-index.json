@@ -6,7 +6,7 @@
     "name": "vmwpvscsi",
     "description": "Adds VMware vmwpvscsi support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/vmwpvscsi",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/vmwpvscsi",
     "help_url": "<todo>"
   },
   "releases": {

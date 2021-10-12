@@ -5,7 +5,7 @@
     "name": "bnx2x",
     "description": "Adds QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/bnx2x",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/bnx2x",
     "help_url": "<todo>"
   },
   "releases": {

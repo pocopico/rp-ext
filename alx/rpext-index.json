@@ -5,7 +5,7 @@
     "name": "alx",
     "description": "Adds Qualcomm Atheros(R) AR816x/AR817x Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/alx",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/alx",
     "help_url": "<todo>"
   },
   "releases": {

@@ -6,7 +6,7 @@
     "name": "hpsa",
     "description": "Adds HP Smart array support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/hpsa",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/hpsa",
     "help_url": "<todo>"
   },
   "releases": {

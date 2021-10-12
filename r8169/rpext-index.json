@@ -5,7 +5,7 @@
     "name": "r8169",
     "description": "Adds RealTek RTL-8169 Gigabit Ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/r8169",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/r8169",
     "help_url": "<todo>"
   },
   "releases": {

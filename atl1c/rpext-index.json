@@ -5,7 +5,7 @@
     "name": "atl1c",
     "description": "Adds Qualcomm Atheros 100/1000M Ethernet Network Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/atl1c",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/atl1c",
     "help_url": "<todo>"
   },
   "releases": {

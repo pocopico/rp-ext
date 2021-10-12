@@ -6,7 +6,7 @@
     "name": "mptsas",
     "description": "Adds LSI SAS support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/mptsas",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/mptsas",
     "help_url": "<todo>"
   },
   "releases": {

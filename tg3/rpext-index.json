@@ -6,7 +6,7 @@
     "name": "tg3",
     "description": "Adds Broadcom Tigon 3 support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tg3",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/tg3",
     "help_url": "<todo>"
   },
   "releases": {

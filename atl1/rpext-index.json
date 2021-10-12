@@ -5,7 +5,7 @@
     "name": "atl1",
     "description": "Adds Atheros L1 Gigabit Ethernet Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/atl1",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/atl1",
     "help_url": "<todo>"
   },
   "releases": {

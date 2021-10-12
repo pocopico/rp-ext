@@ -5,7 +5,7 @@
     "name": "r8125",
     "description": "Adds Realtek RTL8125 2.5Gigabit Ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/r8125",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/r8125",
     "help_url": "<todo>"
   },
   "releases": {

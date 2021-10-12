@@ -5,7 +5,7 @@
     "name": "via-rhine",
     "description": "Adds VIA Rhine PCI Fast Ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/via-rhine",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/via-rhine",
     "help_url": "<todo>"
   },
   "releases": {

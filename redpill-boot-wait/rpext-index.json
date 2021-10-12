@@ -4,7 +4,7 @@
   "info": {
     "name": "RedPill Bootwait",
     "description": "Simple extension which stops the execution early waiting for the boot device to appear",
-    "packer_url": "https://github.com/pocopico/rp-ext/redpill-boot-wait",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/redpill-boot-wait",
     "help_url": "https://github.com/pocopico/rp-ext/redpill-boot-wait"
   },
   "releases": {

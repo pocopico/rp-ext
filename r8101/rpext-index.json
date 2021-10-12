@@ -5,7 +5,7 @@
     "name": "r8101",
     "description": "Adds RealTek RTL-8101 Fast Ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/r8101",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/r8101",
     "help_url": "<todo>"
   },
   "releases": {

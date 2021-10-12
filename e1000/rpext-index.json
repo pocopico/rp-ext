@@ -6,7 +6,7 @@
     "name": "e1000",
     "description": "Adds Intel e1000 support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/e1000",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/e1000",
     "help_url": "<todo>"
   },
   "releases": {

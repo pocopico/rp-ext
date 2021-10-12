@@ -4,7 +4,7 @@
   "info": {
     "name": "Early telnet start",
     "description": "Simple extension which starts telnet early at boot",
-    "packer_url": "https://github.com/pocopico/rp-ext/early-telnet",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/early-telnet",
     "help_url": "https://github.com/pocopico/rp-ext/early-telnet"
   },
   "releases": {
