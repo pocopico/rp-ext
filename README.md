@@ -70,8 +70,8 @@ Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driv
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
 Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/rpext-index.json">LINK</a><br>
-Extension Name: "vmwpvscsi" Description : "Adds VMware vmwpvscsi support"
-<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmwpvscsi/rpext-index.json">LINK</a><br>
+Extension Name: "vmw_pvscsi" Description : "Adds VMware PVSCSI driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/rpext-index.json">LINK</a><br>
 Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/rpext-index.json">LINK</a><br>
 Extension Name: "vxge" Description : "Adds Neterion's X3100 Series 10GbE PCIe I/OVirtualized Server Adapter Support"
