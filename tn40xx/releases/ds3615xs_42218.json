@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "tn40xx-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/releases/tn40xx-3.10.108.tgz",
+      "sha256": "970b54b95dfee1595bc6332d502325d60363bf0441120c06299ff9d81305c745",
+      "packed": true
+    },
+    {
+      "name": "check-tn40xx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/src/check-tn40xx.sh",
+      "sha256": "1c2bec157a9831962a4172464e4049f510e5b3d7d7e053ebb7f2904c893e155c",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "tn40xx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-tn40xx.sh"
+  }
+
+}
