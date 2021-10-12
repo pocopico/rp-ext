@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ixgbevf-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/releases/ixgbevf-3.10.105.tgz",
+      "sha256": "85d4a6197433a739cb32f731d552c952a6e26de47d8103a7989cc36371841a76",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbevf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/src/check-ixgbevf.sh",
+      "sha256": "a00ccdb506f194d110002af2c2973ebedcaa1b7856bbd7700b83668427fd29e5",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "ixgbevf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-ixgbevf.sh"
+  }
+
+}

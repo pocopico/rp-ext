@@ -34,6 +34,10 @@ Extension Name: "hpsa" Description : "Adds HP Smart array support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
 Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Linux Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json">LINK</a><br>
+Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json">LINK</a><br>
+Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Function Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json">LINK</a><br>
 Extension Name: "mpt2sas" Description : "Adds LSI MPT 2 SAS support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json">LINK</a><br>
 Extension Name: "mpt3sas" Description : "Adds LSI MPT 3 SAS support"
