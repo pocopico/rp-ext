@@ -64,6 +64,8 @@ Extension Name: "sky2" Description : "Adds Marvell Yukon 2 Gigabit Ethernet driv
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json">LINK</a><br>
 Extension Name: "tg3" Description : "Adds Broadcom Tigon 3 support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
+Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/rpext-index.json">LINK</a><br>
 Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
 Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support"
