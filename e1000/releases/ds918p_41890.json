@@ -5,24 +5,23 @@
     {
       "name": "e1000-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/e1000-4.4.180plus.tgz",
-      "sha256": "8f1a083e1d19329fc2016e55e4d167bdc9d1caa3b8128438fb5519e6928a960e",
+      "sha256": "29491e28c841379f9fb51b27889b045e2101e3c36e66186421ebe9c0af0213c8",
       "packed": true
     },
     {
       "name": "check-e1000.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/src/check-e1000.sh",
-      "sha256": "59422943027e5766d45d5dec290e3729d6765587614d751fe7d2e652c6b6b014",
+      "sha256": "82f8f4cb5742de236437fcf8db09a749170204612fa1fb051149b92002841e5d",
       "packed": false
     }
-
   ],
 
   "kmods": {
     "e1000.ko": ""
   },
 
-  "scripts": {
+    "scripts": {
     "on_boot": "check-e1000.sh"
   }
-}
 
+}

@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "e1000-3.10.108.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/e1000-3.10.108.tgz",
-      "sha256": "5e358f9c0fb9e872c3d5955cefcb3eff3484d40bf569f5af84aa51a50cdc0075",
+      "name": "e1000-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/e1000-4.4.59plus.tgz",
+      "sha256": "0f4fbc308b2cee837e3b6d1e7f8027ae1ea90c66fe648e4c87e4712c84af0051",
       "packed": true
     },
     {
