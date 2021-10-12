@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vmw_pvscsi-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/releases/vmw_pvscsi-3.10.105.tgz",
+      "sha256": "f3fcf9116aedbd34a599d51cc0461cfd321e3f9808fda5bdbb2f3f416e58b58a",
+      "packed": true
+    },
+    {
+      "name": "check-vmw_pvscsi.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/src/check-vmw_pvscsi.sh",
+      "sha256": "98c84848f9ea9313be543a6db68cb3affebb45894e2d51af9da6071479371611",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vmw_pvscsi.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vmw_pvscsi.sh"
+  }
+
+}
