@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.be2net",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/rpext-index.json",
+  "info": {
+    "name": "be2net",
+    "description": "Adds Emulex OneConnect NIC Driver 10.6.0.3 Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/be2net",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/ds3615xs_42218.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/ds918p_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/ds918p_41890.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/ds918p_42218.json"
+  }
+}

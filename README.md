@@ -1,8 +1,8 @@
 <h3 align=”center”>This repo holds some redpill extensions, use at your own risk</h3>
 <h3 align=”center”>Test the extensions and if they do not work as intended please open an issue</h3>
-Extension Name: "aic94xx" Description : "Adds Adaptec aic94xx SAS/SATA  Support"
+Extension Name: "aic94xx" Description : "Adds Adds Adaptec aic94xx SAS/SATA Support Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json">LINK</a><br>
-Extension Name: "alx" Description : "Adds Qualcomm Atheros(R) AR816x/AR817x  Support"
+Extension Name: "alx" Description : "Adds Adds Qualcomm Atheros(R) AR816x/AR817x Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json">LINK</a><br>
 Extension Name: "asix" Description : "Adds ASIX AX8817X based USB 2.0 Ethernet Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/rpext-index.json">LINK</a><br>
@@ -68,6 +68,8 @@ Extension Name: "tg3" Description : "Adds Broadcom Tigon 3 support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
 Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/rpext-index.json">LINK</a><br>
+Extension Name:  Description : 
+<a href=>LINK</a><br>
 Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
 Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support"

@@ -3,7 +3,7 @@
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json",
   "info": {
     "name": "alx",
-    "description": "Adds  Support",
+    "description": "Adds Adds Qualcomm Atheros(R) AR816x/AR817x Support",
     "author_url": "https://github.com/pocopico",
     "packer_url": "https://github.com/pocopico/rp-ext/tree/main/alx",
     "help_url": "<todo>"

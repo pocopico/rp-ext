@@ -3,7 +3,7 @@
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/rpext-index.json",
   "info": {
     "name": "asix",
-    "description": "Adds  Support",
+    "description": "Adds ASIX AX8817X based USB 2.0 Ethernet Support",
     "author_url": "https://github.com/pocopico",
     "packer_url": "https://github.com/pocopico/rp-ext/tree/main/asix",
     "help_url": "<todo>"

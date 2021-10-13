@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "be2net-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/be2net-4.4.59plus.tgz",
+      "sha256": "344562f6d271a2fdfb1c4c7f1756924d277960d68b3430b6b4d0f61778f521dd",
+      "packed": true
+    },
+    {
+      "name": "check-be2net.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/src/check-be2net.sh",
+      "sha256": "ea349a6629b6333629db78ea41a4a805a6bee77142c2d38dc18d60c878973e09",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "be2net.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-be2net.sh"
+  }
+
+}
