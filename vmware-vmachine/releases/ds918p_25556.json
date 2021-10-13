@@ -1,0 +1,36 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vmware-vm-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmware-vmachine/releases/vmware-vm-4.4.59plus.tgz",
+      "sha256": "fca384c51b6265622f2ffd8fd82746deb731970b0d35de8658e0838134059107",
+      "packed": true
+    },
+    {
+      "name": "check-e1000.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmware-vmachine/src/check-vmware-vm.sh",
+      "sha256": "7d9b92c60a887ee1b84b5d8991d48859c6d5c3055ed58716fa6f0dc65c3bc20c",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vmxnet3.ko": "",
+    "e1000.ko": "",
+    "e1000e.ko": "",
+    "scsi_transport_sas.ko": "",
+    "libsas.ko": "",
+    "raid_class.ko": "",
+    "vmw_pvscsi.ko": "",
+    "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "mptsas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vmware-vm.sh"
+  }
+
+}

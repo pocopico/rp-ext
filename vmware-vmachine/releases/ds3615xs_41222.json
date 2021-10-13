@@ -1,0 +1,33 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vmware-vm-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmware-vmachine/releases/vmware-vm-3.10.108.tgz",
+      "sha256": "46640c9ee041dc07adafcf470aaf6b7aca2e7134336917e726b6430a1f4ba984",
+      "packed": true
+    },
+    {
+      "name": "check-e1000.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmware-vmachine/src/check-vmware-vm.sh",
+      "sha256": "7d9b92c60a887ee1b84b5d8991d48859c6d5c3055ed58716fa6f0dc65c3bc20c",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vmxnet3.ko": "",
+    "e1000.ko": "",
+    "e1000e.ko": "",
+    "vmw_pvscsi.ko": "",
+    "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "mptsas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vmware-vm.sh"
+  }
+
+}
