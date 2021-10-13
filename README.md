@@ -18,6 +18,8 @@ Extension Name: "atlantic" Description : "Adds Marvell (Aquantia) Corporation(R)
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/rpext-index.json">LINK</a><br>
 Extension Name: "ax88179_178a" Description : "Adds ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/rpext-index.json">LINK</a><br>
+Extension Name: "be2net" Description : "Adds Emulex OneConnect NIC Driver 10.6.0.3 Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/rpext-index.json">LINK</a><br>
 Extension Name: "bna" Description : "Adds QLogic BR-series 10G PCIe Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/rpext-index.json">LINK</a><br>
 Extension Name: "bnx2" Description : "Adds QLogic BCM5706/5708/5709/5716 Driver Support"
