@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "atlantic-4.4.180plus.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/releases/atlantic-4.4.180plus.tgz",
-      "sha256": "3c3b72157940ddf74cab77709e8dcd081eb4f582d8c23b1869e5d1d0bfba055a",
+      "name": "atlantic-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/releases/atlantic-3.10.105.tgz",
+      "sha256": "959136dbc314e8fe6f70a0cdd19021b5fb3c8fb272b428ce556601055b8370bd",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "crc-itu-t.ko": "",
-    "atlantic.ko":""
+    "atlantic.ko": ""
   },
 
     "scripts": {
