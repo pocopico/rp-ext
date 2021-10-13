@@ -5,11 +5,11 @@
     {
       "name": "vmware-vm-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmware-vmachine/releases/vmware-vm-3.10.105.tgz",
-      "sha256": "b6237cd1e6324268074ab9a199b4826048a08fe0cbed4ac6666bfdc2b5145b7c",
+      "sha256": "89aa766600111358fdfc69ca6ec651887a39a27966758f904e563141f901e2d3",
       "packed": true
     },
     {
-      "name": "check-vmware-vm.sh",
+      "name": "check-e1000.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmware-vmachine/src/check-vmware-vm.sh",
       "sha256": "7d9b92c60a887ee1b84b5d8991d48859c6d5c3055ed58716fa6f0dc65c3bc20c",
       "packed": false
