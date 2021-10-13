@@ -9,7 +9,7 @@
       "packed": true
     },
     {
-      "name": "check-e1000.sh",
+      "name": "check-vmware-wm.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmware-vmachine/src/check-vmware-vm.sh",
       "sha256": "7d9b92c60a887ee1b84b5d8991d48859c6d5c3055ed58716fa6f0dc65c3bc20c",
       "packed": false
