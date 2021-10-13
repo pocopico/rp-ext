@@ -5,7 +5,7 @@
     {
       "name": "vmw_pvscsi-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/releases/vmw_pvscsi-3.10.105.tgz",
-      "sha256": "64808803897d4c55a5a096016e700f9c14598960708a8401ca9228da220f6899",
+      "sha256": "535f9c3d158ffa5315fc41222d705454736b461500309011b62f060b73eda8f2",
       "packed": true
     },
     {

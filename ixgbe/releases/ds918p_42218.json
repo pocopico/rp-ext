@@ -5,7 +5,7 @@
     {
       "name": "ixgbe-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.180plus.tgz",
-      "sha256": "7ed329af34974694ce137eb7c0e1bff5f3a3d54521440740714f9878d62e4411",
+      "sha256": "baaaa53c3443fc013c589dd83125d6be9a18b60ea496548c1834418298cea76a",
       "packed": true
     },
     {

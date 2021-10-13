@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "asix-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-4.4.59plus.tgz",
+      "sha256": "7560cd30515aaceb934003385d266078e04da972b72cae3a0ff122018c16b46b",
+      "packed": true
+    },
+    {
+      "name": "check-asix.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/src/check-asix.sh",
+      "sha256": "94bb732c1b0b02e29197290c1a81ef2b6a1a7eb485bba3ecfd9e70c325f82dd2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "asix.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-asix.sh"
+  }
+
+}

@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl1-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/releases/atl1-4.4.59plus.tgz",
+      "sha256": "387d9cb83171747be3c01caab128d44c18b5ed17d1539091f99c9ea41e5fb6e4",
+      "packed": true
+    },
+    {
+      "name": "check-atl1.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/src/check-atl1.sh",
+      "sha256": "f099f2f95608da169d6950416ced29c32eac3bc77cc766f428b038bf79b22deb",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "atl1.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl1.sh"
+  }
+
+}

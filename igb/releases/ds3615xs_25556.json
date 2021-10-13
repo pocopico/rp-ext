@@ -5,7 +5,7 @@
     {
       "name": "igb-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-3.10.105.tgz",
-      "sha256": "245929593abc653515b87a6852735d0706ef8ca84e4eed3e32fda0f050a3dc90",
+      "sha256": "b4dfa15afe21b8eeda0c9338ea41d13c04d755f46d07be0452a64fcf99844a90",
       "packed": true
     },
     {
