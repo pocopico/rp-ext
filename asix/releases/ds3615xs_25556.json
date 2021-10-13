@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "asix-4.4.59plus.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-4.4.59plus.tgz",
-      "sha256": "e41fdcdb2ced30c76599f208705fe2705060d16e2469dce30b75a1328d0517bb",
+      "name": "asix-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-3.10.105.tgz",
+      "sha256": "8dc4e33c4b7f1384bdbddedb00bfb1d1f72a5a98b53d6ee23e0f92a846df785f",
       "packed": true
     },
     {

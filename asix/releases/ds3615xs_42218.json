@@ -5,7 +5,7 @@
     {
       "name": "asix-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-3.10.108.tgz",
-      "sha256": "1909abd31141a1ddf34cea5d715dea9c72040851c45f399326f3cd654c5321d2",
+      "sha256": "0ccc76ddf068d2aff160c2b8a16956eeeec6ca74d50dff07e8ff7bfbfb295ff4",
       "packed": true
     },
     {
@@ -19,8 +19,8 @@
   "kmods": {
     "mii.ko": "",
     "libphy.ko": "",
-    "usbnet.ko": "",
     "usbcore.ko": "",
+    "usbnet.ko": "",
     "asix.ko":""
   },
 
