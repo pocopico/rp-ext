@@ -1,9 +1,11 @@
 <h3 align=”center”>This repo holds some redpill extensions, use at your own risk</h3>
 <h3 align=”center”>Test the extensions and if they do not work as intended please open an issue</h3>
-Extension Name: "aic94xx" Description : "Adds Adaptec aic94xx SAS/SATA driver  Support"
+Extension Name: "aic94xx" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json">LINK</a><br>
-Extension Name: "alx" Description : "Adds Qualcomm Atheros(R) AR816x/AR817x Support"
+Extension Name: "alx" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json">LINK</a><br>
+Extension Name: "asix" Description : "Adds  Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/rpext-index.json">LINK</a><br>
 Extension Name: "atl1" Description : "Adds Atheros L1 Gigabit Ethernet Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/rpext-index.json">LINK</a><br>
 Extension Name: "atl1c" Description : "Adds Qualcomm Atheros 100/1000M Ethernet Network Driver Support"
@@ -24,7 +26,7 @@ Extension Name: "bnx2x" Description : "Adds QLogic BCM57710/57711/57711E/57712/5
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/rpext-index.json">LINK</a><br>
 Extension Name: "dm9601" Description : "Adds Davicom DM96xx USB 10/100 ethernet devices Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/rpext-index.json">LINK</a><br>
-Extension Name: "e1000" Description : "Adds Intel e1000 support"
+Extension Name: "e1000" Description : "Adds Intel(R) PRO/1000 Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json">LINK</a><br>
 Extension Name: "e1000e" Description : "Adds Intel(R) PRO/1000 Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json">LINK</a><br>
@@ -72,7 +74,7 @@ Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Famil
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/rpext-index.json">LINK</a><br>
 Extension Name: "vmw_pvscsi" Description : "Adds VMware PVSCSI driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/rpext-index.json">LINK</a><br>
-Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 support"
+Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 virtual NIC driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/rpext-index.json">LINK</a><br>
 Extension Name: "vxge" Description : "Adds Neterion's X3100 Series 10GbE PCIe I/OVirtualized Server Adapter Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/rpext-index.json">LINK</a><br>
