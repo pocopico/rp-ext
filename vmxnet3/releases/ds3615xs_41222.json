@@ -5,24 +5,23 @@
     {
       "name": "vmxnet3-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-3.10.108.tgz",
-      "sha256": "0e2eb5f70214e7bc82ba8655b74864d8d1fd6dfcd846a079fd872eda1a668dc3",
+      "sha256": "f5392cfc233e0abaf992f2b7b8cf8caf67bb76418fb1fcbb50145a5f4ecc2ea3",
       "packed": true
     },
     {
       "name": "check-vmxnet3.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/src/check-vmxnet3.sh",
-      "sha256": "3093445a408bceb4be3e6107a39752d42eed4c396e5f8346cbe59a2c654a04da",
+      "sha256": "d94026bfa5027b225f44db31fabac42915dead96e927951b4bd9b5711d67a5bd",
       "packed": false
     }
-
   ],
 
   "kmods": {
     "vmxnet3.ko": ""
   },
 
-  "scripts": {
+    "scripts": {
     "on_boot": "check-vmxnet3.sh"
   }
-}
 
+}

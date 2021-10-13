@@ -5,13 +5,13 @@
     {
       "name": "vmxnet3-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-3.10.105.tgz",
-      "sha256": "aa2b91cf80fa2d2b0c3d5b2f51775b3bf7da93b9ad63fb79da32be7b695d23a4",
+      "sha256": "172063b00ddfa18bb33ff4b6629a9356a4db61c2c94faf933503120c35d4a854",
       "packed": true
     },
     {
       "name": "check-vmxnet3.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/src/check-vmxnet3.sh",
-      "sha256": "3093445a408bceb4be3e6107a39752d42eed4c396e5f8346cbe59a2c654a04da",
+      "sha256": "d94026bfa5027b225f44db31fabac42915dead96e927951b4bd9b5711d67a5bd",
       "packed": false
     }
   ],
@@ -25,4 +25,3 @@
   }
 
 }
-

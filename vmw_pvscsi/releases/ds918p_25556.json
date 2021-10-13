@@ -5,7 +5,7 @@
     {
       "name": "vmw_pvscsi-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/releases/vmw_pvscsi-4.4.59plus.tgz",
-      "sha256": "4f69b64da1738410b0f209965f1a59f1f5d5e3feb5c5e0e03249ed538d155a97",
+      "sha256": "b52fa950636e14981dc9ec48ddf6d3ebf717a2da7c89532d42a296037efe8d1c",
       "packed": true
     },
     {
