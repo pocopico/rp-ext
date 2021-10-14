@@ -5,7 +5,7 @@
     {
       "name": "igb-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-4.4.180plus.tgz",
-      "sha256": "4c5578a7b2028368a05f7e064bed2cf4ebc96c47455cebbec98ab81211936ec4",
+      "sha256": "7d917da8cb8baed4033641d1aa15a10b943c948735a69f3c7cb0f6866fb32720",
       "packed": true
     },
     {
