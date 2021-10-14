@@ -5,7 +5,7 @@
     {
       "name": "ixgbe-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-3.10.108.tgz",
-      "sha256": "e96f307c32656662c37b6f57e25f9b15501b29a3b1db5e62a75df659fa57c8f7",
+      "sha256": "885c459b54e5246112045a7d3f4af1a51a0a42c2463778986d3cfbd64f4dc3e8",
       "packed": true
     },
     {
