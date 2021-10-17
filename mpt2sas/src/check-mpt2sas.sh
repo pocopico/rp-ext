@@ -2,9 +2,9 @@
 # Checking modules is loaded
 #
 
-echo -n "Loading module mpt2sas -> "
+echo -n "Loading module MPT 2 SAS -> "
 
-if [ `/sbin/lsmod |grep -i mpt2sas|wc -l` -eq 1 ] ; then
-        echo "Module mpt2sas loaded succesfully"
-        else echo "Module mpt2sas is not loaded "
+if [ $(/sbin/lsmod |grep -i mpt |grep -i sas|wc -l) -gt 0 ] ; then 
+	echo "Module MPT 2 SAS loaded succesfully" 
+	else echo "Module MPT 2 SAS is not loaded "
 fi

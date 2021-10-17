@@ -5,25 +5,26 @@
     {
       "name": "mpt3sas-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.59plus.tgz",
-      "sha256": "25110f75f11c06c9dc3ca734afd87eced7ef0a9464b30d8b27a82e755e0b9b50",
+      "sha256": "f25dbb1649958654ef4f16d2189315b72dba6df413421d601f2a246ae24c0424",
       "packed": true
     },
     {
       "name": "check-mpt3sas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/src/check-mpt3sas.sh",
-      "sha256": "dda35a6a428de55589e4e96d9de02e5911cf977dd777cb348b908ed6a165adaa",
+      "sha256": "a721abdec6fb4b464662f36521573d047b561a52f0842ece708ab531afbcda1d",
       "packed": false
     }
   ],
 
   "kmods": {
     "scsi_transport_sas.ko": "",
+    "libsas.ko": "",
     "raid_class.ko": "",
-    "mpt3sas.ko":""
+    "mpt3sas.ko": ""
   },
 
-    "scripts": {
+  "scripts": {
     "on_boot": "check-mpt3sas.sh"
   }
-
 }
+

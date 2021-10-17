@@ -5,25 +5,30 @@
     {
       "name": "mptsas-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/mptsas-4.4.180plus.tgz",
-      "sha256": "e634e3c95d8e6ab6c21d9ea085823ecd039751261565539b1ffda0d599e0434a",
+      "sha256": "a9ba2af88ee13d05998a1e52b9ebbb86d1fb3285b4ccf712316343d3516ddf42",
       "packed": true
     },
-    {
+   {
       "name": "check-mptsas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mptsas.sh",
-      "sha256": "17b2fe3d68f9237d7ceb3b9709ef2cd029fe24cba16eeb53cc8bba1426a64074",
+      "sha256": "fcb127d71e4fd86f59891e12bb9acd9423801afbb02bfb700bb99cfa3f9ff2d2",
       "packed": false
     }
+
   ],
 
   "kmods": {
-    "mptscsih.ko": "",
+    "scsi_transport_sas.ko": "",
+    "libsas.ko": "",
+    "raid_class.ko": "",
     "mptbase.ko": "",
-    "mptsas.ko":""
+    "mptscsih.ko": "",
+    "mptctl.ko": "",
+    "mptsas.ko": ""
   },
 
-    "scripts": {
+  "scripts": {
     "on_boot": "check-mptsas.sh"
   }
-
 }
+

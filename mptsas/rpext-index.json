@@ -1,19 +1,21 @@
+
 {
   "id": "pocopico.mptsas",
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json",
   "info": {
     "name": "mptsas",
-    "description": "Adds Fusion MPT SAS Host driver Support",
+    "description": "Adds LSI SAS support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/mptsas",
+    "packer_url": "https://github.com/pocopico/rp-ext/mptsas",
     "help_url": "<todo>"
   },
   "releases": {
     "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds3615xs_25556.json",
     "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds3615xs_41222.json",
     "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds3615xs_42218.json",
-    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds918p_25556.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds918p_42218.json",
     "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds918p_41890.json",
-    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds918p_42218.json"
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/ds918p_25556.json"
   }
 }
+
