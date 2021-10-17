@@ -5,19 +5,20 @@
     {
       "name": "ixgbe-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.59plus.tgz",
-      "sha256": "6705170a666e66e661f7b53ecc5444c9bdcb4665be145b8e39493437519c6398",
+      "sha256": "278da1af47fdab21b88a2110623fe70afc26ebf7fc0eda7dd507cc98435e0614",
       "packed": true
     },
     {
       "name": "check-ixgbe.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
-      "sha256": "c940136f444813ec8c2e8ed16d55191ab69987c9904696ce42c8390919846ad6",
+      "sha256": "e8bc03eba9928e1f0645a5abb899dc2c4e5d85373c88d4000075b0aa38f12ff2",
       "packed": false
     }
   ],
 
   "kmods": {
-    "ixgbe.ko": ""
+    "vxlan.ko": "",
+    "ixgbe.ko":""
   },
 
     "scripts": {

@@ -5,13 +5,13 @@
     {
       "name": "asix-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-3.10.105.tgz",
-      "sha256": "8dc4e33c4b7f1384bdbddedb00bfb1d1f72a5a98b53d6ee23e0f92a846df785f",
+      "sha256": "3a345b7417e25533eed9a21c3290af2fb42cc086ce69d6db6f63cc43b6cf1c3b",
       "packed": true
     },
     {
       "name": "check-asix.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/src/check-asix.sh",
-      "sha256": "94bb732c1b0b02e29197290c1a81ef2b6a1a7eb485bba3ecfd9e70c325f82dd2",
+      "sha256": "105ee5b5ba5e096eebc50b4ed0d7225b9bf3265f57067f0a7dd7689a1ed11a79",
       "packed": false
     }
   ],

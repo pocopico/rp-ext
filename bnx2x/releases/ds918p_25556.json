@@ -5,19 +5,20 @@
     {
       "name": "bnx2x-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-4.4.59plus.tgz",
-      "sha256": "b46944b6921640670bd722bb1092deb9c747ded3d1aaad47058e6cda668ba92f",
+      "sha256": "51c04df9a8592c602dbbcf2816408f1c91ed22ebbfc7be182bb2167b481cf861",
       "packed": true
     },
     {
       "name": "check-bnx2x.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/src/check-bnx2x.sh",
-      "sha256": "f0db936faff1fe69d8da2d023a570ca8e2d48ab936107b4daa1c6e09ebc69187",
+      "sha256": "42425dbe2e2e68712a733c63b8b0fc34b4d3cf7d06d121680190d1a697c5078e",
       "packed": false
     }
   ],
 
   "kmods": {
-    "bnx2x.ko": ""
+    "mdio.ko": "",
+    "bnx2x.ko":""
   },
 
     "scripts": {

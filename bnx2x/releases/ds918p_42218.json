@@ -5,13 +5,13 @@
     {
       "name": "bnx2x-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-4.4.180plus.tgz",
-      "sha256": "e86035a28bbb9193241d511c89a3aa2ae7575ca0d01ab317c8b8572844033aed",
+      "sha256": "d1f7d3d5fa800cb68b950b4fbbf374be1893c409ecab39faf93a2862c63f1fb8",
       "packed": true
     },
     {
       "name": "check-bnx2x.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/src/check-bnx2x.sh",
-      "sha256": "f0db936faff1fe69d8da2d023a570ca8e2d48ab936107b4daa1c6e09ebc69187",
+      "sha256": "42425dbe2e2e68712a733c63b8b0fc34b4d3cf7d06d121680190d1a697c5078e",
       "packed": false
     }
   ],

@@ -5,13 +5,13 @@
     {
       "name": "igb-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-4.4.59plus.tgz",
-      "sha256": "ae0359881999b202e37aa1160782aac9716fea36a2a634880ed3a7944ab0231c",
+      "sha256": "c133554f7b5465f6e4154d21f47ba5778fdabbf704453ea3ccfaaf528cc0d8d5",
       "packed": true
     },
     {
       "name": "check-igb.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/src/check-igb.sh",
-      "sha256": "8d592164d36b4bb0595e8801d7064dd448c5ea20d16656fd25ba530c0f1f5606",
+      "sha256": "6a20d999ff8adbe897cbd0f57bd8383b9025dc8526b5b19f53786eec54df7e74",
       "packed": false
     }
   ],

@@ -5,13 +5,13 @@
     {
       "name": "bna-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/releases/bna-4.4.59plus.tgz",
-      "sha256": "b71e879c0e07095309047b0d9ffaa8ea1d0394f2c29b1cf49d0568269983193a",
+      "sha256": "0ca532c243eff518dcdd33e2f452f34f807d96b81d49c57ca5b3f43b8206a044",
       "packed": true
     },
     {
       "name": "check-bna.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/src/check-bna.sh",
-      "sha256": "3c888ea3b01eaa88cb78effcf0df6a6a828cd046d5da27e1c907f65c1a727fa8",
+      "sha256": "2d3fd1b971f7f5059c74d43bb0e52013c9846abc32228d45701f42017b5c3234",
       "packed": false
     }
   ],

@@ -5,13 +5,13 @@
     {
       "name": "atlantic-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/releases/atlantic-4.4.180plus.tgz",
-      "sha256": "2e6132bddbdd8344860af6c20d5901c4c21e1ffd839c2e9fb02dce2da27c22ef",
+      "sha256": "f6ce87cb0c71ebd6b0b0c980c4cc6b956054cb152c87d4bff415aa24dd65b68e",
       "packed": true
     },
     {
       "name": "check-atlantic.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/src/check-atlantic.sh",
-      "sha256": "41cb2e6e4b53e11f6c76260d8e2d1814199fa48dd9d6786e4213408b515008b8",
+      "sha256": "4edfe9aaa827aa853979a9182f9a1ae50b72cea972800b6312af473e96ba87e6",
       "packed": false
     }
   ],

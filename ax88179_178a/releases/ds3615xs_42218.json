@@ -5,13 +5,13 @@
     {
       "name": "ax88179_178a-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/releases/ax88179_178a-3.10.108.tgz",
-      "sha256": "25cb08547f4c5f93a97b9f074de574a528752f83033472b6d2d99fd6c8fb6ff5",
+      "sha256": "826f8445370a531f00efb913cdac5628dd37bd7b6add27fb5fb34550599038f5",
       "packed": true
     },
     {
       "name": "check-ax88179_178a.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/src/check-ax88179_178a.sh",
-      "sha256": "dfc8a6b1c5553a95c375cf07019e8fc9473fe61fa254f20dc5ad36a232016fed",
+      "sha256": "36072c85e429b378de3653b51dab6e29a7e4731e4ed9b1e8b602f353f3ed7b80",
       "packed": false
     }
   ],

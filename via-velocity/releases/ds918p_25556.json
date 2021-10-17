@@ -5,19 +5,20 @@
     {
       "name": "via-velocity-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/releases/via-velocity-4.4.59plus.tgz",
-      "sha256": "f518de0cd42f612319229c6f1fdffc74982f3bc455f11f6a24f63e229f27a9ad",
+      "sha256": "4f4ba3dcb7f875abf9a118ca007f94a23d164048b8cd749cbd316e05441f3ec6",
       "packed": true
     },
     {
       "name": "check-via-velocity.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/src/check-via-velocity.sh",
-      "sha256": "4d28731aece856e90c5a557d5255ca9d61476cc99fadd2630b091bd23a821dc0",
+      "sha256": "09ea5e3336bb4617dd6d40c265441466c06285e0e6b544dfc6a26ebaabac5e80",
       "packed": false
     }
   ],
 
   "kmods": {
-    "via-velocity.ko": ""
+    "crc-ccitt.ko": "",
+    "via-velocity.ko":""
   },
 
     "scripts": {

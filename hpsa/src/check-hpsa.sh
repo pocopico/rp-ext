@@ -2,9 +2,9 @@
 # Checking modules is loaded
 #
 
-echo -n "Loading module HP Smart array -> "
+echo -n "Loading module hpsa -> "
 
-if [ $(/sbin/lsmod |grep -i hpsa|wc -l) -gt 0 ] ; then 
-	echo "Module HP Smart array loaded succesfully" 
-	else echo "Module HP Smart array not loaded "
+if [ `/sbin/lsmod |grep -i hpsa|wc -l` -eq 1 ] ; then
+        echo "Module hpsa loaded succesfully"
+        else echo "Module hpsa is not loaded "
 fi

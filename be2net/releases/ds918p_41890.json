@@ -5,13 +5,13 @@
     {
       "name": "be2net-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/be2net-4.4.180plus.tgz",
-      "sha256": "1883468f1068567782da8ae19a01c4b6eedc81d3c77fd6cd8f86885e63d4621e",
+      "sha256": "526f202950de6c8ea94927e0ed064c1d52233489f290be3a7eb0a591309f0e8c",
       "packed": true
     },
     {
       "name": "check-be2net.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/src/check-be2net.sh",
-      "sha256": "ea349a6629b6333629db78ea41a4a805a6bee77142c2d38dc18d60c878973e09",
+      "sha256": "00ba09e696f23dae54667e874f37043db5ac583ec1d52ec1167b4c239bbe43d4",
       "packed": false
     }
   ],

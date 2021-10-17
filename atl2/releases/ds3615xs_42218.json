@@ -5,13 +5,13 @@
     {
       "name": "atl2-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/releases/atl2-3.10.108.tgz",
-      "sha256": "4188b25b180a1080bc4209262b653ca3a7090fcbcee31652e889f232a8696bfe",
+      "sha256": "354cf6347207d21ceac173ff032b09204e328f2b8203513a767f7c2a50b64cb0",
       "packed": true
     },
     {
       "name": "check-atl2.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/src/check-atl2.sh",
-      "sha256": "92b77d5d1c4290e2a44fd958734889dd9578210ca2749cd02a9996c2a93b5a6a",
+      "sha256": "50dbef892a75a1654245056853c8a6db9d94202228d53ac63483ca5f53abcaf0",
       "packed": false
     }
   ],

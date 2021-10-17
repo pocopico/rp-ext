@@ -5,13 +5,13 @@
     {
       "name": "ixgbevf-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/releases/ixgbevf-3.10.105.tgz",
-      "sha256": "c1b4feaf8513e5500c9d85b13c465c063834a57712a42ceb6c9c4f08b8e4d485",
+      "sha256": "9cb03bbcca2093857f4b09fba3561acc4b2b5c124082ef1715ad88de2eb5c7a4",
       "packed": true
     },
     {
       "name": "check-ixgbevf.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/src/check-ixgbevf.sh",
-      "sha256": "a00ccdb506f194d110002af2c2973ebedcaa1b7856bbd7700b83668427fd29e5",
+      "sha256": "cef4b3e3b2b63c56cbc80de4b797e7bbb178f9f95d94b1608e33d8705331e8b7",
       "packed": false
     }
   ],

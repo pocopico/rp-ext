@@ -5,13 +5,13 @@
     {
       "name": "r8168-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/releases/r8168-3.10.105.tgz",
-      "sha256": "2436d0ebb360574549f92c3706da5a4e8136412f72cc8c0430f70cd1ffd2f909",
+      "sha256": "ca76e4529075321184aff96426632a01f920ecd1aa58f7a291229be935cb9c34",
       "packed": true
     },
     {
       "name": "check-r8168.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/src/check-r8168.sh",
-      "sha256": "e7685d7395acfa1d748910623f14f6cc7e785bca2767bbb602940fa403fae512",
+      "sha256": "7685b6d7ef1a1f994c7a95da2b5afbfa94d9e9fa78b26d3901a8c2814b9f963e",
       "packed": false
     }
   ],

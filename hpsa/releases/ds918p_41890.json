@@ -5,25 +5,24 @@
     {
       "name": "hpsa-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-4.4.180plus.tgz",
-      "sha256": "3d83818ef639e3830339efe16334ba812d77bb8f13b9a3a15baee3a881d7dd8d",
+      "sha256": "20f4875440e70920b98a24fa8a216b4bba287e22791d3290cbeb7db6c54bf62c",
       "packed": true
     },
-   {
+    {
       "name": "check-hpsa.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/src/check-hpsa.sh",
-      "sha256": "721b788ce120d5b6ea607fa20cd237777e19e0dd0ef9d3ac62c2e1999d01e254",
+      "sha256": "cd3fee3f2a0c0d9c045ee7a226196fcee1332c1716529a92f6a6b51518fab1ec",
       "packed": false
     }
-
   ],
 
   "kmods": {
     "scsi_transport_sas.ko": "",
-    "hpsa.ko": ""
+    "hpsa.ko":""
   },
 
-  "scripts": {
-    "check_kmod": "check-hpsa.sh"
+    "scripts": {
+    "on_boot": "check-hpsa.sh"
   }
-}
 
+}

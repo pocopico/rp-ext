@@ -5,13 +5,13 @@
     {
       "name": "vmw_pvscsi-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/releases/vmw_pvscsi-4.4.180plus.tgz",
-      "sha256": "2b12228e1c020e6556869605f634db987a3be500c639b702c05830f133609968",
+      "sha256": "18095fcd29c1a398a90432f77be00dadc465cfe4645e589c64ae99986527eddc",
       "packed": true
     },
     {
       "name": "check-vmw_pvscsi.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/src/check-vmw_pvscsi.sh",
-      "sha256": "98c84848f9ea9313be543a6db68cb3affebb45894e2d51af9da6071479371611",
+      "sha256": "e6bd1801c198c7f62becf049811c8e3df8975cebd321eb844571d773a1f41c89",
       "packed": false
     }
   ],

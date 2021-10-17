@@ -5,13 +5,13 @@
     {
       "name": "rtl8150-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/rtl8150-4.4.180plus.tgz",
-      "sha256": "c5132ff47d8be0600560ebbfa9ba9dc7c3ef1cdb34432d154e825e0daed295e8",
+      "sha256": "f0d839a662c8988131d5aba56d6f76e108f516b74efca10dcb5c29a7ec011323",
       "packed": true
     },
     {
       "name": "check-rtl8150.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/src/check-rtl8150.sh",
-      "sha256": "b87e0b51b83febd992a9c16a02ff60180138f2be1418c846ea8b1b21faf97f18",
+      "sha256": "abb8d4a43de1b8b7ad6f0bc20ad20b4e3450324f3ffdbee2e8a618b87770fa50",
       "packed": false
     }
   ],

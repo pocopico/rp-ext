@@ -5,13 +5,13 @@
     {
       "name": "e1000e-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/e1000e-3.10.108.tgz",
-      "sha256": "1d3e9f223c71c67386d5d91f741c55c55284d1e7989746b95855fe60a32b500e",
+      "sha256": "547407243d3b6479d98d5a3b3a61496b63d60ce3185dd7960fca0c5d47a51e8b",
       "packed": true
     },
     {
       "name": "check-e1000e.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/src/check-e1000e.sh",
-      "sha256": "b2189990b61869c8c7ca4482663b047e0ed543bd0c00f5de6fc33a7262612c4d",
+      "sha256": "f1dcd22228901027c9578dc5dba2ab24a793eb29843a498afc1bc2a7151c78f5",
       "packed": false
     }
   ],

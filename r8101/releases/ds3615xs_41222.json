@@ -5,13 +5,13 @@
     {
       "name": "r8101-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/releases/r8101-3.10.108.tgz",
-      "sha256": "72311ec554ae06dc67e33b4e1ca9a5dd49802bd66e21b06618b2e98416f54a5f",
+      "sha256": "c0c85569bc027e5b65e2d51ac9e05a5c5cfb2c5375bbfa0f902162ee0a26805e",
       "packed": true
     },
     {
       "name": "check-r8101.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/src/check-r8101.sh",
-      "sha256": "daa3418fe9cc421bd7a556f19170df33627c5b21b69d5d21b684dd697ee2fec1",
+      "sha256": "19124e5d9dfb89a253cc1bf16bca3533c423e500f237f2b8ee4f1916341e379f",
       "packed": false
     }
   ],

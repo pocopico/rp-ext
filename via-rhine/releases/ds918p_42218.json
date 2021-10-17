@@ -5,13 +5,13 @@
     {
       "name": "via-rhine-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/releases/via-rhine-4.4.180plus.tgz",
-      "sha256": "857e91bd28436fb7a356bc32c7db0ac1f0a8f190d66f6c7bb07016dbea2c5a65",
+      "sha256": "a6c6455335f329542c349dd24a1102fdc48623e17d8ae93c51d75e52566c50e6",
       "packed": true
     },
     {
       "name": "check-via-rhine.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/src/check-via-rhine.sh",
-      "sha256": "04a154e23dad0676077eab137a7f4ca9aaac98b8144959350191ae2ab9715085",
+      "sha256": "1d4fcc77472825476917162a4f4ff42deb7285a072a37a60c9b980bfc1344cd6",
       "packed": false
     }
   ],

@@ -5,13 +5,13 @@
     {
       "name": "r8152-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/r8152-3.10.108.tgz",
-      "sha256": "607ff1eff87074c5edb8fff7e5af04715201161377665dda47661dd5aea9a3fe",
+      "sha256": "39c205b02c65c257b1251c877c61bcf6b7e69ccdc0e8bfa6bded0ce94ed487cd",
       "packed": true
     },
     {
       "name": "check-r8152.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/src/check-r8152.sh",
-      "sha256": "2b1452f9d2eddfe609fabc63aa601dce7f0525d0e86cfefb5c36b359637809b9",
+      "sha256": "268d81aa474d4d816ababbc093dad6a32e8b49c9c2579bffa92b6ab5be6a5644",
       "packed": false
     }
   ],

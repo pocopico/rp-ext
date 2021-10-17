@@ -5,19 +5,18 @@
     {
       "name": "tg3-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-3.10.105.tgz",
-      "sha256": "807f4412c76b536e1ef91d59e304d439bff585e1d44af8d84e0d3756f2974d32",
+      "sha256": "698c153cd5859ef66c134fe03cdc650487d106daf2adb10d492f297a7eff4c19",
       "packed": true
     },
     {
       "name": "check-tg3.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/src/check-tg3.sh",
-      "sha256": "8947f9c55c4aeb45fca61492f64dac29a72c21ce9b845a90fd357c46c79399e1",
+      "sha256": "4b1c4548df61d2b549fe078747408f58693774089ffc1e5067102bc572019868",
       "packed": false
     }
   ],
 
   "kmods": {
-    "libphy.ko": "",
     "tg3.ko": ""
   },
 
@@ -26,4 +25,3 @@
   }
 
 }
-

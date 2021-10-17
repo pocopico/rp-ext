@@ -5,13 +5,13 @@
     {
       "name": "alx-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/alx-3.10.105.tgz",
-      "sha256": "af1d00800918a869cb2b9f6ece1269c82765724b5921eeda74a28be103f9fe64",
+      "sha256": "0410e61ac680dcc525369cb682c5cf2f96e0ab500b632083c4d98b0201115029",
       "packed": true
     },
     {
       "name": "check-alx.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/src/check-alx.sh",
-      "sha256": "03c01f5ac1d8f4323a32e52bbffedc0be156cc5c33744ccfbfa2f37f39177c18",
+      "sha256": "6bf148077fb3c797439f3668b058f81731e1b76c9b385ad92004cb1b133d076a",
       "packed": false
     }
   ],

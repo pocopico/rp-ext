@@ -5,13 +5,13 @@
     {
       "name": "ixgbe-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-3.10.105.tgz",
-      "sha256": "cad9c4466f90e98717652dfaa01ee2e3c8dd08c2265802edfdbd7c846cf6ac73",
+      "sha256": "c3ec5f25ac0cc8faaf4d40d0584439eda6f6d5c8ec5c97ec2691649018b1f7ab",
       "packed": true
     },
     {
       "name": "check-ixgbe.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
-      "sha256": "c940136f444813ec8c2e8ed16d55191ab69987c9904696ce42c8390919846ad6",
+      "sha256": "e8bc03eba9928e1f0645a5abb899dc2c4e5d85373c88d4000075b0aa38f12ff2",
       "packed": false
     }
   ],

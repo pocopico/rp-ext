@@ -5,13 +5,13 @@
     {
       "name": "via-velocity-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/releases/via-velocity-3.10.108.tgz",
-      "sha256": "1436491899c1296729195083f6757613638ee9c19a06ac797f50b1e47f22a9c3",
+      "sha256": "c366cb6c2991181bc0dc54ce5a8c566d030b96845f68be3d05c30a4e4b1c5b68",
       "packed": true
     },
     {
       "name": "check-via-velocity.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/src/check-via-velocity.sh",
-      "sha256": "4d28731aece856e90c5a557d5255ca9d61476cc99fadd2630b091bd23a821dc0",
+      "sha256": "09ea5e3336bb4617dd6d40c265441466c06285e0e6b544dfc6a26ebaabac5e80",
       "packed": false
     }
   ],

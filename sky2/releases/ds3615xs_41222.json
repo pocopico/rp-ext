@@ -5,13 +5,13 @@
     {
       "name": "sky2-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/sky2-3.10.108.tgz",
-      "sha256": "b1b626d5b8bfc6a585cdcba715b6b2fee56c962bd0bed9c5206048e1545fa983",
+      "sha256": "0d02c51297f6902fdc0786242d0aef78321370aba78a41c4cf31e0dd1b05fa53",
       "packed": true
     },
     {
       "name": "check-sky2.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/src/check-sky2.sh",
-      "sha256": "263fbc572c48e51c06a7ac35dedfda079ae9b8cc9afa07656daf1b09e75a912a",
+      "sha256": "e92eb2f3eb079d11db3d239a674212810c82968a53a80e522c1b5d52c00fd431",
       "packed": false
     }
   ],

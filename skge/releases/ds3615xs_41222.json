@@ -5,13 +5,13 @@
     {
       "name": "skge-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/releases/skge-3.10.108.tgz",
-      "sha256": "f9ac05c2f4c5fc4215151fa11ade5d64f7015fa1c1129b1b0db100f5b7431a11",
+      "sha256": "f66c0701f0d83fe327c1b66547f975fcf7af06d1a8bcf03a2ec2011013c405ea",
       "packed": true
     },
     {
       "name": "check-skge.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/src/check-skge.sh",
-      "sha256": "edae93b87147729bd88d7dd692a0cb980f2c628f58d7142171b84b23a4c2b99f",
+      "sha256": "c00d5791d105657fcf2f73e7beddd7e45f42b06f8a5544ad7c054eed0f19cc7e",
       "packed": false
     }
   ],

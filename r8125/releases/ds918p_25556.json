@@ -5,13 +5,13 @@
     {
       "name": "r8125-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/r8125-4.4.59plus.tgz",
-      "sha256": "c99b1f8fb384687c2bbae7f953c774febb9c257f717ae3f51880fa8e65344573",
+      "sha256": "439b25d486ce782fc5e9c0a2463d73f5950ed8d13ef4574a39509885d18ad003",
       "packed": true
     },
     {
       "name": "check-r8125.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/src/check-r8125.sh",
-      "sha256": "4b3228143797c758cd2c646880572b2c9dd963ecf488a924a6849bc96d2bc742",
+      "sha256": "15eac7a0f4da571ed85921b6d5dc7b03fa9ebf7ec5af7850cadc338a9f867a03",
       "packed": false
     }
   ],

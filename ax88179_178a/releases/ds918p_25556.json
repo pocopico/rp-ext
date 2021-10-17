@@ -5,19 +5,21 @@
     {
       "name": "ax88179_178a-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/releases/ax88179_178a-4.4.59plus.tgz",
-      "sha256": "41412fbfcf0c61642521cb5390867a9302611002e7c73eb7944297ecf01c2268",
+      "sha256": "51603ba8793320ffc950ddfb05e86d84c30d821e72e56a3994f205f0c8ac89d8",
       "packed": true
     },
     {
       "name": "check-ax88179_178a.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/src/check-ax88179_178a.sh",
-      "sha256": "dfc8a6b1c5553a95c375cf07019e8fc9473fe61fa254f20dc5ad36a232016fed",
+      "sha256": "36072c85e429b378de3653b51dab6e29a7e4731e4ed9b1e8b602f353f3ed7b80",
       "packed": false
     }
   ],
 
   "kmods": {
     "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
     "ax88179_178a.ko":""
   },
 

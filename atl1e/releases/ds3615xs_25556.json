@@ -5,13 +5,13 @@
     {
       "name": "atl1e-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/releases/atl1e-3.10.105.tgz",
-      "sha256": "88b35f6c33c6a2e6dc700f33b7eb5c85117e276539fae3692eeeda792b1c52f8",
+      "sha256": "352ce032e218943314ff70b9221e4188a543957e3668c0aa7f99354c65d97427",
       "packed": true
     },
     {
       "name": "check-atl1e.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/src/check-atl1e.sh",
-      "sha256": "b4c1188dceb093cc3ad9bf8ababd5e2a84b55c7662fc5800ab604f989bd3c1d7",
+      "sha256": "43c36346feced1eddadb8f5bf499c9d794038e77cec13144c65593e04b9a0583",
       "packed": false
     }
   ],

@@ -1,19 +1,19 @@
-
 {
   "id": "pocopico.hpsa",
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json",
   "info": {
     "name": "hpsa",
-    "description": "Adds HP Smart array support",
+    "description": "Adds Driver for HP Smart Array Controller version 3.4.14-0 Support",
     "author_url": "https://github.com/pocopico",
     "packer_url": "https://github.com/pocopico/rp-ext/tree/main/hpsa",
     "help_url": "<todo>"
   },
   "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/ds3615xs_25556.json",
     "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/ds3615xs_41222.json",
     "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/ds3615xs_42218.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/ds918p_25556.json",
     "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/ds918p_41890.json",
     "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/ds918p_42218.json"
   }
 }
-

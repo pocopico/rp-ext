@@ -3,7 +3,7 @@
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json",
   "info": {
     "name": "aic94xx",
-    "description": "Adds Adds Adaptec aic94xx SAS/SATA Support Support",
+    "description": "Adds  Support",
     "author_url": "https://github.com/pocopico",
     "packer_url": "https://github.com/pocopico/rp-ext/tree/main/aic94xx",
     "help_url": "<todo>"

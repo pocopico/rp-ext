@@ -5,19 +5,20 @@
     {
       "name": "igb-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-4.4.180plus.tgz",
-      "sha256": "7d917da8cb8baed4033641d1aa15a10b943c948735a69f3c7cb0f6866fb32720",
+      "sha256": "16d752597d4eba26a04722516438fdb905eaaa4f3ac094da4e8d94546eed7099",
       "packed": true
     },
     {
       "name": "check-igb.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/src/check-igb.sh",
-      "sha256": "8d592164d36b4bb0595e8801d7064dd448c5ea20d16656fd25ba530c0f1f5606",
+      "sha256": "6a20d999ff8adbe897cbd0f57bd8383b9025dc8526b5b19f53786eec54df7e74",
       "packed": false
     }
   ],
 
   "kmods": {
-    "igb.ko": ""
+    "i2c-algo-bit.ko": "",
+    "igb.ko":""
   },
 
     "scripts": {

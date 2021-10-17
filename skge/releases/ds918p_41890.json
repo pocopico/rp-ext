@@ -5,13 +5,13 @@
     {
       "name": "skge-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/releases/skge-4.4.180plus.tgz",
-      "sha256": "1eb5cdc44418a96d80083c7dabc1ec900885391331eab3658d1f89d014ac52e7",
+      "sha256": "757656d8b12ac37197b41870338077c024ecbd424bc7a2b704b6975c9ba7138f",
       "packed": true
     },
     {
       "name": "check-skge.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/src/check-skge.sh",
-      "sha256": "edae93b87147729bd88d7dd692a0cb980f2c628f58d7142171b84b23a4c2b99f",
+      "sha256": "c00d5791d105657fcf2f73e7beddd7e45f42b06f8a5544ad7c054eed0f19cc7e",
       "packed": false
     }
   ],

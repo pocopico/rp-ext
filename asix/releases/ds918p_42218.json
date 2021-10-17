@@ -5,13 +5,13 @@
     {
       "name": "asix-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-4.4.180plus.tgz",
-      "sha256": "431ae1f94bcb57f416e6d38c1473d8503411100324d84c87320b0aa220651177",
+      "sha256": "c608893cb5365ff92d1c3d7523140d4f995d53ad48982697be998941b5acb278",
       "packed": true
     },
     {
       "name": "check-asix.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/src/check-asix.sh",
-      "sha256": "94bb732c1b0b02e29197290c1a81ef2b6a1a7eb485bba3ecfd9e70c325f82dd2",
+      "sha256": "105ee5b5ba5e096eebc50b4ed0d7225b9bf3265f57067f0a7dd7689a1ed11a79",
       "packed": false
     }
   ],
@@ -19,8 +19,8 @@
   "kmods": {
     "mii.ko": "",
     "libphy.ko": "",
-    "usbcore.ko": "",
     "usbnet.ko": "",
+    "usbcore.ko": "",
     "asix.ko":""
   },
 

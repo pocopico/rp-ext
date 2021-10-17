@@ -5,13 +5,13 @@
     {
       "name": "vxge-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/vxge-4.4.59plus.tgz",
-      "sha256": "90af708e761f707ffbe7f8e9a3b733b514ef4e0eeba3596b67df04b090b12ae7",
+      "sha256": "3735f6695d0ac1e878301426b8a41396e0ff7925c432916a5d4762e0e7467696",
       "packed": true
     },
     {
       "name": "check-vxge.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/src/check-vxge.sh",
-      "sha256": "77cf150c677caac4e02ef946a54dafa12e1d89fecb4cfb7de5a44742ec38eaac",
+      "sha256": "2991b8d35642a6bbdb1f805865e620f150981fec2566df57f6b0720c591523e2",
       "packed": false
     }
   ],

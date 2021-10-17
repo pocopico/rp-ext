@@ -5,13 +5,13 @@
     {
       "name": "bnx2-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/bnx2-3.10.108.tgz",
-      "sha256": "77f5e860bd16412248457a275b256e47643938a1ddb5289820d62341ad12e61d",
+      "sha256": "ce21df68eac41a927d0152a4962954b8636b16a27471159ad30b31a077db3ad4",
       "packed": true
     },
     {
       "name": "check-bnx2.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/src/check-bnx2.sh",
-      "sha256": "1ab983ba7c876c12250f829516f4c7b8c323e807395a513e3fd8d2245edbe651",
+      "sha256": "08998c338254da13dbb9ae3849aa9108b2a3a73498afd91936fedbf07ce3f11b",
       "packed": false
     }
   ],

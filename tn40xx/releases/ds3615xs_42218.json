@@ -5,13 +5,13 @@
     {
       "name": "tn40xx-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/releases/tn40xx-3.10.108.tgz",
-      "sha256": "65a666e1f85d1401dcaecf101eb0d3ff4980115c474cbf1b3d08c867bcb53acb",
+      "sha256": "f273e84a38452b99f0fe6dcc1747a47432c61c5c723045695d164cfd40a58ce0",
       "packed": true
     },
     {
       "name": "check-tn40xx.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/src/check-tn40xx.sh",
-      "sha256": "1c2bec157a9831962a4172464e4049f510e5b3d7d7e053ebb7f2904c893e155c",
+      "sha256": "eb54963100a2049774c35243f41cf146cb099d75efbcb93fa6be89a3fba0d6f6",
       "packed": false
     }
   ],

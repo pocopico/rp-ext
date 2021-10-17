@@ -5,13 +5,13 @@
     {
       "name": "dm9601-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/releases/dm9601-4.4.59plus.tgz",
-      "sha256": "0fa2016321741d10bd985bf9a308c66ba2c6339820a81f24fdcffe7492912873",
+      "sha256": "66c1cf98f6aa33e3be1a8c91fb6201fdeaf06030d3a7626ec64cef497319b77f",
       "packed": true
     },
     {
       "name": "check-dm9601.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/src/check-dm9601.sh",
-      "sha256": "5e5a5a863619d6b806307eb9346efd100d13aa5981c159faef7acd5357ab5521",
+      "sha256": "36516bfc33a8e46b56bb5d069b35b6953daa27be9910a53eae56ffc0052458c8",
       "packed": false
     }
   ],
