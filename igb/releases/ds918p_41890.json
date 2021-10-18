@@ -5,7 +5,7 @@
     {
       "name": "igb-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-4.4.180plus.tgz",
-      "sha256": "1e70a350b7c4d9001e9028abf31f694196334ff0272d84085c52482d709a4c3a",
+      "sha256": "064df9e59d72d4dd3bf877d2fb1c9652a18acf5668246121f84f44e2198d3583",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "i2c-algo-bit.ko": "",
-    "igb.ko":""
+    "igb.ko": ""
   },
 
     "scripts": {

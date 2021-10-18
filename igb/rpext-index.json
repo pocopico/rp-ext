@@ -3,7 +3,7 @@
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json",
   "info": {
     "name": "igb",
-    "description": "Adds Intel(R) Gigabit Ethernet Network Driver Support",
+    "description": "Adds Intel(R) Gigabit Ethernet Linux Driver Support",
     "author_url": "https://github.com/pocopico",
     "packer_url": "https://github.com/pocopico/rp-ext/tree/main/igb",
     "help_url": "<todo>"
