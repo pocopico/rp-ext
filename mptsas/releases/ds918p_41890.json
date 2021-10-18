@@ -18,7 +18,7 @@
 
   "kmods": {
     "raid_class.ko": "",
-    "scsi_transport.ko": "",
+    "scsi_transport_sas.ko": "",
     "mptbase.ko": "",
     "mptscsih.ko": "",
     "mptsas.ko":""
