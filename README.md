@@ -1,8 +1,10 @@
 <h3 align=”center”>This repo holds some redpill extensions, use at your own risk</h3>
 <h3 align=”center”>Test the extensions and if they do not work as intended please open an issue</h3>
-Extension Name: "aic94xx" Description : "Adds Adds Adaptec aic94xx SAS/SATA Support Support"
+Extension Name: "aacraid" Description : "Adds Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/rpext-index.json">LINK</a><br>
+Extension Name: "aic94xx" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json">LINK</a><br>
-Extension Name: "alx" Description : "Adds Adds Qualcomm Atheros(R) AR816x/AR817x Support"
+Extension Name: "alx" Description : "Adds Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json">LINK</a><br>
 Extension Name: "asix" Description : "Adds ASIX AX8817X based USB 2.0 Ethernet Devices Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/rpext-index.json">LINK</a><br>
@@ -34,9 +36,9 @@ Extension Name: "e1000e" Description : "Adds Intel(R) PRO/1000 Network Driver Su
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json">LINK</a><br>
 Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
 <a href="https://github.com/pocopico/rp-ext/raw/main/early-telnet/rpext-index.json">LINK</a><br>
-Extension Name: "hpsa" Description : "Adds HP Smart array support"
+Extension Name: "hpsa" Description : "Adds Driver for HP Smart Array Controller version 3.4.14-0 Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
-Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Linux Driver Support"
+Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json">LINK</a><br>
@@ -70,8 +72,6 @@ Extension Name: "tg3" Description : "Adds Broadcom Tigon 3 support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
 Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/rpext-index.json">LINK</a><br>
-Extension Name:  Description : 
-<a href=>LINK</a><br>
 Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
 Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support"
