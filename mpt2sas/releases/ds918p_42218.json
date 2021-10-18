@@ -5,27 +5,23 @@
     {
       "name": "mpt2sas-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/mpt2sas-4.4.180plus.tgz",
-      "sha256": "694399dcbd18c4dfe4f0270aa26366468b6341af15023fe483cc2ec46ed46fa1",
+      "sha256": "c80e934877c5c1d64c0fb4b00a6641accac85a1cb963f1c9f5abc2e91f041c10",
       "packed": true
     },
     {
       "name": "check-mpt2sas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/src/check-mpt2sas.sh",
-      "sha256": "5f749d98cc1e4e2a3c6ad0bf11d6747d141c0beecff2da2c05179a2acca1d314",
+      "sha256": "b9c09701fd6b4ef964149218b28afa05f6dff78318af332da6b8be1e72106000",
       "packed": false
     }
-
   ],
 
   "kmods": {
-    "scsi_transport_sas.ko": "",
-    "libsas.ko": "",
-    "raid_class.ko": "",
-    "mpt3sas.ko": ""
+    "mpt2sas.ko": ""
   },
 
-  "scripts": {
+    "scripts": {
     "on_boot": "check-mpt2sas.sh"
   }
-}
 
+}
