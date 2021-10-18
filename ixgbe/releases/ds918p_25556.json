@@ -5,7 +5,7 @@
     {
       "name": "ixgbe-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.59plus.tgz",
-      "sha256": "a26d32e48c4907ac7bcff7b21f8ef5e91ce655e6540eb153964d992d008cea8e",
+      "sha256": "f000943ad5afe6b7301dca324067fed59448358bb7d3468abb832524d7c65932",
       "packed": true
     },
     {
@@ -17,6 +17,8 @@
   ],
 
   "kmods": {
+    "udp_tunnel.ko": "",
+    "ip6_udp_tunnel.ko": "",
     "vxlan.ko": "",
     "ixgbe.ko":""
   },
