@@ -5,25 +5,24 @@
     {
       "name": "tg3-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-4.4.59plus.tgz",
-      "sha256": "dde5a6b1390f3d484a5073a901852ec3a68607f74641b22eecf215bf5dddc906",
+      "sha256": "7793953f1c42ebc93f5d70e5370b68a9c118bee09a42cbd2e8d043da27a6a01a",
       "packed": true
     },
     {
       "name": "check-tg3.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/src/check-tg3.sh",
-      "sha256": "8947f9c55c4aeb45fca61492f64dac29a72c21ce9b845a90fd357c46c79399e1",
+      "sha256": "4b1c4548df61d2b549fe078747408f58693774089ffc1e5067102bc572019868",
       "packed": false
     }
-
   ],
 
   "kmods": {
     "libphy.ko": "",
-    "tg3.ko": ""
+    "tg3.ko":""
   },
 
-  "scripts": {
+    "scripts": {
     "on_boot": "check-tg3.sh"
   }
-}
 
+}

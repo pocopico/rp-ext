@@ -1,21 +1,19 @@
-
 {
   "id": "pocopico.tg3",
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json",
   "info": {
     "name": "tg3",
-    "description": "Adds Broadcom Tigon 3 support",
+    "description": "Adds Broadcom Tigon3 ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tg3",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/tg3",
     "help_url": "<todo>"
   },
   "releases": {
     "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3615xs_25556.json",
     "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3615xs_41222.json",
     "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3615xs_42218.json",
-    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds918p_42218.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds918p_25556.json",
     "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds918p_41890.json",
-    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds918p_25556.json"
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds918p_42218.json"
   }
 }
-
