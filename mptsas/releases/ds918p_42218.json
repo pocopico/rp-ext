@@ -17,8 +17,8 @@
   ],
 
   "kmods": {
-    "mptscsih.ko": "",
     "mptbase.ko": "",
+    "mptscsih.ko": "",
     "mptsas.ko":""
   },
 
