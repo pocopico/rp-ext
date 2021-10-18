@@ -5,7 +5,7 @@
     {
       "name": "mpt2sas-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/mpt2sas-3.10.105.tgz",
-      "sha256": "f6cfa078e54e624eda3d47869bb889d6b07cdede42a2771b4645583c87bf9ade",
+      "sha256": "92a905e0d6d83e9d6b90298af183f2a10df0312d15815792edaadc6666c892be",
       "packed": true
     },
     {
@@ -17,8 +17,6 @@
   ],
 
   "kmods": {
-    "scsi_transport_sas.ko": "",
-    "raid_class.ko": "",
     "mpt2sas.ko":""
   },
 
