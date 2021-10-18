@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "r8125-4.4.180plus.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/r8125-4.4.180plus.tgz",
-      "sha256": "3631d2f595b6ee2415c5f5901335f3cbd1726db1949e7a39e80a9874018ed423",
+      "name": "r8125-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/r8125-3.10.108.tgz",
+      "sha256": "574e0ead9494514c0a0502b80cd3febecb0fa00ae12bf6dd8eb6bfa0a1129796",
       "packed": true
     },
     {
