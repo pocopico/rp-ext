@@ -38,6 +38,8 @@ Extension Name: "Early telnet start" Description : "Simple extension which start
 <a href="https://github.com/pocopico/rp-ext/raw/main/early-telnet/rpext-index.json">LINK</a><br>
 Extension Name: "hpsa" Description : "Adds Driver for HP Smart Array Controller version 3.4.14-0 Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
+Extension Name: "i40e" Description : "Adds Intel(R) Ethernet Connection XL710 Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/rpext-index.json">LINK</a><br>
 Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Linux Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json">LINK</a><br>
 Extension Name: "igbvf" Description : "Adds Intel(R) Gigabit Virtual Function Network Driver Support"
