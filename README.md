@@ -2,7 +2,7 @@
 <h3 align=”center”>Test the extensions and if they do not work as intended please open an issue</h3>
 Extension Name: "aacraid" Description : "Adds Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/rpext-index.json">LINK</a><br>
-Extension Name: "aic94xx" Description : "Adds  Support"
+Extension Name: "aic94xx" Description : "Adds Adaptec aic94xx SAS/SATA driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json">LINK</a><br>
 Extension Name: "alx" Description : "Adds Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json">LINK</a><br>
@@ -40,6 +40,8 @@ Extension Name: "hpsa" Description : "Adds Driver for HP Smart Array Controller 
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
 Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Linux Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json">LINK</a><br>
+Extension Name: "igbvf" Description : "Adds Intel(R) Gigabit Virtual Function Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Function Network Driver Support"
@@ -74,6 +76,8 @@ Extension Name: "tg3" Description : "Adds Broadcom Tigon3 ethernet driver Suppor
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
 Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/rpext-index.json">LINK</a><br>
+Extension Name:  Description : 
+<a href=>LINK</a><br>
 Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
 Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support"
