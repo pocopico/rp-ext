@@ -5,7 +5,7 @@
     {
       "name": "be2net-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/be2net-4.4.59plus.tgz",
-      "sha256": "be20497f6b88a3c3d5a3a108a1f4cfa96f0a448c8cfb48fb45ae29d28ee3882d",
+      "sha256": "f80ea02a4ebe6deaf7ef45db952778821897389d4359a420388620457a3eb455",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "vxlan.ko": "",
-    "be2net.ko":""
+    "be2net.ko": ""
   },
 
     "scripts": {

@@ -5,7 +5,7 @@
     {
       "name": "tg3-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-4.4.59plus.tgz",
-      "sha256": "7793953f1c42ebc93f5d70e5370b68a9c118bee09a42cbd2e8d043da27a6a01a",
+      "sha256": "1ca2450520c6e49faa47d8516dba454bf4243f7420bf3d01380c01c272040414",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "libphy.ko": "",
-    "tg3.ko":""
+    "tg3.ko": ""
   },
 
     "scripts": {

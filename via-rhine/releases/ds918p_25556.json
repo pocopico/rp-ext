@@ -5,7 +5,7 @@
     {
       "name": "via-rhine-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/releases/via-rhine-4.4.59plus.tgz",
-      "sha256": "8664510fae20b7cd3f1a779d59fabc1b9fb8a1bff4f8cce9506151e8fec0a248",
+      "sha256": "bc948c009090e366a7e81028b2c6d2bed7eb5c665dd9ca33dac0fec6c3b58b75",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "mii.ko": "",
-    "via-rhine.ko":""
+    "via-rhine.ko": ""
   },
 
     "scripts": {

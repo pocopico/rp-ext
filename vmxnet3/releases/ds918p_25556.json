@@ -5,7 +5,7 @@
     {
       "name": "vmxnet3-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-4.4.59plus.tgz",
-      "sha256": "b043b9a6f8f46b58ee81e64bd9b05050bd5f693f374d2c0dbe4614c7e38a74e8",
+      "sha256": "ba860f334be1ad778e440cf2733166125272cb36b7298857dce7731a5bfcbeec",
       "packed": true
     },
     {

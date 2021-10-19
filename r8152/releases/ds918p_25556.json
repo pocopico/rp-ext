@@ -5,7 +5,7 @@
     {
       "name": "r8152-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/r8152-4.4.59plus.tgz",
-      "sha256": "d19f323810770aedf063a1aebe70cdc32177e28c0871aa467ee19ca886627694",
+      "sha256": "100f6aed896a76a68f7e67e7470a1ea9f88af72f8db2e363c23db4702fb0ba59",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "usbcore.ko": "",
-    "r8152.ko":""
+    "r8152.ko": ""
   },
 
     "scripts": {

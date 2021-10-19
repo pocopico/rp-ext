@@ -5,13 +5,13 @@
     {
       "name": "r8169-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/r8169-4.4.59plus.tgz",
-      "sha256": "5cf28a6d2a72ee9be45d166270c74c7ad0bb00a6224dfa236363396ae29bbfa6",
+      "sha256": "613853ca8829588a30ccd81e5b07fc5da681c299a9f26ec72bb62d1076f0d123",
       "packed": true
     },
     {
       "name": "check-r8169.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/src/check-r8169.sh",
-      "sha256": "ba15b793c8e2de150f92bd1de7ccb63d57618f3f758e5594b55b0452c2d3aba1",
+      "sha256": "dc9d34f07c8c2e7ead58d4eaec312c58784fae9594a495324bd8b8b410cb5247",
       "packed": false
     }
   ],

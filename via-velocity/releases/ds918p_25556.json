@@ -5,7 +5,7 @@
     {
       "name": "via-velocity-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/releases/via-velocity-4.4.59plus.tgz",
-      "sha256": "1021502c4c4ea0f34e3ac0ddd435eae2dba05d9cd9b365809a33222f7fb1a18c",
+      "sha256": "fcf6deba51c33a9c11a524d1fa18ba1156e310d9213ef86b320f794fee0a21ca",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "crc-ccitt.ko": "",
-    "via-velocity.ko":""
+    "via-velocity.ko": ""
   },
 
     "scripts": {

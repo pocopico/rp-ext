@@ -5,7 +5,7 @@
     {
       "name": "asix-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-4.4.59plus.tgz",
-      "sha256": "bd018b5ce642a8fd7df5f1c8257c44db2783987f9318d44c8adcca2fb390d907",
+      "sha256": "e7f396b72277b3768aa678ee0ad48a9f5e2af4349d357d32744b773d276cd51b",
       "packed": true
     },
     {
@@ -17,10 +17,7 @@
   ],
 
   "kmods": {
-    "mii.ko": "",
-    "libphy.ko": "",
     "usbnet.ko": "",
-    "usbcore.ko": "",
     "asix.ko":""
   },
 

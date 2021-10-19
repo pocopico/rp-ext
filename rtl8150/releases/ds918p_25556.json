@@ -5,7 +5,7 @@
     {
       "name": "rtl8150-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/rtl8150-4.4.59plus.tgz",
-      "sha256": "ea2c04c4472529ea05d1949cf98d373a8d89e8bf17041bab5bc29d9586198aeb",
+      "sha256": "958b9c50ca02f0962921b9a7413990396c0c641762d73f6743e39cbf485394de",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "usbcore.ko": "",
-    "rtl8150.ko":""
+    "rtl8150.ko": ""
   },
 
     "scripts": {

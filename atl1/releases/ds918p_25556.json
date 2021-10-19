@@ -5,7 +5,7 @@
     {
       "name": "atl1-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/releases/atl1-4.4.59plus.tgz",
-      "sha256": "7f4778f5670bf3dcf8adc8384fc47f28f25032428f603189c270c96f88bf81ac",
+      "sha256": "c284042faafc18770506ddb036825d7bed2c300f7b8e817f44a41fc9d4d68494",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "mii.ko": "",
-    "atl1.ko":""
+    "atl1.ko": ""
   },
 
     "scripts": {

@@ -38,17 +38,17 @@ Extension Name: "Early telnet start" Description : "Simple extension which start
 <a href="https://github.com/pocopico/rp-ext/raw/main/early-telnet/rpext-index.json">LINK</a><br>
 Extension Name: "hpsa" Description : "Adds Driver for HP Smart Array Controller version 3.4.14-0 Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
-Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Network Driver Support"
+Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Linux Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Function Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json">LINK</a><br>
-Extension Name: "mpt2sas" Description : "Adds LSI MPT 2 SAS support"
+Extension Name: "mpt2sas" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json">LINK</a><br>
-Extension Name: "mpt3sas" Description : "Adds LSI MPT 3 SAS support"
+Extension Name: "mpt3sas" Description : "Adds LSI MPT Fusion SAS 3.0 Device Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/rpext-index.json">LINK</a><br>
-Extension Name: "mptsas" Description : "Adds LSI SAS support"
+Extension Name: "mptsas" Description : "Adds Fusion MPT SAS Host driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json">LINK</a><br>
 Extension Name: "r8101" Description : "Adds RealTek RTL-8101 Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/rpext-index.json">LINK</a><br>
@@ -60,6 +60,8 @@ Extension Name: "r8168" Description : "Adds RealTek RTL-8168 Gigabit Ethernet dr
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json">LINK</a><br>
 Extension Name: "r8169" Description : "Adds RealTek RTL-8169 Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json">LINK</a><br>
+Extension Name: "ACPI Daemon v2" Description : "ACPI Daemon v2 that handles power button events"
+<a href="https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json">LINK</a><br>
 Extension Name: "RedPill Bootwait" Description : "Simple extension which stops the execution early waiting for the boot device to appear"
 <a href="https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/rpext-index.json">LINK</a><br>
 Extension Name: "rtl8150" Description : "Adds rtl8150 based usb-ethernet driver Support"
@@ -68,7 +70,7 @@ Extension Name: "skge" Description : "Adds SysKonnect Gigabit Ethernet driver Su
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/rpext-index.json">LINK</a><br>
 Extension Name: "sky2" Description : "Adds Marvell Yukon 2 Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json">LINK</a><br>
-Extension Name: "tg3" Description : "Adds Broadcom Tigon 3 support"
+Extension Name: "tg3" Description : "Adds Broadcom Tigon3 ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
 Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/rpext-index.json">LINK</a><br>
