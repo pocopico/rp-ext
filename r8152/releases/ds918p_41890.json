@@ -5,7 +5,7 @@
     {
       "name": "r8152-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/r8152-4.4.180plus.tgz",
-      "sha256": "cdeece9897762f31c6787a089af5fb78acefbe98c244e573883a3cb259aba78c",
+      "sha256": "ea05886508fc4d4cc2ddaf0451ee45570b764132ed98a752d77d4e4dc9820e20",
       "packed": true
     },
     {
@@ -18,6 +18,7 @@
 
   "kmods": {
     "usbcore.ko": "",
+    "usbnet.ko": "",
     "mii.ko": "",
     "r8152.ko":""
   },
