@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "qlcnic-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/releases/qlcnic-4.4.180plus.tgz",
+      "sha256": "314a693bb0252ed2c1c0c18ff5c5da3033014744e76eca7e0cbe532fb3021617",
+      "packed": true
+    },
+    {
+      "name": "check-qlcnic.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/src/check-qlcnic.sh",
+      "sha256": "b8b43cc2383860143196c290a9cba5662fdc801233863749d32e166831aeea82",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "qlcnic.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-qlcnic.sh"
+  }
+
+}
