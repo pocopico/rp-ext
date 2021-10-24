@@ -54,6 +54,8 @@ Extension Name: "mpt3sas" Description : "Adds LSI MPT Fusion SAS 3.0 Device Driv
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/rpext-index.json">LINK</a><br>
 Extension Name: "mptsas" Description : "Adds Fusion MPT SAS Host driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json">LINK</a><br>
+Extension Name: "qlcnic" Description : "Adds QLogic 1/10 GbE Converged/Intelligent Ethernet Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/rpext-index.json">LINK</a><br>
 Extension Name: "r8101" Description : "Adds RealTek RTL-8101 Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/rpext-index.json">LINK</a><br>
 Extension Name: "r8125" Description : "Adds Realtek RTL8125 2.5Gigabit Ethernet driver Support"
@@ -78,6 +80,8 @@ Extension Name: "tg3" Description : "Adds Broadcom Tigon3 ethernet driver Suppor
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
 Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/rpext-index.json">LINK</a><br>
+Extension Name:  Description : 
+<a href=>LINK</a><br>
 Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
 Extension Name: "via-velocity" Description : "Adds VIA Networking Velocity Family Gigabit Ethernet Adapter Driver Support"
