@@ -17,8 +17,8 @@
   ],
 
   "kmods": {
-    "usbnet.ko": "",
     "mii.ko": "",
+    "usbnet.ko": "",
     "r8152.ko":""
   },
 
