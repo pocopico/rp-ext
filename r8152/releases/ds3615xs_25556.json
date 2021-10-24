@@ -5,7 +5,7 @@
     {
       "name": "r8152-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/r8152-3.10.105.tgz",
-      "sha256": "77ed286a18d02d14e680a7f451713b2561ea54dc63451cd828afc53f28c34d79",
+      "sha256": "31d9ec9eab56fd6616d3b256eca5484da73e3b77e6a74897ffe58b02fa530a3d",
       "packed": true
     },
     {
@@ -17,8 +17,6 @@
   ],
 
   "kmods": {
-    "mii.ko": "",
-    "usbnet.ko": "",
     "r8152.ko": ""
   },
 
