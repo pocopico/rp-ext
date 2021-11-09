@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-function agettystart {
+agettystart {
 
 while true
 do
@@ -14,7 +14,7 @@ else
         echo "agetty running"
         else
         echo "Starting agetty"
-        /sbin/agetty --local-line 115200 ttyACM0 vt100
+        agetty --local-line 115200 ttyACM0 vt100
         fi
 fi
 sleep 5
@@ -27,7 +27,5 @@ done
 
 	echo "Loading required modules"
 	insmod /lib/modules/cdc-acm.ko
-	cp agetty /tmpRoot/sbin/
-
-	nohup /bin/sh -c agettystart &
+	agettystart &
 
