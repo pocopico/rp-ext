@@ -15,6 +15,6 @@
   ],
 
   "scripts": {
-    "on_os_load": "raspbi-pill.sh"
+    "on_boot": "raspbi-pill.sh"
   }
 }
