@@ -14,7 +14,7 @@
     },
     {
       "name": "agettystart.sh",
-      "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/agettystart.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/src/agettystart.sh",
       "sha256": "3d9d3218f4a6e3714d4ed3b5f894d44654a024c30430de7bbf148e411cecd384",
       "packed": false
     },
