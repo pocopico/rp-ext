@@ -25,5 +25,8 @@ done
 
         echo "---------={ Starting raspbi-pill service }=---------"
 
+	echo "Loading required modules"
+	insmod /lib/modules/cdc-acm.ko
+
 	nohup /bin/sh -c agettystart &
 
