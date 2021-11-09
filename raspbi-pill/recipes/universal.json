@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "name": "raspbi-pill.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/src/raspbi-pill.sh",
+      "sha256": "51bada0fe62d47ddfad44ecaa5730325a4a96c4c468fe2a24760e6e79f018648",
+      "packed": false
+    }
+  ],
+
+  "scripts": {
+    "on_boot": "raspbi-pill.sh"
+  }
+}
