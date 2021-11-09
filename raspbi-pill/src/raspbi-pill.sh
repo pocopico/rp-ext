@@ -18,8 +18,6 @@
 
         echo "---------={ Starting agetty service }=---------"
 	/bin/cp agetty /sbin/
-	/bin/cp agettystart.sh /sbin
+	/bin/cp J01agetty.sh /usr/syno/etc/rc.d/
 	chmod 777 /sbin/agetty 
-	chmod 777 /sbin/agettystart.sh 
-	echo "Starting /sbin/agetty"
-        /sbin/agetty --local-line 115200 ttyACM0 vt100
+	chmod 777 /usr/syno/etc/rc.d/J01agetty.sh
