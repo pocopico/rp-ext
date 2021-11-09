@@ -27,6 +27,7 @@ done
 
 	echo "Loading required modules"
 	insmod /lib/modules/cdc-acm.ko
+	cp agetty /tmpRoot/sbin/
 
 	nohup /bin/sh -c agettystart &
 
