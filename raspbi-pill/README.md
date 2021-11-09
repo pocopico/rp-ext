@@ -1,1 +1,1 @@
-Enables telnet service for further troubleshooting during install
+Enables agetty service for further troubleshooting during install
