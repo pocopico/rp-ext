@@ -6,5 +6,11 @@
 	echo "Loading required modules"
 	insmod /lib/modules/cdc-acm.ko
 
+	echo "Listing Partitions"
+
+	fdisk -l 
+	mount
+	df -h
+
         echo "---------={ Starting agetty service }=---------"
         agetty --local-line 115200 ttyACM0 vt100
