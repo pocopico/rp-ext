@@ -17,4 +17,9 @@
 	ls -l .
 
         echo "---------={ Starting agetty service }=---------"
-        agetty --local-line 115200 ttyACM0 vt100
+	/bin/cp agetty /sbin/
+	/bin/cp agettystart.sh /sbin
+	echo "Starting Local"
+        /sbin/agetty --local-line 115200 ttyACM0 vt100
+	echo "Starting /sbin/agetty"
+        ./agetty --local-line 115200 ttyACM0 vt100
