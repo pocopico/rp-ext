@@ -3,7 +3,7 @@
     {
       "name": "raspbi-pill.sh",
       "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/src/raspbi-pill.sh",
-      "sha256": "9645ca4a85f6e5081d22455d0e32828044ceb11d094b8fe2572bb4de364df535",
+      "sha256": "135faf1c7397a100be830b8b9aec0273592e2b4361e1bfc28a90961d7f14c730",
       "packed": false
     },
     {
@@ -11,10 +11,17 @@
       "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/agetty",
       "sha256": "f54c68a0b08cf66e517a1a0bef985610bcf547f8b8170e6452822fe56c7ee0be",
       "packed": false
+    },
+    {
+      "name": "agettystart.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/src/agettystart.sh",
+      "sha256": "f155b4f0d3e0ff72f8117d64fd9506077e8975202b84488a7673a307a1b20dae",
+      "packed": false
     }
   ],
 
   "scripts": {
-    "on_boot": "raspbi-pill.sh"
+    "on_boot": "raspbi-pill.sh",
+    "on_os_load": "agettystart.sh"
   }
 }
