@@ -33,7 +33,6 @@
   ],
 
   "scripts": {
-    "on_boot": "raspbi-pill.sh",
-    "on_os_load": "raspbi-pill-os.sh"
+    "on_boot": "raspbi-pill.sh"
   }
 }
