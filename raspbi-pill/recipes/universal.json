@@ -7,6 +7,12 @@
       "packed": false
     },
     {
+      "name": "raspbi-pill-os.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/src/raspbi-pill-os.sh",
+      "sha256": "c2fdfb5527ea027da91226efb8624f00bcef3e0dc1df801e4223129b018b942e",
+      "packed": false
+    },
+    {
       "name": "agetty",
       "url": "https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/agetty",
       "sha256": "f54c68a0b08cf66e517a1a0bef985610bcf547f8b8170e6452822fe56c7ee0be",
