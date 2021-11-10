@@ -2,6 +2,7 @@
 
 
         echo "---------={ Starting raspbi-pill service }=---------"
+	echo "Waiting for root device"
 
 	echo "Loading required modules"
 	insmod /lib/modules/cdc-acm.ko
