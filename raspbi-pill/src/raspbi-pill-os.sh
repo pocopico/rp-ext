@@ -8,6 +8,8 @@
 	insmod /lib/modules/cdc_ether.ko
 
         echo "---------={ Starting agetty service }=---------"
+	/bin/cp agetty /sbin/
 	/bin/cp agettystart.sh /sbin/
+	chmod 777 /sbin/agetty
 	chmod 777 /sbin/agettystart.sh
 	/sbin/agettystart.sh &
