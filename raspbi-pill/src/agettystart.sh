@@ -5,17 +5,12 @@ echo "---------={ Starting agetty daemon }=---------"
 
 while true
 do
-if [ `who -u |grep -i ttyACM0| grep -v grep | wc -l ` -eq 1 ] ;
-then
-echo "User looged in from Serial Terminal waiting for exit"
-else
         if [ `ps -ef |grep -ie ttyACM0 |grep -v grep | wc -l` -eq 1 ];
         then
-        echo "agetty running"
+        echo "agetty running"  >> /var/log/agetty.log
         else
-        echo "Starting agetty"
+	echo "starting agetty" >> /var/log/agetty.log
         /sbin/agetty --local-line 115200 ttyACM0 vt100
         fi
-fi
 sleep 5
 done
