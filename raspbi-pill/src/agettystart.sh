@@ -5,7 +5,7 @@ echo "---------={ Starting agetty daemon }=---------"
 
 while true
 do
-        if [ `ps -ef |grep -ie ttyACM0 |grep -v grep | wc -l` -eq 1 ];
+        if [ `ps -ef |grep -ie ttyACM0 |grep -v grep | wc -l` -gt 0 ];
         then
         echo "agetty running"  >> /var/log/agetty.log
         else
