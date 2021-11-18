@@ -66,6 +66,8 @@ Extension Name: "r8168" Description : "Adds RealTek RTL-8168 Gigabit Ethernet dr
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json">LINK</a><br>
 Extension Name: "r8169" Description : "Adds RealTek RTL-8169 Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json">LINK</a><br>
+Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
+<a href="https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/rpext-index.json">LINK</a><br>
 Extension Name: "ACPI Daemon v2" Description : "ACPI Daemon v2 that handles power button events"
 <a href="https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json">LINK</a><br>
 Extension Name: "RedPill Bootwait" Description : "Simple extension which stops the execution early waiting for the boot device to appear"
