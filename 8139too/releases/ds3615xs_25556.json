@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "8139too-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/releases/8139too-3.10.105.tgz",
+      "sha256": "1d50ba3668b1692be7272f84edddcc87d83591e728e96edc23198027a040ec9c",
+      "packed": true
+    },
+    {
+      "name": "check-8139too.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/src/check-8139too.sh",
+      "sha256": "17577c38ba0b4c85d4b3a7ac72241b967843733ad7d7e089635d8629cef57006",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "8139too.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-8139too.sh"
+  }
+
+}
