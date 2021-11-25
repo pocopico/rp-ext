@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.megaraid_sas",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json",
+  "info": {
+    "name": "megaraid_sas",
+    "description": "Adds Avago MegaRAID SAS Driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/megaraid_sas",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/ds3615xs_42218.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/ds918p_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/ds918p_41890.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/ds918p_42218.json"
+  }
+}
