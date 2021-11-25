@@ -48,6 +48,8 @@ Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Net
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Function Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json">LINK</a><br>
+Extension Name: "megaraid_sas" Description : "Adds Avago MegaRAID SAS Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json">LINK</a><br>
 Extension Name: "mpt2sas" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json">LINK</a><br>
 Extension Name: "mpt3sas" Description : "Adds LSI MPT Fusion SAS 3.0 Device Driver Support"
