@@ -7,12 +7,6 @@
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/redpill-4.4.180plus.tgz",
       "sha256": "71338260ce36086efae1355b732d49956b3e88ffbdec0429c9ba813eb1b8b2c9",
       "packed": true
-    },
-    {
-      "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/src/check-redpill.sh",
-      "sha256": "59ebc3776123812ad7c19363dddfd4d02592d08c038d3a555d6059b003c7213a",
-      "packed": false
     }
   ],
 
@@ -21,7 +15,6 @@
   },
 
     "scripts": {
-    "on_boot": "check-redpill.sh"
   }
 
 }

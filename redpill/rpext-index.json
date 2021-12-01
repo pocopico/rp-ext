@@ -3,7 +3,7 @@
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/rpext-index.json",
   "info": {
     "name": "redpill",
-    "description": "Adds  Support",
+    "description": "Static Redpill Module",
     "author_url": "https://github.com/pocopico",
     "packer_url": "https://github.com/pocopico/rp-ext/tree/main/redpill",
     "help_url": "<todo>"
