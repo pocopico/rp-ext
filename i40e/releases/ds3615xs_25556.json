@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "i40e-4.4.59plus.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/releases/i40e-4.4.59plus.tgz",
-      "sha256": "03809c66c507bd1de7c18cc976a9f4e6d70beb234ac1682efa6e2a9b0c53e395",
+      "name": "i40e-3.10.105.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/releases/i40e-3.10.105.tgz",
+      "sha256": "adbdef011246b1f721102a4c0c890979a65435ff65c683c69a71018c6c75e73d",
       "packed": true
     },
     {
