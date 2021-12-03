@@ -50,6 +50,8 @@ Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Functi
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json">LINK</a><br>
 Extension Name: "megaraid_sas" Description : "Adds Avago MegaRAID SAS Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json">LINK</a><br>
+Extension Name: "mlx4_core" Description : "Adds Mellanox ConnectX HCA low-level driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/rpext-index.json">LINK</a><br>
 Extension Name: "mpt2sas" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json">LINK</a><br>
 Extension Name: "mpt3sas" Description : "Adds LSI MPT Fusion SAS 3.0 Device Driver Support"
@@ -70,6 +72,8 @@ Extension Name: "r8169" Description : "Adds RealTek RTL-8169 Gigabit Ethernet dr
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json">LINK</a><br>
 Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
 <a href="https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/rpext-index.json">LINK</a><br>
+Extension Name: "redpill" Description : "Static Redpill Module"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/rpext-index.json">LINK</a><br>
 Extension Name: "ACPI Daemon v2" Description : "ACPI Daemon v2 that handles power button events"
 <a href="https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json">LINK</a><br>
 Extension Name: "RedPill Bootwait" Description : "Simple extension which stops the execution early waiting for the boot device to appear"
