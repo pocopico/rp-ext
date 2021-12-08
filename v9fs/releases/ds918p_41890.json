@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "v9fs-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/releases/v9fs-4.4.180plus.tgz",
+      "sha256": "109fdea17a508abaded85714864751f9b443ecd7edc3ea05f657fab0a571f1b3",
+      "packed": true
+    },
+    {
+      "name": "check-v9fs.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/src/check-v9fs.sh",
+      "sha256": "3842f014c0aaff3d5a9f58d1ccf60243437f1b93593bc3d1a067f7caea78f309",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "9pnet.ko": "",
+    "9p.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-v9fs.sh"
+  }
+
+}

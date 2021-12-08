@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "3w-sas-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/3w-sas-4.4.59plus.tgz",
+      "sha256": "ef7468d2a448a6d4de7beec20f9e794134d256d8c9b34e3ff3da14c764692c87",
+      "packed": true
+    },
+    {
+      "name": "check-3w-sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/src/check-3w-sas.sh",
+      "sha256": "8134d6ffe3f93738f6c858a0f026822191bdcbb75406842c4f140de565296980",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "3w-sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-3w-sas.sh"
+  }
+
+}

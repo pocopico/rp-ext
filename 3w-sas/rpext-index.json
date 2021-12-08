@@ -1,0 +1,19 @@
+{
+  "id": "pocopico.3w-sas",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/rpext-index.json",
+  "info": {
+    "name": "3w-sas",
+    "description": "Adds LSI 3ware SAS/SATA-RAID Linux Driver Support",
+    "author_url": "https://github.com/pocopico",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/3w-sas",
+    "help_url": "<todo>"
+  },
+  "releases": {
+    "ds3615xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/ds3615xs_25556.json",
+    "ds3615xs_41222": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/ds3615xs_41222.json",
+    "ds3615xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/ds3615xs_42218.json",
+    "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/ds918p_25556.json",
+    "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/ds918p_41890.json",
+    "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/ds918p_42218.json"
+  }
+}
