@@ -58,6 +58,8 @@ Extension Name: "mpt3sas" Description : "Adds LSI MPT Fusion SAS 3.0 Device Driv
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/rpext-index.json">LINK</a><br>
 Extension Name: "mptsas" Description : "Adds Fusion MPT SAS Host driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json">LINK</a><br>
+Extension Name: "qla2xxx" Description : "Adds QLogic Fibre Channel HBA Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/qla2xxx/rpext-index.json">LINK</a><br>
 Extension Name: "qlcnic" Description : "Adds QLogic 1/10 GbE Converged/Intelligent Ethernet Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/rpext-index.json">LINK</a><br>
 Extension Name: "r8101" Description : "Adds RealTek RTL-8101 Fast Ethernet driver Support"
