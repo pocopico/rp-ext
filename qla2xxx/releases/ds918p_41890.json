@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "qla2xxx-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qla2xxx/releases/qla2xxx-4.4.180plus.tgz",
+      "sha256": "9672b7c603e2927f2488702dd19d10a6c4e2aaf53eeac24812efdff7ab446fe5",
+      "packed": true
+    },
+    {
+      "name": "check-qla2xxx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qla2xxx/src/check-qla2xxx.sh",
+      "sha256": "97e3ce410cd4a76b4acb96f154212c2a55652240e9fe3ef4c555ff9b02836b07",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "scsi_transport_fc.ko": "",
+    "qla2xxx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-qla2xxx.sh"
+  }
+
+}
