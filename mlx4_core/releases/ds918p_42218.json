@@ -5,7 +5,7 @@
     {
       "name": "mlx4_core-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/mlx4_core-4.4.180plus.tgz",
-      "sha256": "8f192bf3dfa1da3fdb3352fcff9d880a1c50cc487aaa1f12f24ac020a1f3c91e",
+      "sha256": "f1ad329e1dd0e80d991d1015924222859303f5a2d8a3d43f9775c021cfce06af",
       "packed": true
     },
     {
@@ -18,6 +18,7 @@
 
   "kmods": {
     "mlx4_core.ko": ""
+    "mlx4_en.ko": ""
   },
 
     "scripts": {
