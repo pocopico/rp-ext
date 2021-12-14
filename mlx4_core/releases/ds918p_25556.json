@@ -13,6 +13,12 @@
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/check-mlx4_core.sh",
       "sha256": "d24d5f64409d61d440851b3c893ca9ec95a3688122d188266b2e06cc23dfe00b",
       "packed": false
+    },
+    {
+      "name": "on_os_load_mlx4_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/on_os_load_mlx4_core.sh",
+      "sha256": "71c20b04a708e9811dc0dd4bce1ec8ae31d50e5f688a230d32ba24073ed2cffa",
+      "packed": false
     }
   ],
 
