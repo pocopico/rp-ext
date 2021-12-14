@@ -5,7 +5,7 @@
     {
       "name": "e1000-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/e1000-4.4.180plus.tgz",
-      "sha256": "dad894f2f6a56dd2ec11318c335da48858eb8d0904970d66a77489fe3e3fd746",
+      "sha256": "e931a98c12bd8ca7ba225a377f2a2741cc3614bb96bed22f0702d560c66c797b",
       "packed": true
     },
     {
