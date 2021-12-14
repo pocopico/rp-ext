@@ -5,7 +5,7 @@
     {
       "name": "qla2xxx-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qla2xxx/releases/qla2xxx-3.10.108.tgz",
-      "sha256": "d2277754883f3e82335f44504add188f9f3cf9258876a91140141b6a65ae8be8",
+      "sha256": "15e1cfd293f65a96e6084903d882bb4b0f734562b35165796b1acae7ea869743",
       "packed": true
     },
     {
