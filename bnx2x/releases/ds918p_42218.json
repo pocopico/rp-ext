@@ -5,7 +5,7 @@
     {
       "name": "bnx2x-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-4.4.180plus.tgz",
-      "sha256": "c2b22d0f805c56068cba37a2db9d6a1ae386fd080f9ad544800d165475d2f0e9",
+      "sha256": "3c52bcea383d10a6add98930951b6c6152223675a44b7c2fec8680d770b6851f",
       "packed": true
     },
     {
@@ -17,6 +17,7 @@
   ],
 
   "kmods": {
+    "mdio.ko": "",
     "bnx2x.ko": ""
   },
 
