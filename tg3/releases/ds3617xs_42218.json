@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "tg3-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-4.4.180plus-broadwell.tgz",
+      "sha256": "8f96abc8c46cb3fb2288e355c340794fad2150ba573878f02a62e94a8389ad50",
+      "packed": true
+    },
+    {
+      "name": "check-tg3.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/src/check-tg3.sh",
+      "sha256": "4b1c4548df61d2b549fe078747408f58693774089ffc1e5067102bc572019868",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "libphy.ko": "",
+    "tg3.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-tg3.sh"
+  }
+
+}
