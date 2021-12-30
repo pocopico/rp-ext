@@ -1,0 +1,24 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "bnx2x-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-4.4.180plus-broadwell.tgz",
+      "sha256": "4217fb2335ba825c4268bbd2744b090c095a36c310e46c6fbffe28b45ba54878",
+      "packed": true
+    },
+    {
+      "name": "check-bnx2x.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/src/check-bnx2x.sh",
+      "sha256": "42425dbe2e2e68712a733c63b8b0fc34b4d3cf7d06d121680190d1a697c5078e",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "mdio.ko": "",
+    "bnx2x.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-bnx2x.sh"
+  }
+}

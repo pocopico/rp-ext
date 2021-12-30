@@ -1,0 +1,23 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "r8101-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/releases/r8101-4.4.180plus-broadwell.tgz",
+      "sha256": "78ec6458f4d56ad5cf0653861c110688186ee5d0f9e741e47b21806e561da4d2",
+      "packed": true
+    },
+    {
+      "name": "check-r8101.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/src/check-r8101.sh",
+      "sha256": "19124e5d9dfb89a253cc1bf16bca3533c423e500f237f2b8ee4f1916341e379f",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "r8101.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-r8101.sh"
+  }
+}

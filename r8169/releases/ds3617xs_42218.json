@@ -1,0 +1,24 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "r8169-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/releases/r8169-4.4.180plus-broadwell.tgz",
+      "sha256": "73d4bd3953226bfc8d908ae2c3cf7e8e083ab58b4190ec2a8f31b1935d6d1c59",
+      "packed": true
+    },
+    {
+      "name": "check-r8169.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/src/check-r8169.sh",
+      "sha256": "dc9d34f07c8c2e7ead58d4eaec312c58784fae9594a495324bd8b8b410cb5247",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "mii.ko": "",
+    "r8169.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-r8169.sh"
+  }
+}
