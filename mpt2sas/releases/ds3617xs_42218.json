@@ -1,0 +1,25 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "mpt2sas-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/mpt2sas-4.4.180plus-broadwell.tgz",
+      "sha256": "441a2a92c1bd742682c6c8ceafd65aa0d9b156297ba537686f3a55a2b5bcb035",
+      "packed": true
+    },
+    {
+      "name": "check-mpt2sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/src/check-mpt2sas.sh",
+      "sha256": "b9c09701fd6b4ef964149218b28afa05f6dff78318af332da6b8be1e72106000",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "raid_class.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mpt3sas.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-mpt2sas.sh"
+  }
+}

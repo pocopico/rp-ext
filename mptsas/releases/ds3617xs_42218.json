@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "mptsas-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/mptsas-4.4.180plus-broadwell.tgz",
+      "sha256": "6e8925835a066ccf3b319598c8c8387e7f175e7dc3bdf1bb00eec9a9fda4b4f7",
+      "packed": true
+    },
+    {
+      "name": "check-mptsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mptsas.sh",
+      "sha256": "17b2fe3d68f9237d7ceb3b9709ef2cd029fe24cba16eeb53cc8bba1426a64074",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "raid_class.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "mptsas.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-mptsas.sh"
+  }
+}
