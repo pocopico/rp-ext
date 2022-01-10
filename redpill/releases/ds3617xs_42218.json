@@ -1,0 +1,20 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "redpill-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/redpill-3.10.108.tgz",
+      "sha256": "af1516cca45bbf4c316253389d66d1748e5eeefd5d5ae178070416281dab92a7",
+      "packed": true
+    }
+ ],
+
+  "kmods": {
+    "redpill.ko": ""
+  },
+
+    "scripts": {
+  }
+
+}
