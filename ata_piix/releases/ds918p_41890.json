@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ata_piix-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ata_piix/releases/ata_piix-4.4.180plus.tgz",
+      "sha256": "528db71ebd972fc35c71c94ef4fee6a6b83e25d0d52894776fae689c0541a74d",
+      "packed": true
+    },
+    {
+      "name": "check-ata_piix.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ata_piix/src/check-ata_piix.sh",
+      "sha256": "44314240254c68592b2c98aadca71fdc875811160960c2be5281ea8c4e3a1bbb",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "libata.ko": "",
+    "ata_piix.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ata_piix.sh"
+  }
+
+}
