@@ -4,7 +4,7 @@
     {
       "name": "mpt3sas-4.4.180plus-broadwell.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.180plus-broadwell.tgz",
-      "sha256": "2cb134d3ffa7852cd965b9564d3dc81a2babd08349555c1c121396072d7e0090",
+      "sha256": "4e3f92f9b7ffad4884c05686959a1365c042cd1ff7eedd4f940339a1c0abb038",
       "packed": true
     },
     {
@@ -15,8 +15,6 @@
     }
   ],
   "kmods": {
-    "raid_class.ko": "",
-    "scsi_transport_sas.ko": "",
     "mpt3sas.ko": ""
   },
   "scripts": {
