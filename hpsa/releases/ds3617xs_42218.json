@@ -4,7 +4,7 @@
     {
       "name": "hpsa-4.4.180plus-broadwell.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-4.4.180plus-broadwell.tgz",
-      "sha256": "8bbbd054c2ce91cd7c7e5d2d12b80d42e6d23aafb4eb35c9e353c5e155f238e0",
+      "sha256": "c086b76c140791e50e78c90c2c5a2972d8c6fdddfa8eba060447551947fcfc4a",
       "packed": true
     },
     {

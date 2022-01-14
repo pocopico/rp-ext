@@ -5,7 +5,7 @@
     {
       "name": "hpsa-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-4.4.180plus.tgz",
-      "sha256": "4cf3f7b39b107786cb16bab090d3b23f91a2fbbaca5658258ed2b2e0329eff2a",
+      "sha256": "2ee4add9a652df1ec12c4d9ef29c24ef3185e220b09e485974c9844bd0feba0d",
       "packed": true
     },
     {
