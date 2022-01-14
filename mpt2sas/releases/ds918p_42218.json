@@ -5,7 +5,7 @@
     {
       "name": "mpt2sas-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/mpt2sas-4.4.180plus.tgz",
-      "sha256": "14db2bbb9eb6c7a64beb4171805d72aa7f95b4202ba07a961bbe9255a896b5ce",
+      "sha256": "7cf521b4ecf242f7082438f5de3858016bd77813b548badb5fbf3b38a7150832",
       "packed": true
     },
     {
@@ -19,7 +19,7 @@
   "kmods": {
     "raid_class.ko": "",
     "scsi_transport_sas.ko": "",
-    "mpt3sas.ko": ""
+    "mpt2sas.ko": ""
   },
 
     "scripts": {

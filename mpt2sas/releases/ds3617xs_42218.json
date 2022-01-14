@@ -4,7 +4,7 @@
     {
       "name": "mpt2sas-4.4.180plus-broadwell.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/mpt2sas-4.4.180plus-broadwell.tgz",
-      "sha256": "441a2a92c1bd742682c6c8ceafd65aa0d9b156297ba537686f3a55a2b5bcb035",
+      "sha256": "4aa1b4861c86862d237a9f5d7dc372fe77ec48dd88ee411222727e4c480f6371",
       "packed": true
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "kmods": {
-    "mpt3sas.ko": ""
+    "mpt2sas.ko": ""
   },
   "scripts": {
     "on_boot": "check-mpt2sas.sh"
