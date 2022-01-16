@@ -4,7 +4,7 @@
     {
       "name": "bnx2x-4.4.180plus-broadwell.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-4.4.180plus-broadwell.tgz",
-      "sha256": "4217fb2335ba825c4268bbd2744b090c095a36c310e46c6fbffe28b45ba54878",
+      "sha256": "e2d78b82727fc4301d5951d0fdaff12b725b57e83bc377cd85c4c143c0a8a9ad",
       "packed": true
     },
     {
@@ -15,6 +15,7 @@
     }
   ],
   "kmods": {
+    "vxlan.ko": "",
     "mdio.ko": "",
     "bnx2x.ko": ""
   },
