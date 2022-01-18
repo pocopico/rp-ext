@@ -36,6 +36,8 @@ Extension Name: "e1000e" Description : "Adds Intel(R) PRO/1000 Network Driver Su
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json">LINK</a><br>
 Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
 <a href="https://github.com/pocopico/rp-ext/raw/main/early-telnet/rpext-index.json">LINK</a><br>
+Extension Name: "forcedeth" Description : "Adds Reverse Engineered nForce ethernet driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/rpext-index.json">LINK</a><br>
 Extension Name: "hpsa" Description : "Adds Driver for HP Smart Array Controller version 3.4.14-0 Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
 Extension Name: "i40e" Description : "Adds Intel(R) Ethernet Connection XL710 Network Driver Support"
