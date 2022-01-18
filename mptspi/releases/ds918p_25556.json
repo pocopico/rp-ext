@@ -5,7 +5,7 @@
     {
       "name": "mptspi-4.4.59plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/releases/mptspi-4.4.59plus.tgz",
-      "sha256": "f340ed6ad2551364143b1c5366c8e4622b539f96b95f81f194ff28987fc573a6",
+      "sha256": "80036b6d9dd6b8c20b779a221efeea761b05a31c64a8cda6001133dd756c38b0",
       "packed": true
     },
     {
@@ -19,6 +19,7 @@
   "kmods": {
     "mptscsih.ko": "",
     "mptbase.ko": "",
+    "scsi_transport_spi.ko": "",
     "mptspi.ko":""
   },
 

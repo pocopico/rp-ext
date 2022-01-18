@@ -5,7 +5,7 @@
     {
       "name": "mptspi-3.10.105.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/releases/mptspi-3.10.105.tgz",
-      "sha256": "45b7a7dcd60c6589e83cd3e798ee0b26d662be4593a65611b365bdbe98715dfb",
+      "sha256": "82ffb11f110377a1795d74c4218468da5e6bd59e48bc1a6ce356ff6427274482",
       "packed": true
     },
     {
@@ -19,6 +19,7 @@
   "kmods": {
     "mptbase.ko": "",
     "mptscsih.ko": "",
+    "scsi_transport_spi.ko": "",
     "mptspi.ko":""
   },
 
