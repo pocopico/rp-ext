@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "forcedeth-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/releases/forcedeth-3.10.108.tgz",
+      "sha256": "a172d17d6b7f1bf0caefb2b606ed7905db177eb98162e5203717ed1b6f617330",
+      "packed": true
+    },
+    {
+      "name": "check-forcedeth.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/src/check-forcedeth.sh",
+      "sha256": "8a58203fe901524c696825b468f2439b39bb9533a738b8d9700a8798e452a850",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "forcedeth.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-forcedeth.sh"
+  }
+
+}
