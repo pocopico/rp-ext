@@ -8,8 +8,6 @@ Extension Name: "alx" Description : "Adds Qualcomm Atheros(R) AR816x/AR817x PCI-
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json">LINK</a><br>
 Extension Name: "asix" Description : "Adds ASIX AX8817X based USB 2.0 Ethernet Devices Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/rpext-index.json">LINK</a><br>
-Extension Name: "ata_piix" Description : "Adds SCSI low-level driver for Intel PIIX/ICH ATA controllers Support"
-<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ata_piix/rpext-index.json">LINK</a><br>
 Extension Name: "atl1" Description : "Adds Atheros L1 Gigabit Ethernet Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/rpext-index.json">LINK</a><br>
 Extension Name: "atl1c" Description : "Adds Qualcomm Atheros 100/1000M Ethernet Network Driver Support"
