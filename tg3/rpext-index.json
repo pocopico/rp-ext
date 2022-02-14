@@ -5,7 +5,7 @@
     "name": "tg3",
     "description": "Adds Broadcom Tigon3 ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/tg3",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/master/tg3",
     "help_url": "<todo>"
   },
   "releases": {
