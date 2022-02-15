@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8152-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/releases/r8152-4.4.180plus-broadwellnk.tgz",
+      "sha256": "ceaf7f741aa0e65375a3c7a88b425402d4e4e9adc530a6d8c46ed16feb5e3784",
+      "packed": true
+    },
+    {
+      "name": "check-r8152.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/src/check-r8152.sh",
+      "sha256": "268d81aa474d4d816ababbc093dad6a32e8b49c9c2579bffa92b6ab5be6a5644",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "r8152.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8152.sh"
+  }
+
+}

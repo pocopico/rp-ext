@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igbvf-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/releases/igbvf-4.4.180plus-broadwellnk.tgz",
+      "sha256": "9f79de9844798ea1e6df37b7426401f2977f6c6da41b53791ef5be39ae0e9a82",
+      "packed": true
+    },
+    {
+      "name": "check-igbvf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/src/check-igbvf.sh",
+      "sha256": "519661a9fd3d82d6277910412b4a5fad0d637534bf622451a81b09a5fcba6e46",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igbvf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igbvf.sh"
+  }
+
+}

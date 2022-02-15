@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "3w-sas-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/3w-sas-4.4.180plus-broadwellnk.tgz",
+      "sha256": "6de8131eaad4ef1d1f57cf2b8e3174891a443668a4ea38df345174b2a250de87",
+      "packed": true
+    },
+    {
+      "name": "check-3w-sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/src/check-3w-sas.sh",
+      "sha256": "8134d6ffe3f93738f6c858a0f026822191bdcbb75406842c4f140de565296980",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "3w-sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-3w-sas.sh"
+  }
+
+}

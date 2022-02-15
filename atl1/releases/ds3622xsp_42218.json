@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl1-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/releases/atl1-4.4.180plus-broadwellnk.tgz",
+      "sha256": "da90bcdfc748075a52342bcece804a5b09a1a0bbd95f45bafe9f48f9034a2ef0",
+      "packed": true
+    },
+    {
+      "name": "check-atl1.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1/src/check-atl1.sh",
+      "sha256": "d561b4575170ac57c64e32b0863e80acaeecf819a42ae596f8278bd03f540b35",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "atl1.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl1.sh"
+  }
+
+}

@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ixgbe-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.180plus-broadwellnk.tgz",
+      "sha256": "42bda9c16cd0c3ee78ad25320a7d540f19dfe794a674796655babd23dd45cba5",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbe.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
+      "sha256": "e8bc03eba9928e1f0645a5abb899dc2c4e5d85373c88d4000075b0aa38f12ff2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "dca.ko": "",
+    "vxlan.ko": "",
+    "ixgbe.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ixgbe.sh"
+  }
+
+}
