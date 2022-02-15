@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mptsas-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/mptsas-4.4.180plus-broadwellnk.tgz",
+      "sha256": "537e49433020230aa22ff66f7f1770fc27164d37c9d8792dfa3e74e6e06e0203",
+      "packed": true
+    },
+    {
+      "name": "check-mptsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mptsas.sh",
+      "sha256": "17b2fe3d68f9237d7ceb3b9709ef2cd029fe24cba16eeb53cc8bba1426a64074",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "mptsas.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-mptsas.sh"
+  }
+
+}
