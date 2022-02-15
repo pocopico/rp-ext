@@ -5,7 +5,7 @@
     {
       "name": "mptspi-4.4.180plus-broadwellnk.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/releases/mptspi-4.4.180plus-broadwellnk.tgz",
-      "sha256": "3cec1b17bf51bb2606e37707564b8a689ab73690d8449fafbca0c8a17c779dae",
+      "sha256": "fe6a75d8ec6669fdf7818cd6f40c8b4c90cc0ce3edf256957b1bc8934fc40196",
       "packed": true
     },
     {
@@ -17,8 +17,9 @@
   ],
 
   "kmods": {
-    "mptscsih.ko": "",
     "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "scsi_transport_spi.ko": "",
     "mptspi.ko":""
   },
 
