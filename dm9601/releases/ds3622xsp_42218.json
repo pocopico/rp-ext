@@ -5,7 +5,7 @@
     {
       "name": "dm9601-4.4.180plus-broadwellnk.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/releases/dm9601-4.4.180plus-broadwellnk.tgz",
-      "sha256": "2c9a7464eb731ea8b8f2ff46159573500ead385d03362ad98901702fb18e9364",
+      "sha256": "2a67aefd33e28ab4854a745dc9a400b79dbc135887ed042ba9c01f4a0aae2ace",
       "packed": true
     },
     {
@@ -17,8 +17,8 @@
   ],
 
   "kmods": {
-    "usbnet.ko": "",
     "usbcore.ko": "",
+    "usbnet.ko": "",
     "mii.ko": "",
     "dm9601.ko":""
   },

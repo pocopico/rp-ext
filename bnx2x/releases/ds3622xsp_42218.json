@@ -5,7 +5,7 @@
     {
       "name": "bnx2x-4.4.180plus-broadwellnk.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-4.4.180plus-broadwellnk.tgz",
-      "sha256": "81a1080eb4bfd3e124562bbb2af710d006b897dcf18c0a40c4ef378bf60a905f",
+      "sha256": "70c22f0a69041c416b4c940df2368cdf4bf58405be9132f0559a032c6c4d1732",
       "packed": true
     },
     {
@@ -18,6 +18,8 @@
 
   "kmods": {
     "mdio.ko": "",
+    "udp_tunnel.ko": "",
+    "ip6_udp_tunnel.ko": "",
     "vxlan.ko": "",
     "bnx2x.ko":""
   },

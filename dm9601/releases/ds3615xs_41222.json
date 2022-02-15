@@ -17,8 +17,8 @@
   ],
 
   "kmods": {
-    "usbnet.ko": "",
     "usbcore.ko": "",
+    "usbnet.ko": "",
     "mii.ko": "",
     "dm9601.ko":""
   },
