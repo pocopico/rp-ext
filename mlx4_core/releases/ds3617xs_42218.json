@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mlx4_core-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/mlx4_core-4.4.180plus-broadwell.tgz",
+      "sha256": "639dfb7c1095174bc5f671463d8a20342f53391e831f0393281cd15ab8d4823e",
+      "packed": true
+    },
+    {
+      "name": "check-mlx4_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/check-mlx4_core.sh",
+      "sha256": "d24d5f64409d61d440851b3c893ca9ec95a3688122d188266b2e06cc23dfe00b",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mlx4_core.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mlx4_core.sh"
+  }
+
+}
