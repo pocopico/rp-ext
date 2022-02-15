@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mptspi-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/releases/mptspi-4.4.180plus-broadwellnk.tgz",
+      "sha256": "3cec1b17bf51bb2606e37707564b8a689ab73690d8449fafbca0c8a17c779dae",
+      "packed": true
+    },
+    {
+      "name": "check-mptspi.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/src/check-mptspi.sh",
+      "sha256": "bdbb88eff2e69abd6c8c6332fe715255711fad0578102784babea7dd8f317bcd",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mptscsih.ko": "",
+    "mptbase.ko": "",
+    "mptspi.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-mptspi.sh"
+  }
+
+}

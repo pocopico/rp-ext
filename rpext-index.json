@@ -695,7 +695,9 @@
     "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/ds918p_25556.json",
     "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/ds918p_41890.json",
     "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/ds918p_42218.json",
-    "ds3617xs_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/ds3617xs_42218.json"
+    "ds3617xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/ds3617xs_42218.json",
+    "ds3617xs_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/ds3617xs_42218.json",
+    "ds3622xsp_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/ds3622xsp_42218.json"
   }
 }
 {
@@ -1023,7 +1025,9 @@
     "ds918p_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/ds918p_25556.json",
     "ds918p_41890": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/ds918p_41890.json",
     "ds918p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/ds918p_42218.json",
-    "ds3617xs_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/ds3617xs_42218.json"
+    "ds3617xs_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/ds3617xs_42218.json",
+    "ds3622xsp_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/ds3622xsp_42218.json"
+
   }
 }
 {
@@ -1101,7 +1105,7 @@
     "name": "tg3",
     "description": "Adds Broadcom Tigon3 ethernet driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/tg3",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/master/tg3",
     "help_url": "<todo>"
   },
   "releases": {
@@ -1115,7 +1119,9 @@
     "ds3617xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3615xs_25556.json",
     "ds3617xs_25556u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3615xs_25556.json",
     "ds3617xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3617xs_42218.json",
-    "ds3617xs_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3617xs_42218.json"
+    "ds3617xs_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3617xs_42218.json",
+    "ds3622xsp_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/ds3622xsp_42218.json"
+
   }
 }
 {
