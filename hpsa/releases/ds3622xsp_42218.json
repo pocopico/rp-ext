@@ -5,7 +5,7 @@
     {
       "name": "hpsa-4.4.180plus-broadwellnk.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-4.4.180plus-broadwellnk.tgz",
-      "sha256": "ccd4460961883be8ba2e6707e76b39a19024ddfcb97560983936372fe449a858",
+      "sha256": "6e016da929485d607387393f8478d5c2ffc0776805c2b92265ff0927b5bf7177",
       "packed": true
     },
     {
@@ -17,7 +17,6 @@
   ],
 
   "kmods": {
-    "scsi_transport_sas.ko": "",
     "hpsa.ko":""
   },
 
