@@ -88,6 +88,8 @@ Extension Name: "RedPill Bootwait" Description : "Simple extension which stops t
 <a href="https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/rpext-index.json">LINK</a><br>
 Extension Name: "rtl8150" Description : "Adds rtl8150 based usb-ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/rpext-index.json">LINK</a><br>
+Extension Name: "sfc" Description : "Adds Solarflare network driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/rpext-index.json">LINK</a><br>
 Extension Name: "skge" Description : "Adds SysKonnect Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/rpext-index.json">LINK</a><br>
 Extension Name: "sky2" Description : "Adds Marvell Yukon 2 Gigabit Ethernet driver Support"

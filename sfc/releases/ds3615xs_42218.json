@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "sfc-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/releases/sfc-3.10.108.tgz",
+      "sha256": "319029c3b3f00b86778416a770745ab076cf52c84aad008151b6d77cd2980274",
+      "packed": true
+    },
+    {
+      "name": "check-sfc.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/src/check-sfc.sh",
+      "sha256": "ad83469b095395040bccd37ca3c4210ff6862d7cd3b4faaccba5ad714cf48dac",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mdio.ko": "",
+    "i2c-algo-bit.ko": "",
+    "sfc.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-sfc.sh"
+  }
+
+}

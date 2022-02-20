@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "sfc-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/releases/sfc-4.4.180plus.tgz",
+      "sha256": "ae60673f3f5c885db355bf3af8589d02fc508b1ca9fef2905273a0bc65d6fedc",
+      "packed": true
+    },
+    {
+      "name": "check-sfc.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/src/check-sfc.sh",
+      "sha256": "ad83469b095395040bccd37ca3c4210ff6862d7cd3b4faaccba5ad714cf48dac",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "i2c-algo-bit.ko": "",
+    "sfc.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-sfc.sh"
+  }
+
+}
