@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/releases/cxgb-3.10.108.tgz",
+      "sha256": "41caa1dcdf42b45589a38f868740298b1857b7397f5e60d16520ef93b17f262c",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/src/check-cxgb.sh",
+      "sha256": "4637417343bbe7649e2c497381b9408eb485032c853ae6c8703ab05201631fe6",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mdio.ko": "",
+    "cxgb.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb.sh"
+  }
+
+}

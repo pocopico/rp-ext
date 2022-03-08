@@ -28,6 +28,14 @@ Extension Name: "bnx2" Description : "Adds QLogic BCM5706/5708/5709/5716 Driver 
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/rpext-index.json">LINK</a><br>
 Extension Name: "bnx2x" Description : "Adds QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/rpext-index.json">LINK</a><br>
+Extension Name: "cxgb" Description : "Adds Chelsio 10Gb Ethernet Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/rpext-index.json">LINK</a><br>
+Extension Name: "cxgb3" Description : "Adds Chelsio T3 Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb3/rpext-index.json">LINK</a><br>
+Extension Name: "cxgb4" Description : "Adds Chelsio T4/T5/T6 Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb4/rpext-index.json">LINK</a><br>
+Extension Name: "cxgb4vf" Description : "Adds Chelsio T4/T5/T6 Virtual Function (VF) Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb4vf/rpext-index.json">LINK</a><br>
 Extension Name: "dm9601" Description : "Adds Davicom DM96xx USB 10/100 ethernet devices Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/rpext-index.json">LINK</a><br>
 Extension Name: "e1000" Description : "Adds Intel(R) PRO/1000 Network Driver Support"

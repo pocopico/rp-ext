@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb4vf-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb4vf/releases/cxgb4vf-3.10.108.tgz",
+      "sha256": "fb17baf2b72ec9194d7c089cd97390a4c1a36f3a059422e44f5ecf6fa118bdf0",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb4vf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb4vf/src/check-cxgb4vf.sh",
+      "sha256": "fed6c302e963deaa82a43b4eae4220c319c8b1134560f39e7c57d69612616aa9",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "cxgb4vf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb4vf.sh"
+  }
+
+}
