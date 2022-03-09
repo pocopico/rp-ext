@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "via-rhine-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/releases/via-rhine-4.4.180plus-denverton.tgz",
+      "sha256": "a1a0dd88eb5c6d300eba5b6f9a9af2d13405e2bb07754d5f3a6338b080eb316a",
+      "packed": true
+    },
+    {
+      "name": "check-via-rhine.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/src/check-via-rhine.sh",
+      "sha256": "1d4fcc77472825476917162a4f4ff42deb7285a072a37a60c9b980bfc1344cd6",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "via-rhine.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-via-rhine.sh"
+  }
+
+}

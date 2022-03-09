@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "8139too-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/releases/8139too-4.4.180plus-denverton.tgz",
+      "sha256": "917b9e5943038b0c097824ae998c8f875d9b61d7e97248f57932b7e626037fe7",
+      "packed": true
+    },
+    {
+      "name": "check-8139too.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/src/check-8139too.sh",
+      "sha256": "17577c38ba0b4c85d4b3a7ac72241b967843733ad7d7e089635d8629cef57006",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "8139too.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-8139too.sh"
+  }
+
+}

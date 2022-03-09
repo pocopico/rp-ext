@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "be2net-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/be2net-4.4.180plus-denverton.tgz",
+      "sha256": "09febd19c968280c162c8658aa76b78a060ae6fa74587a5994d494c83f16f440",
+      "packed": true
+    },
+    {
+      "name": "check-be2net.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/src/check-be2net.sh",
+      "sha256": "00ba09e696f23dae54667e874f37043db5ac583ec1d52ec1167b4c239bbe43d4",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "be2net.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-be2net.sh"
+  }
+
+}

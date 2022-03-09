@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb4vf-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb4vf/releases/cxgb4vf-4.4.180plus-denverton.tgz",
+      "sha256": "7b638538039c1c971d9e62f9faf87671627fb8473fb0c52a331462e23211f9c5",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb4vf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb4vf/src/check-cxgb4vf.sh",
+      "sha256": "fed6c302e963deaa82a43b4eae4220c319c8b1134560f39e7c57d69612616aa9",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "cxgb4vf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb4vf.sh"
+  }
+
+}

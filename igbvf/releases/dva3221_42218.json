@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igbvf-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/releases/igbvf-4.4.180plus-denverton.tgz",
+      "sha256": "9d610a3860888828247ee9c8b9fa43264fa622e21ad4b0c968f8b4bb01936a7d",
+      "packed": true
+    },
+    {
+      "name": "check-igbvf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/src/check-igbvf.sh",
+      "sha256": "519661a9fd3d82d6277910412b4a5fad0d637534bf622451a81b09a5fcba6e46",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igbvf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igbvf.sh"
+  }
+
+}

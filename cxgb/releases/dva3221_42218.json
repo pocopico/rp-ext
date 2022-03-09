@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/releases/cxgb-4.4.180plus-denverton.tgz",
+      "sha256": "7aec9f61ab68398453cb076cd9e6b037b9312a70b9e1e1b7a60798679b88cd01",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/src/check-cxgb.sh",
+      "sha256": "4637417343bbe7649e2c497381b9408eb485032c853ae6c8703ab05201631fe6",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mdio.ko": "",
+    "cxgb.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb.sh"
+  }
+
+}

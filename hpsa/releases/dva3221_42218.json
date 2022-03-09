@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "hpsa-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-4.4.180plus-denverton.tgz",
+      "sha256": "577e3c50e2e884b1ef13366ff27c251c69cfea2a2991e06efa2baef8869e1b6b",
+      "packed": true
+    },
+    {
+      "name": "check-hpsa.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/src/check-hpsa.sh",
+      "sha256": "cd3fee3f2a0c0d9c045ee7a226196fcee1332c1716529a92f6a6b51518fab1ec",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "scsi_transport_sas.ko": "",
+    "hpsa.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-hpsa.sh"
+  }
+
+}

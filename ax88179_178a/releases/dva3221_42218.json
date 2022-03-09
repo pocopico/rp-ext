@@ -1,0 +1,30 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ax88179_178a-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/releases/ax88179_178a-4.4.180plus-denverton.tgz",
+      "sha256": "d71b5387f30c74a71129aead46f996927667c4ff3c7598576c80a90d84286a0a",
+      "packed": true
+    },
+    {
+      "name": "check-ax88179_178a.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/src/check-ax88179_178a.sh",
+      "sha256": "36072c85e429b378de3653b51dab6e29a7e4731e4ed9b1e8b602f353f3ed7b80",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "ax88179_178a.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ax88179_178a.sh"
+  }
+
+}

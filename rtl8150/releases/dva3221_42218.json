@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "rtl8150-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/releases/rtl8150-4.4.180plus-denverton.tgz",
+      "sha256": "2de0032b7e8890476c5230aa3b1c02b2a1e4257eaf166105cfeb714cfefe2997",
+      "packed": true
+    },
+    {
+      "name": "check-rtl8150.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/src/check-rtl8150.sh",
+      "sha256": "abb8d4a43de1b8b7ad6f0bc20ad20b4e3450324f3ffdbee2e8a618b87770fa50",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbcore.ko": "",
+    "rtl8150.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-rtl8150.sh"
+  }
+
+}

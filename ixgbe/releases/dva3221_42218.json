@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ixgbe-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.180plus-denverton.tgz",
+      "sha256": "54f1d2b9c11c65708429d42d1760b12922e91dfb2e32acccfc2748ff586e30b9",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbe.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
+      "sha256": "e8bc03eba9928e1f0645a5abb899dc2c4e5d85373c88d4000075b0aa38f12ff2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "dca.ko": "",
+    "vxlan.ko": "",
+    "ixgbe.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ixgbe.sh"
+  }
+
+}

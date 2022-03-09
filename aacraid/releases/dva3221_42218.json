@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "aacraid-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/aacraid-4.4.180plus-denverton.tgz",
+      "sha256": "4a2a126b4f73b3f117087ef4615d9dfb9009eea790ee732c415800a08143472f",
+      "packed": true
+    },
+    {
+      "name": "check-aacraid.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/src/check-aacraid.sh",
+      "sha256": "1c5b11b036ab7a9e98be8531366ce0b93884140e24036046d8be4add9dc19f82",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "aacraid.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-aacraid.sh"
+  }
+
+}
