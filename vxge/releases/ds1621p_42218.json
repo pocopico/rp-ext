@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vxge-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/vxge-4.4.180plus-v1000.tgz",
+      "sha256": "a1d5fe39dbf3bdbcfdd273b870524e5a63ea30b8a64831cfa824efe85ce01ddf",
+      "packed": true
+    },
+    {
+      "name": "check-vxge.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/src/check-vxge.sh",
+      "sha256": "2991b8d35642a6bbdb1f805865e620f150981fec2566df57f6b0720c591523e2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vxge.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vxge.sh"
+  }
+
+}

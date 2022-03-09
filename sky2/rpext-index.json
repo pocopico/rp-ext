@@ -19,7 +19,10 @@
     "ds3617xs_25556": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3615xs_25556.json",
     "ds3617xs_25556u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3615xs_25556.json",
     "ds3617xs_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3617xs_42218.json",
-"ds3622xsp_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3622xsp_42218.json",
+    "ds1621p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds1621p_42218.json",
+    "ds3622xsp_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3622xsp_42218.json",
+    "ds3622xsp_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3622xsp_42218.json",
+    "ds3622xsp_42550": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3622xsp_42218.json",
     "ds3617xs_42218u2": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/ds3617xs_42218.json"
   }
 }
