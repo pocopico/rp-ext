@@ -5,7 +5,7 @@
     {
       "name": "mptspi-4.4.180plus-v1000.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/releases/mptspi-4.4.180plus-v1000.tgz",
-      "sha256": "1416ba09e932db7a0878f8ca14fe6e258fe31ca169687cfde53645fce98a7e23",
+      "sha256": "09184fb328e3bf93afd33b4e3338dab82eb5aa701fd0320234fbb0dfb84b5ec1",
       "packed": true
     },
     {
@@ -17,8 +17,9 @@
   ],
 
   "kmods": {
-    "mptscsih.ko": "",
+    "scsi_transport_spi.ko": "",
     "mptbase.ko": "",
+    "mptscsih.ko": "",
     "mptspi.ko":""
   },
 
