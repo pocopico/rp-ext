@@ -118,5 +118,7 @@ Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 virtual NIC driver 
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/rpext-index.json">LINK</a><br>
 Extension Name: "vxge" Description : "Adds Neterion's X3100 Series 10GbE PCIe I/OVirtualized Server Adapter Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/rpext-index.json">LINK</a><br>
+Extension Name: "wch" Description : "Adds WCH Multi-I/O Board Driver Module Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/wch/rpext-index.json">LINK</a><br>
 <br><br><br>
 <h3>Extensions will be updated upon request, please open an issue to include extensions</h3>
