@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "wch-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/wch/releases/wch-3.10.108.tgz",
+      "sha256": "3673bdafb792e338e8f8aa6f96e6b578295dc527be79e9e7b6d47a3ae35c128a",
+      "packed": true
+    },
+    {
+      "name": "check-wch.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/wch/src/check-wch.sh",
+      "sha256": "5a1cd1eda0b78ec558bfa16089774abbb9b347e3bf3c348916a79f6671b6ffdf",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "wch.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-wch.sh"
+  }
+
+}
