@@ -405,6 +405,7 @@ if [ "$TCRPDIAG" = "enabled" ] ; then
 startcollection
 else
 echo "TCRP not enabled on linux command line. Bye !"
+preparediag
 fi
 
 #### Always exit with return code 0 
