@@ -36,7 +36,7 @@ echo "Mounting TCRP"
 
 if [ ! -d /tcrp ] ; then mkdir /tcrp ; fi 
 
-cd /dev/ ; mount synoboot3 /tcrp
+if [ ! -n "`mount |grep -i synoboot3`" ] ; then cd /dev/ ; mount -t vfat synoboot3 /tcrp ; fi 
 
      if [ `mount |grep -i tcrp| wc -l` -gt 0 ] ; then
      echo "TCRP Partition Mounted succesfully"
@@ -119,7 +119,8 @@ EOF
 function add_head(){ 
 #<p id="opening">Hyperlinks are </p>
 #<a href="#opening">$1</a>
-echo "<h${HEAD}> $1 </h${HEAD}>" 
+echo "<h${HEAD}> $1 </h${HEAD}>"
+ 
 }
 function inc_head(){ 
 let HEAD=$HEAD+1 
@@ -139,7 +140,7 @@ echo "</pre>"
 function cmdcontent() {
 
 echo "<pre>"
-add_head "$1"
+echo "<h${HEAD}> $1 </h${HEAD}>" "$1"
 $1
 echo "</pre>"
 
@@ -352,7 +353,8 @@ echo "<pre>"
 if [ `ls -ltr /dev/synoboot | wc -l` -gt 0 ]; then
 echo "Synoboot Found"
 cmdcontent "fdisk -l /dev/synoboot"
-else "Echo no synoboot found"
+else 
+cmdcontent "echo No synoboot found"
 fi
 echo "</pre>"
 
@@ -423,22 +425,27 @@ htmlfooter      >> ${folder}/$htmlfilename
 
 getvars
 
-if [ "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "no" ] ; then 
-preparediag
-startcollection
-else
-echo "TCRP not enabled on linux command line"
+
+if [ "$TCRPDIAG" = "enabled" ] ; then 
+
+       if  [ "$HASBOOTED" = "no" ] ; then
+       	preparediag
+        startcollection
+       elif [ "$HASBOOTED" = "yes" ] ; then
+        startcollection
+       fi
+
+elif [ ! "$TCRPDIAG" = "enabled" ] ; then 
+
+ 	  if  [ "$HASBOOTED" = "no" ] ; then
+      preparediag
+	  echo "TCRP not enabled on linux command line" 	
+       	
+      elif [ "$HASBOOTED" = "yes" ] ; then
+      startcollection	   
+      fi
+
 fi
-
-
-if [ "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "yes" ] || [ ! "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "yes" ] ; then 
-startcollection
-fi
-
-if [ ! "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "no" ] ; then 
-preparediag
-fi
-
 
 cleanup 
 
