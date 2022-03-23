@@ -368,6 +368,7 @@ echo "Copying tcrp auxiliary files to /sbin/"
 /bin/cp lspci /sbin/  ; chmod 700 /sbin/lspci
 /bin/cp lsusb /sbin/  ; chmod 700 /sbin/lsusb
 /bin/cp dmidecode /sbin/  ; chmod 700 /sbin/dmidecode
+/bin/cp dtc /sbin/  ; chmod 700 /sbin/dtc
 /bin/cp tcrp-diag.sh /sbin/  ; chmod 700 /sbin/tcrp-diag.sh
 
 echo "Copying tcrp libraries to /lib/"

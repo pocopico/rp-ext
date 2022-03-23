@@ -55,6 +55,12 @@
       "packed": false
     },  
 	{
+      "name": "dtc",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/dtc",
+      "sha256": "a4179ff52d5ba219d4e0b3a075ecde36cd493f1f5e1b17f6d4f933161dba9749",
+      "packed": false
+    },  
+	{
       "name": "lsusb",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsusb",
       "sha256": "eb3556d562ea8bf9453e536123bd0df261e215bec3811070c10c645f2fa55fe8",
