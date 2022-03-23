@@ -38,7 +38,7 @@
     },
 	{
       "name": "libusb-1.0.so.0",
-      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libusb-1.0.so.0,
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libusb-1.0.so.0",
       "sha256": "a847a8f88d496d3db2f0f527c8d53e2efe793749cd14f4d0d701c637a515c33b",
       "packed": false
     }
