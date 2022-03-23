@@ -278,6 +278,7 @@ cmdcontent "lsscsi -v"
 cmdcontent "lsscsi -H"
 cmdcontent "lspci -nnq"
 cmdcontent "lsusb -tv"
+cmdcontent "dtc -I dtb -O dts /etc/model.dtb"
 
 }
 
