@@ -360,9 +360,20 @@ echo "Copying tcrp auxiliary files to /sbin/"
 /bin/cp dmidecode /sbin/  ; chmod 700 /sbin/dmidecode
 /bin/cp tcrp-diag.sh /sbin/  ; chmod 700 /sbin/tcrp-diag.sh
 
+echo "Copying tcrp libraries to /lib/"
 /bin/cp libpci.so.3 /lib ; chmod 644 /lib/libpci.so.3
 /bin/cp libusb-1.0.so.0 /lib  ; chmod 644 /lib/libusb-1.0.so.0
+/bin/cp libz.so.1      /lib  ; chmod 644 /lib/libz.so.1     
+/bin/cp libudev.so.1   /lib  ; chmod 644 /lib/libudev.so.1  
+/bin/cp libkmod.so.2   /lib  ; chmod 644 /lib/libkmod.so.2  
+/bin/cp libresolv.so.2 /lib  ; chmod 644 /lib/libresolv.so.2
 
+}
+
+function cleanup(){
+
+echo "Exiting and cleaning up"
+umount /tcrp 
 
 }
 
@@ -399,6 +410,8 @@ getlogs         >> ${folder}/$htmlfilename
 htmlfooter      >> ${folder}/$htmlfilename
 }
 
+############ START RUN ############
+
 getvars
 
 if [ "$TCRPDIAG" = "enabled" ] ; then 
@@ -408,7 +421,10 @@ echo "TCRP not enabled on linux command line. Bye !"
 preparediag
 fi
 
+cleanup 
+
 #### Always exit with return code 0 
+
 exit 0
 
 

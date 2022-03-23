@@ -24,6 +24,30 @@
       "sha256": "78d610d186db7f2d00aba4aefd52ffce75653a5f3895bb1731bdacf439b3437e",
       "packed": false
     },
+	{
+      "name": "libz.so.1",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libz.so.1",
+      "sha256": "219c6c0efe93bd6d751bba1e8ae84a162309c665cc5e36beddcf295b72f9bc09",
+      "packed": false
+    },
+	{
+      "name": "libudev.so.1",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libudev.so.1",
+      "sha256": "fe2e24387f28761bcb63cc30604e3d1ac3e6bc6fe09da278b67f4fb7c54edd77",
+      "packed": false
+    },
+	{
+      "name": "libkmod.so.2",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libkmod.so.2",
+      "sha256": "c15ed2472dd78504dd2d99c8263ad0eb535b9ba1d07a68419c902852b3564d15",
+      "packed": false
+    },
+	{
+      "name": "libresolv.so.2",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libresolv.so.2",
+      "sha256": "3a81ed26d8835da7e309bd55a03888c36f768ab243ca5dacf5aaede27661bd5d",
+      "packed": false
+    },
     {
       "name": "lsscsi",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsscsi",
