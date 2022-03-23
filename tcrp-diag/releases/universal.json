@@ -6,6 +6,12 @@
       "sha256": "0f1998ec3fdebb761923c091fec1f783d45157c97d0610b3c61fd8107f25dfc8",
       "packed": false
     },
+	{
+      "name": "tcrp-diagd.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/src/tcrp-diagd.sh",
+      "sha256": "b31a60c3cc8717702edd530c708726dca5aa098f0ba7125ac580cd812896e9cd",
+      "packed": false
+    },
     {
       "name": "dmidecode",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/dmidecode",
@@ -82,7 +88,7 @@
   ],
 
   "scripts": {
-      "on_os_load": "tcrp-diag.sh",
-      "on_boot": "tcrp-diag.sh"
+      "on_os_load": "tcrp-diagd.sh",
+      "on_boot": "tcrp-diagd.sh"
   }
 }
