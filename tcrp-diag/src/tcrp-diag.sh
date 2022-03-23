@@ -144,6 +144,7 @@ echo "</pre>"
 function cmdcontent() {
 
 echo "<pre>"
+echo add_head "$1"
 $1
 echo "</pre>"
 
@@ -228,21 +229,20 @@ function diskinfo(){
 add_head "Disk Information"
 inc_head 
 
-add_head "FDISK -l : "
+
 cmdcontent "fdisk -l"
 
-add_head "CAT /proc/scsi/scsi : "
+
 cmdcontent "cat /proc/scsi/scsi"
 
-add_head "Disks info : "
+
 for disk in `ls -d /sys/block/sd[a-z]`
 do
 cmdcontent "echo Disk : ${disk} Model    : `cat ${disk}/device/model`"
-cmdcontent "echo Disk : ${disk} Serial Number : `cat ${disk}/device/serial`"
-cmdcontent "echo Disk : ${disk} Firmware  : `cat ${disk}/device/firmware_rev`"
+cmdcontent "echo Disk : ${disk} Serial Number : `cat ${disk}/device/syno_disk_serial`"
 done
 
-add_head "NVME info : "
+
 for disk in `ls -d /sys/block/nvme*`
 do
 cmdcontent "echo NVME : ${disk} Model    : `cat ${disk}/device/model`"
@@ -259,9 +259,7 @@ function cpuinfo(){
 add_head "CPU Info"
 inc_head 
 
-add_head "cpuinfo : "
 cmdcontent "cat /proc/cpuinfo"
-add_head "syno cpu architecture: "
 cmdcontent "cat /proc/syno_cpu_arch"
 
 dec_head
@@ -282,7 +280,8 @@ function getrestinfo(){
 add_head "Collecting auxiliary information"
 
 cmdcontent "dmidecode"
-cmdcontent "lsscsi"
+cmdcontent "lsscsi -v"
+cmdcontent "lsscsi -H"
 cmdcontent "lspci -nnq"
 cmdcontent "lsusb"
 
@@ -354,13 +353,14 @@ function preparediag(){
 
 echo "Copying tcrp auxiliary files to /sbin/"
 
-echo "Copying tcrp auxiliary files to /sbin/"
+/bin/cp lsscsi /sbin/ ; chmod 700 /sbin/lsscsi
+/bin/cp lspci /sbin/  ; chmod 700 /sbin/lspci
+/bin/cp lsusb /sbin/  ; chmod 700 /sbin/lsusb
+/bin/cp dmidecode /sbin/  ; chmod 700 /sbin/dmidecode
+/bin/cp tcrp-diag.sh /sbin/  ; chmod 700 /sbin/tcrp-diag.sh
 
-/bin/cp lsscsi /sbin/
-/bin/cp lspci /sbin/
-/bin/cp lsusb /sbin/
-/bin/cp dmidecode /sbin/
-/bin/cp tcrp-diag.sh /sbin/
+/bin/cp libpci.so.3 /lib ; chmod 644 /lib/libpci.so.3
+/bin/cp libusb-1.0.so.0 /lib  ; chmod 644 /lib/libusb-1.0.so.0
 
 
 }
@@ -376,18 +376,28 @@ getvars
 
 #### Start collection
 
-htmlheader      >  /tcrp/diag/$htmlfilename
-tcrpbanner      >> /tcrp/diag/$htmlfilename
-sysoverview     >> /tcrp/diag/$htmlfilename
-getsynoboot     >> /tcrp/diag/$htmlfilename
-getrootdevice   >> /tcrp/diag/$htmlfilename
-getnetwork      >> /tcrp/diag/$htmlfilename
-cpuinfo         >> /tcrp/diag/$htmlfilename
-diskinfo        >> /tcrp/diag/$htmlfilename
-getrestinfo     >> /tcrp/diag/$htmlfilename
-getsynoinfo     >> /tcrp/diag/$htmlfilename
-getmodules      >> /tcrp/diag/$htmlfilename
-getlogs         >> /tcrp/diag/$htmlfilename
-htmlfooter      >> /tcrp/diag/$htmlfilename
+if [ -d /tcrp/diag/ ] ; then 
+folder="/tcrp/diag"
+else
+folder="/tmp"
+fi
 
- 
+echo "Exporting report to ${folder}/$htmlfilename ..."
+
+htmlheader      >  ${folder}/$htmlfilename
+tcrpbanner      >> ${folder}/$htmlfilename
+sysoverview     >> ${folder}/$htmlfilename
+getsynoboot     >> ${folder}/$htmlfilename
+getrootdevice   >> ${folder}/$htmlfilename
+getnetwork      >> ${folder}/$htmlfilename
+cpuinfo         >> ${folder}/$htmlfilename
+diskinfo        >> ${folder}/$htmlfilename
+getrestinfo     >> ${folder}/$htmlfilename
+getsynoinfo     >> ${folder}/$htmlfilename
+getmodules      >> ${folder}/$htmlfilename
+getlogs         >> ${folder}/$htmlfilename
+htmlfooter      >> ${folder}/$htmlfilename
+
+
+#### Always exit with return code 0 
+exit 0

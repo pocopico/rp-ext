@@ -17,6 +17,12 @@
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lspci",
       "sha256": "41ae35f0fdf9cf4fbc724aab7097f6dff92dd5fd588608058cf6420e46c7e3fc",
       "packed": false
+    }, 
+	{
+      "name": "libpci.so.3",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libpci.so.3",
+      "sha256": "78d610d186db7f2d00aba4aefd52ffce75653a5f3895bb1731bdacf439b3437e",
+      "packed": false
     },
     {
       "name": "lsscsi",
@@ -28,6 +34,12 @@
       "name": "lsusb",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsusb",
       "sha256": "eb3556d562ea8bf9453e536123bd0df261e215bec3811070c10c645f2fa55fe8",
+      "packed": false
+    },
+	{
+      "name": "libusb-1.0.so.0",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libusb-1.0.so.0,
+      "sha256": "a847a8f88d496d3db2f0f527c8d53e2efe793749cd14f4d0d701c637a515c33b",
       "packed": false
     }
    
