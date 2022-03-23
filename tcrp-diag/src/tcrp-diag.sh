@@ -7,13 +7,6 @@
 #
 #
 
-#### USER Variables 
-
-htmlfilename="tcrp-diag.html"
-
-
-##### END OF USER Variables
-
 
 function tcrpbanner()
 {
@@ -146,7 +139,7 @@ echo "</pre>"
 function cmdcontent() {
 
 echo "<pre>"
-echo add_head "$1"
+add_head "$1"
 $1
 echo "</pre>"
 
@@ -233,8 +226,6 @@ inc_head
 
 
 cmdcontent "fdisk -l"
-
-
 cmdcontent "cat /proc/scsi/scsi"
 
 
@@ -285,7 +276,7 @@ cmdcontent "dmidecode"
 cmdcontent "lsscsi -v"
 cmdcontent "lsscsi -H"
 cmdcontent "lspci -nnq"
-cmdcontent "lsusb"
+cmdcontent "lsusb -tv"
 
 }
 
@@ -324,6 +315,8 @@ echo "</pre>"
 
 function getvars(){
 
+
+htmlfilename="tcrp-diag-`date +%Y-%b-%d-%H-%M`.html"
 synoplatform=$(synoinfo unique | cut -d"_" -f2)
 synomodel=$(synoinfo unique | cut -d"_" -f3)
 
@@ -334,6 +327,20 @@ TCRPDIAG="enabled"
 else 
 TCRPDIAG=""
 fi
+
+### USUALLY SCEMD is the last process run in init, so when scemd is running we are most 
+# probably certain that system has finish init process 
+#
+
+
+if [ `ps -ef |grep -i scemd |grep -v grep | wc -l` -gt 0 ] ; then 
+HASBOOTED="yes"
+echo "System has completed init process"
+else 
+echo "System is booting"
+HASBOOTED="no"
+fi
+
 
 }
 
@@ -416,18 +423,22 @@ htmlfooter      >> ${folder}/$htmlfilename
 
 getvars
 
-if [ "$TCRPDIAG" = "enabled" ] ; then 
+if [ "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "no" ] ; then 
 preparediag
 startcollection
 else
 echo "TCRP not enabled on linux command line"
-
 fi
 
-if [ "$1" = "report" ] ; then
+
+if [ "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "yes" ] || [ ! "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "yes" ] ; then 
 startcollection
-else preparediag
 fi
+
+if [ ! "$TCRPDIAG" = "enabled" ] && [ "$HASBOOTED" = "no" ] ; then 
+preparediag
+fi
+
 
 cleanup 
 
