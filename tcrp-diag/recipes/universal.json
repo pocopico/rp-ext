@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "name": "tcrp-diag.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/src/tcrp-diag.sh",
+      "sha256": "df0f75c1db41ed6977e3c5c14695d8970142a2f1d69ba574d860d3adc4043b8e",
+      "packed": false
+    },
+    {
+      "name": "dmidecode",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/dmidecode",
+      "sha256": "d7e4b66b708db13ec1763fff8997e4546cd3ed4c1854fcf0b83b023d5506b7dc",
+      "packed": false
+    },
+    {
+      "name": "lspci",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lspci",
+      "sha256": "41ae35f0fdf9cf4fbc724aab7097f6dff92dd5fd588608058cf6420e46c7e3fc",
+      "packed": false
+    },
+    {
+      "name": "lsscsi",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsscsi",
+      "sha256": "53bf5ba40dcab1754781598d8e8ef19b810c7df2c945fbdd68065aae8222c5b0",
+      "packed": false
+    },  
+	{
+      "name": "lsusb",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsusb",
+      "sha256": "eb3556d562ea8bf9453e536123bd0df261e215bec3811070c10c645f2fa55fe8",
+      "packed": false
+    }
+   
+  ],
+
+  "scripts": {
+      "on_os_load": "tcrp-diag.sh"
+  }
+}
