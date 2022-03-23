@@ -303,7 +303,7 @@ function getrestinfo(){
 add_head "Collecting auxiliary information" "auxiliaryinfo"
 
 cmdcontent "lsscsi -v"
-cmdcontent "lsscsi -H"
+cmdcontent "lsscsi -Hv"
 cmdcontent "lspci -nnq"
 cmdcontent "lsusb -tv"
 cmdcontent "dmidecode"
