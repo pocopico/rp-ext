@@ -5,7 +5,7 @@
     {
       "name": "alx-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/alx-4.4.180plus.tgz",
-      "sha256": "387805c1ab01c95b2a0ba0651adc1f2c5f77376daf640662d6492cc6b5f95c1e",
+      "sha256": "6ed445b4e52b1f92710b9fd0c1a3001c2589e34cdfea8f46921f29b5a2311e0e",
       "packed": true
     },
     {
@@ -17,6 +17,7 @@
   ],
 
   "kmods": {
+    "mdio.ko": "",
     "alx.ko": ""
   },
 
