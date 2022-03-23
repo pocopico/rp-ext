@@ -74,18 +74,19 @@ cat << EOF
 	  <style type="text/css">
 
            Pre		{Font-Family: Courier-New, Courier;Font-Size: 10pt}
-           BODY		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif; FONT-SIZE: 12pt;}
-           A		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif}
-           A:link 		{text-decoration: none}
+           BODY		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif; FONT-SIZE: 12pt; background-color: black;color:white }
+           A		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif; color:lightblue }
+           A:link 		{text-decoration: none; color:blue}
            A:visited 	{text-decoration: none}
            A:hover 	{text-decoration: underline}
            A:active 	{color: red; text-decoration: none}
            
-           H1		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 20pt}
-           H2		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 14pt}
-           H3		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 12pt}
+           H1		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 20pt; color:green }
+           H2		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 14pt; color:lightgreen }
+           H3		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 12pt; color:white }
            DIV, P, OL, UL, SPAN, TD
-           		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 11pt}
+           		{FONT-FAMILY: Arial, Verdana, Helvetica, Sans-serif;FONT-SIZE: 11pt; color:white }
+       
        </style>
 
    
