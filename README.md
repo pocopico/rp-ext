@@ -102,6 +102,8 @@ Extension Name: "skge" Description : "Adds SysKonnect Gigabit Ethernet driver Su
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/rpext-index.json">LINK</a><br>
 Extension Name: "sky2" Description : "Adds Marvell Yukon 2 Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json">LINK</a><br>
+Extension Name: "Tinycore Diag" Description : "An extension that will assist in collecting DSM diagnostic information"
+<a href="https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/rpext-index.json">LINK</a><br>
 Extension Name: "tg3" Description : "Adds Broadcom Tigon3 ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
 Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
