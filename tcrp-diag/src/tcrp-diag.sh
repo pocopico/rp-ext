@@ -92,7 +92,6 @@ cat << EOF
    </head>
 
    <body>
-
 EOF
 
 
@@ -114,13 +113,34 @@ EOF
 
 }
 
+function linksmenu(){
+
+echo "<a name=\"menu\"></a>"
+add_head "Menu "
+
+echo "<a href=\"#sysoverview\">System Overview</a>"
+echo "<a href=\"#getnetwork\">Networking Information</a>"
+echo "<a href=\"#diskinfo\">Disk Information</a>"
+echo "<a href=\"#cpuinfo\">CPU Information</a>"
+echo "<a href=\"#getmodules\">Loaded Modules Information</a>"
+echo "<a href=\"#getprocesses\">Running Processes Information</a>"
+echo "<a href=\"#getsynoinfo\">Synoinfo configuration</a>"
+echo "<a href=\"#auxiliaryinfo\">Auxiliary Information</a>"
+echo "<a href=\"#upgradelog\">Upgrade Log</a>"
+echo "<a href=\"#juniorreason\">Junior Reason</a>"
+echo "<a href=\"#linuxrclog\">Linux RC Log</a>"
+echo "<a href=\"#messages\">messages Log</a>"
+
+
+
+}
+
 
 
 function add_head(){ 
 #<p id="opening">Hyperlinks are </p>
 #<a href="#opening">$1</a>
-echo "<h${HEAD}> $1 </h${HEAD}>"
- 
+echo "<a href=\"#menu\"><h${HEAD} id=\"$2\"> $1 </h${HEAD}></a>"
 }
 function inc_head(){ 
 let HEAD=$HEAD+1 
@@ -140,7 +160,7 @@ echo "</pre>"
 function cmdcontent() {
 
 echo "<pre>"
-echo "<h${HEAD}> $1 </h${HEAD}>" "$1"
+echo "<h${HEAD}> $1 </h${HEAD}>"
 $1
 echo "</pre>"
 
@@ -149,7 +169,7 @@ echo "</pre>"
 
 function sysoverview(){
 
-add_head "System Overview"
+add_head "System Overview" "sysoverview"
 
 echo "<pre>"
 echo "Hostname          = `/bin/hostname`"
@@ -182,13 +202,13 @@ function serialtofile(){
 function getlogs(){
 
 
-add_head "Upgrade Log"
+add_head "Upgrade Log" "upgradelog"
 filecontent /var/log/upgrade_sh.log
-add_head "Junior Reason Log"
+add_head "Junior Reason Log" "juniorreason"
 filecontent /var/log/junior_reason
-add_head "Linux RC Syno Log"
+add_head "Linux RC Syno Log" "linuxrclog"
 filecontent /var/log/linuxrc.syno.log
-add_head "Syno Messages Log"
+add_head "Syno Messages Log" "messages"
 filecontent /var/log/messages
 
 }
@@ -196,7 +216,7 @@ filecontent /var/log/messages
 
 function getnetwork(){
 
-add_head "Networking Information"
+add_head "Networking Information" "getnetwork"
 inc_head 
 
 add_head "IFCONFIG : "
@@ -211,7 +231,7 @@ dec_head
 
 function getmodules(){
 
-add_head "Modules Information"
+add_head "Modules Information" "getmodules"
 inc_head 
 
 cmdcontent "lsmod"
@@ -222,7 +242,7 @@ dec_head
 
 function diskinfo(){
 
-add_head "Disk Information"
+add_head "Disk Information" "diskinfo"
 inc_head 
 
 
@@ -250,7 +270,7 @@ dec_head
 
 function cpuinfo(){
 
-add_head "CPU Info"
+add_head "CPU Info" "cpuinfo"
 inc_head 
 
 cmdcontent "cat /proc/cpuinfo"
@@ -271,21 +291,21 @@ function getrestinfo(){
 
 #### This functions should include binary found in TCRP DEVICE: /diag/ folder #####
 
-add_head "Collecting auxiliary information"
+add_head "Collecting auxiliary information" "auxiliaryinfo"
 
 cmdcontent "dmidecode"
 cmdcontent "lsscsi -v"
 cmdcontent "lsscsi -H"
 cmdcontent "lspci -nnq"
 cmdcontent "lsusb -tv"
-cmdcontent "dtc -I dtb -O dts /etc/model.dtb"
+if [ -f /etc/model.dtb ] ; then cmdcontent "dtc -I dtb -O dts /etc/model.dtb" ; fi
 
 }
 
 
 function getprocesses(){
 
-add_head "Running Processes"
+add_head "Running Processes" "getprocesses"
 
 cmdcontent "ps -ef"
 
@@ -295,7 +315,7 @@ cmdcontent "ps -ef"
 
 function getsynoinfo(){
 
-add_head "Syno Info Known Variables : "
+add_head "Syno Info Known Variables : " "getsynoinfo"
 
 echo "<pre>"
 echo "support_disk_compatibility     = `synoinfo support_disk_compatibility`"
@@ -409,6 +429,7 @@ fi
 echo "Exporting report to ${folder}/$htmlfilename ..."
 
 htmlheader      >  ${folder}/$htmlfilename
+linksmenu       >> ${folder}/$htmlfilename 
 tcrpbanner      >> ${folder}/$htmlfilename
 sysoverview     >> ${folder}/$htmlfilename
 getsynoboot     >> ${folder}/$htmlfilename
@@ -433,6 +454,7 @@ if [ "$TCRPDIAG" = "enabled" ] ; then
        if  [ "$HASBOOTED" = "no" ] ; then
        	preparediag
         startcollection
+		#sleep 120 && /sbin/tcrp-diag.sh &
        elif [ "$HASBOOTED" = "yes" ] ; then
         startcollection
        fi
@@ -448,6 +470,8 @@ elif [ ! "$TCRPDIAG" = "enabled" ] ; then
       fi
 
 fi
+
+
 
 cleanup 
 
