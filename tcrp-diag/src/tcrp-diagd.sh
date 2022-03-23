@@ -2,7 +2,6 @@
 
 
 
-
 function preparediag(){
 
 echo "Copying tcrp auxiliary files to /sbin/"
@@ -84,3 +83,5 @@ elif [ ! "$TCRPDIAG" = "enabled" ] ; then
 
 fi
 
+
+exit 0
