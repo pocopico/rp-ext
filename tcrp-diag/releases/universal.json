@@ -34,6 +34,7 @@
   ],
 
   "scripts": {
-      "on_os_load": "tcrp-diag.sh"
+      "on_os_load": "tcrp-diag.sh",
+      "on_boot": "tcrp-diag.sh"
   }
 }
