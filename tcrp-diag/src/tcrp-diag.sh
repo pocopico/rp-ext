@@ -118,20 +118,28 @@ function linksmenu(){
 echo "<a name=\"menu\"></a>"
 add_head "Menu "
 
-echo "<a href=\"#sysoverview\">System Overview</a>"
-echo "<a href=\"#getnetwork\">Networking Information</a>"
-echo "<a href=\"#diskinfo\">Disk Information</a>"
-echo "<a href=\"#cpuinfo\">CPU Information</a>"
-echo "<a href=\"#getmodules\">Loaded Modules Information</a>"
-echo "<a href=\"#getprocesses\">Running Processes Information</a>"
-echo "<a href=\"#getsynoinfo\">Synoinfo configuration</a>"
-echo "<a href=\"#auxiliaryinfo\">Auxiliary Information</a>"
-echo "<a href=\"#upgradelog\">Upgrade Log</a>"
-echo "<a href=\"#juniorreason\">Junior Reason</a>"
-echo "<a href=\"#linuxrclog\">Linux RC Log</a>"
-echo "<a href=\"#messages\">messages Log</a>"
 
+echo "<table width=\"600\" style=\"text-align:center\"><tbody><tr>"
+echo "<th></th><th></th><th></th><th></th></tr>"
 
+echo "<tr>"
+echo "<td><a href=\"#sysoverview\">System Overview</a></td>"
+echo "<td><a href=\"#getnetwork\">Networking Information</a></td>"
+echo "<td><a href=\"#diskinfo\">Disk Information</a></td>"
+echo "</tr><tr>"
+echo "<td><a href=\"#cpuinfo\">CPU Information</a></td>"
+echo "<td><a href=\"#getmodules\">Loaded Modules Information</a></td>"
+echo "<td><a href=\"#getprocesses\">Running Processes Information</a></td>"
+echo "<td><a href=\"#getsynoinfo\">Synoinfo configuration</a></td>"
+echo "</tr><tr>"
+echo "<a href=\"#auxiliaryinfo\">Auxiliary Information</a</td>"
+echo "<a href=\"#upgradelog\">Upgrade Log</a></td>"
+echo "<a href=\"#juniorreason\">Junior Reason</a</td>"
+echo "</tr><tr>"
+echo "<a href=\"#linuxrclog\">Linux RC Log</a</td>"
+echo "<a href=\"#messages\">messages Log</a></td>"
+echo "</tr>"
+echo "</tbody></table><br>"
 
 }
 
@@ -293,11 +301,11 @@ function getrestinfo(){
 
 add_head "Collecting auxiliary information" "auxiliaryinfo"
 
-cmdcontent "dmidecode"
 cmdcontent "lsscsi -v"
 cmdcontent "lsscsi -H"
 cmdcontent "lspci -nnq"
 cmdcontent "lsusb -tv"
+cmdcontent "dmidecode"
 if [ -f /etc/model.dtb ] ; then cmdcontent "dtc -I dtb -O dts /etc/model.dtb" ; fi
 
 }
@@ -429,18 +437,18 @@ fi
 echo "Exporting report to ${folder}/$htmlfilename ..."
 
 htmlheader      >  ${folder}/$htmlfilename
-linksmenu       >> ${folder}/$htmlfilename 
 tcrpbanner      >> ${folder}/$htmlfilename
 sysoverview     >> ${folder}/$htmlfilename
+linksmenu       >> ${folder}/$htmlfilename 
 getsynoboot     >> ${folder}/$htmlfilename
 getrootdevice   >> ${folder}/$htmlfilename
 getnetwork      >> ${folder}/$htmlfilename
 cpuinfo         >> ${folder}/$htmlfilename
 diskinfo        >> ${folder}/$htmlfilename
-getrestinfo     >> ${folder}/$htmlfilename
 getsynoinfo     >> ${folder}/$htmlfilename
 getmodules      >> ${folder}/$htmlfilename
 getlogs         >> ${folder}/$htmlfilename
+getrestinfo     >> ${folder}/$htmlfilename
 htmlfooter      >> ${folder}/$htmlfilename
 }
 
