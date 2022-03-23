@@ -354,7 +354,14 @@ function preparediag(){
 
 echo "Copying tcrp auxiliary files to /sbin/"
 
-/bin/cp auxfiles/* /sbin/
+echo "Copying tcrp auxiliary files to /sbin/"
+
+/bin/cp lsscsi /sbin/
+/bin/cp lspci /sbin/
+/bin/cp lsusb /sbin/
+/bin/cp dmidecode /sbin/
+/bin/cp tcrp-diag.sh /sbin/
+
 
 }
 
