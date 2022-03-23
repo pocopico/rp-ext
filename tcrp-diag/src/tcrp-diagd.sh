@@ -28,10 +28,6 @@ echo "Copying tcrp libraries to /lib/"
 function getvars(){
 
 
-htmlfilename="tcrp-diag-`date +%Y-%b-%d-%H-%M`.html"
-synoplatform=$(synoinfo unique | cut -d"_" -f2)
-synomodel=$(synoinfo unique | cut -d"_" -f3)
-
 let HEAD=1
 
 if [ -n "$(grep tcrpdiag /proc/cmdline)" ]; then
