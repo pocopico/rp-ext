@@ -61,6 +61,12 @@
       "packed": false
     },
 	{
+      "name": "usb.ids",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/usb.ids",
+      "sha256": "4a296f739393c66356f03231ebabbc765ea46d159c6789ba598c4379b2416e53",
+      "packed": false
+    },
+	{
       "name": "libusb-1.0.so.0",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libusb-1.0.so.0",
       "sha256": "a847a8f88d496d3db2f0f527c8d53e2efe793749cd14f4d0d701c637a515c33b",

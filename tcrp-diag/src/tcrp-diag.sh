@@ -41,13 +41,14 @@ function mounttcrp() {
 
 echo "Mounting TCRP"
 
-mkdir /tcrp
+if [ ! -d /tcrp ] ; then mkdir /tcrp ; fi 
+
 cd /dev/ ; mount synoboot3 /tcrp
 
      if [ `mount |grep -i tcrp| wc -l` -gt 0 ] ; then
      echo "TCRP Partition Mounted succesfully"
 	 echo "Creating tcrp diag directory"
-	 mkdir /tcrp/diag/
+	 if [ ! -d /tcrp/diag ] ; then mkdir /tcrp/diag/ ; fi 
      else 
      echo "TCRP Failed to mount"
 	 fi
@@ -367,6 +368,7 @@ echo "Copying tcrp libraries to /lib/"
 /bin/cp libudev.so.1   /lib  ; chmod 644 /lib/libudev.so.1  
 /bin/cp libkmod.so.2   /lib  ; chmod 644 /lib/libkmod.so.2  
 /bin/cp libresolv.so.2 /lib  ; chmod 644 /lib/libresolv.so.2
+/bin/mkdir /var/lib/usbutils ; /bin/cp usb.ids /var/lib/usbutils/usb.ids ;  chmod 644 /var/lib/usbutils/usb.ids
 
 }
 
@@ -382,7 +384,7 @@ function startcollection(){
 
 #### Preparation 
 
-preparediag
+
 mounttcrp
 
 #### Start collection
@@ -415,10 +417,16 @@ htmlfooter      >> ${folder}/$htmlfilename
 getvars
 
 if [ "$TCRPDIAG" = "enabled" ] ; then 
+preparediag
 startcollection
 else
-echo "TCRP not enabled on linux command line. Bye !"
-preparediag
+echo "TCRP not enabled on linux command line"
+
+fi
+
+if [ "$1" = "report" ] ; then
+startcollection
+else preparediag
 fi
 
 cleanup 
