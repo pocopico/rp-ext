@@ -373,7 +373,6 @@ function startcollection(){
 
 preparediag
 mounttcrp
-getvars         
 
 #### Start collection
 
@@ -400,6 +399,7 @@ getlogs         >> ${folder}/$htmlfilename
 htmlfooter      >> ${folder}/$htmlfilename
 }
 
+getvars
 
 if [ "$TCRPDIAG" = "enabled" ] ; then 
 startcollection
