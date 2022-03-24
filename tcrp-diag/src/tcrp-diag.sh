@@ -34,17 +34,37 @@ function mounttcrp() {
 
 echo "Mounting TCRP"
 
-if [ ! -d /tcrp ] ; then mkdir /tcrp ; fi 
 
-if [ ! -n "`mount |grep -i synoboot3`" ] ; then cd /dev/ ; mount -t vfat synoboot3 /tcrp ; fi 
+if [ -b /dev/synoboot ] ; then 
 
-     if [ `mount |grep -i tcrp| wc -l` -gt 0 ] ; then
-     echo "TCRP Partition Mounted succesfully"
-	 echo "Creating tcrp diag directory"
-	 if [ ! -d /tcrp/diag ] ; then mkdir /tcrp/diag/ ; fi 
-     else 
-     echo "TCRP Failed to mount"
-	 fi
+          if [ ! -d /tcrp ] ; then mkdir /tcrp ; fi 
+          
+          if [ ! -n "`mount |grep -i synoboot3`" ] ; then cd /dev/ ; mount -t vfat synoboot3 /tcrp ; fi 
+          
+               if [ `mount |grep -i tcrp| wc -l` -gt 0 ] ; then
+               echo "TCRP Partition Mounted succesfully"
+          	 echo "Creating tcrp diag directory"
+          	 if [ ! -d /tcrp/diag ] ; then mkdir /tcrp/diag/ ; fi 
+               else 
+               echo "TCRP Failed to mount"
+          	 fi
+			 
+else 
+             echo "No synoboot disk found, trying to find it"
+			 
+             CANDIDATEDISK="`fdisk -l |grep Disk |grep MB |grep -v md | cut -c 6-13`"
+             CANDIDATEPART="`fdisk -l /dev/sdk |grep Linux |wc -l`"
+             
+             if [ -n "$CANDIDATEDISK" ] && [ $CANDIDATEPART -eq 3 ] ; then
+             echo "Found TCRP candidate disk ${CANDIDATEDISK} "
+             echo "Mounting  ${CANDIDATEDISK}3 "
+			 if [ ! -d /tcrp ] ; then mkdir /tcrp ; fi 
+             if [ ! -n "`mount |grep -i tcrp`" ] ; then mount -t vfat  ${CANDIDATEDISK}3 /tcrp ; else echo "TCRP Already mounted" ; fi
+			 else 
+			 echo "Synoboot disk could not be found after seeking"
+             fi
+
+fi
 
 }
 
