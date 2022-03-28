@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "e1000-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/releases/e1000-4.4.180plus-broadwellnk.tgz",
+      "sha256": "6044063924eed3f590b31e8c78dfc73936b58441a54c294a60df44cb600a7c5f",
+      "packed": true
+    },
+    {
+      "name": "check-e1000.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/src/check-e1000.sh",
+      "sha256": "2f0b8f1369089a813bd3b7f1aaa7a82f946d887b4b3379de22519621cb8ebd1e",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "e1000.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-e1000.sh"
+  }
+
+}

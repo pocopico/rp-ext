@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mpt3sas-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.180plus-broadwellnk.tgz",
+      "sha256": "7cc773ce670bda0908749d305dc53cf9198177de84c8240ff5599dae6fe56f4a",
+      "packed": true
+    },
+    {
+      "name": "check-mpt3sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/src/check-mpt3sas.sh",
+      "sha256": "dda35a6a428de55589e4e96d9de02e5911cf977dd777cb348b908ed6a165adaa",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mpt3sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mpt3sas.sh"
+  }
+
+}

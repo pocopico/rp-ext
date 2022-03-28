@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8168-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/releases/r8168-4.4.180plus-broadwellnk.tgz",
+      "sha256": "edb08ee737ce0eb81b22f3c86b641ac9d245195d8d94cff04999e8e6ba758309",
+      "packed": true
+    },
+    {
+      "name": "check-r8168.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/src/check-r8168.sh",
+      "sha256": "7685b6d7ef1a1f994c7a95da2b5afbfa94d9e9fa78b26d3901a8c2814b9f963e",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8168.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8168.sh"
+  }
+
+}

@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl1e-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/releases/atl1e-4.4.180plus-broadwellnk.tgz",
+      "sha256": "f02bcd8cb53cb926c068ad4271cfad67bd3fc9e0d92dcfa55aa3a1b84e2793b9",
+      "packed": true
+    },
+    {
+      "name": "check-atl1e.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/src/check-atl1e.sh",
+      "sha256": "43c36346feced1eddadb8f5bf499c9d794038e77cec13144c65593e04b9a0583",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "atl1e.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl1e.sh"
+  }
+
+}

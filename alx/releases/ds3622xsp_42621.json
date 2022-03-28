@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "alx-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/alx-4.4.180plus-broadwellnk.tgz",
+      "sha256": "5a218242f4bfd2a3b465bc01824f3fcf3a966eb67ca757057b69a0b8e9d6ad68",
+      "packed": true
+    },
+    {
+      "name": "check-alx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/src/check-alx.sh",
+      "sha256": "6bf148077fb3c797439f3668b058f81731e1b76c9b385ad92004cb1b133d076a",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mdio.ko": "",
+    "alx.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-alx.sh"
+  }
+
+}

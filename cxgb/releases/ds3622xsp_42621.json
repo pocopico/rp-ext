@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/releases/cxgb-4.4.180plus-broadwellnk.tgz",
+      "sha256": "b047e74af038427aa27b3870ddc72eaf5712d1dd043f5eba8dc7c019e6116076",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/src/check-cxgb.sh",
+      "sha256": "4637417343bbe7649e2c497381b9408eb485032c853ae6c8703ab05201631fe6",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mdio.ko": "",
+    "cxgb.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb.sh"
+  }
+
+}

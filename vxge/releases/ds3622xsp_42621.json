@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vxge-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/vxge-4.4.180plus-broadwellnk.tgz",
+      "sha256": "fc8a4e67d2a91d381d5e2024d1801fff9423fd3a385e7278747d368b92cd6e91",
+      "packed": true
+    },
+    {
+      "name": "check-vxge.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/src/check-vxge.sh",
+      "sha256": "2991b8d35642a6bbdb1f805865e620f150981fec2566df57f6b0720c591523e2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vxge.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vxge.sh"
+  }
+
+}

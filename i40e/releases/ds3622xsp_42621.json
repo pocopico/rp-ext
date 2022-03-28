@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "i40e-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/releases/i40e-4.4.180plus-broadwellnk.tgz",
+      "sha256": "fc71cc26fde605b254e7dd592a673e123bf3e66667b736bfe8ecf26b3c8c117e",
+      "packed": true
+    },
+    {
+      "name": "check-i40e.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/src/check-i40e.sh",
+      "sha256": "8321d4ab94f7ccd1a419ff1f4225428e83132e76a07f0d04c085c861d6c002fa",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vxlan.ko": "",
+    "i40e.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-i40e.sh"
+  }
+
+}

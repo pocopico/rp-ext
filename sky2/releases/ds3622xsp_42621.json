@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "sky2-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/sky2-4.4.180plus-broadwellnk.tgz",
+      "sha256": "88e710170925de6129555740c47779c0b3d5977c9a72df184accebc6d23c7d89",
+      "packed": true
+    },
+    {
+      "name": "check-sky2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/src/check-sky2.sh",
+      "sha256": "e92eb2f3eb079d11db3d239a674212810c82968a53a80e522c1b5d52c00fd431",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "sky2.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-sky2.sh"
+  }
+
+}

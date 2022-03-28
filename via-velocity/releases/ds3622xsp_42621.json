@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "via-velocity-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/releases/via-velocity-4.4.180plus-broadwellnk.tgz",
+      "sha256": "c93c5ed627b497b6621a2c09f098d238bfbc4be61452ea96ed281507cfd4f650",
+      "packed": true
+    },
+    {
+      "name": "check-via-velocity.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/src/check-via-velocity.sh",
+      "sha256": "09ea5e3336bb4617dd6d40c265441466c06285e0e6b544dfc6a26ebaabac5e80",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "crc-ccitt.ko": "",
+    "via-velocity.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-via-velocity.sh"
+  }
+
+}
