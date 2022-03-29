@@ -147,6 +147,7 @@ echo "<tr>"
 echo "<td><a href=\"#sysoverview\">System Overview</a></td>"
 echo "<td><a href=\"#getnetwork\">Networking Information</a></td>"
 echo "<td><a href=\"#diskinfo\">Disk Information</a></td>"
+echo "<td><a href=\"#grubparams\">Grub Parameters</a></td>"
 echo "</tr><tr>"
 echo "<td><a href=\"#cpuinfo\">CPU Information</a></td>"
 echo "<td><a href=\"#getmodules\">Loaded Modules Information</a></td>"
@@ -219,6 +220,16 @@ echo "</pre>"
 }
 
 
+function grubparams(){
+
+add_head "Grub boot parameters" "grubparams"
+inc_head
+cmdcontent "cat /proc/cmdline |awk -v OFS="\n" '{$1=$1}1'"
+dec_head
+
+}
+
+
 function serialtofile(){
 
 (cat > serial0.log) < /dev/ttyS0 &
@@ -252,9 +263,14 @@ add_head "IFCONFIG : "
 cmdcontent "ifconfig"
 add_head "NETSTAT -an : "
 cmdcontent "netstat -an "
+
+add_head "Ethtool -i : "
+for netdev in `ifconfig |grep -i eth | awk '{print $1}'`
+do
+cmdcontent "ethtool -i $netdev"
+done 
+
 dec_head
-
-
 
 }
 
@@ -462,6 +478,7 @@ tcrpbanner      >> ${folder}/$htmlfilename
 sysoverview     >> ${folder}/$htmlfilename
 linksmenu       >> ${folder}/$htmlfilename 
 getsynoboot     >> ${folder}/$htmlfilename
+grubparams      >> ${folder}/$htmlfilename
 getrootdevice   >> ${folder}/$htmlfilename
 getnetwork      >> ${folder}/$htmlfilename
 cpuinfo         >> ${folder}/$htmlfilename
