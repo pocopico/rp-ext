@@ -3,13 +3,13 @@
     {
       "name": "tcrp-diag.sh",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/src/tcrp-diag.sh",
-      "sha256": "3e5e617267032c160ad3a20a485974cc7c9092d03d3023a70c78e2944c7c7d04",
+      "sha256": "83cd7acfdce6ff16b7d6e11006e3a6c83e1af966a2457be83f283d01f19d6b25",
       "packed": false
     },
 	{
       "name": "tcrp-diagd.sh",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/src/tcrp-diagd.sh",
-      "sha256": "1d4cb929ed1a46daa5ec75a36e41cd886bf787259323ad364d30c583ccf39a42",
+      "sha256": "327d0bb31e303377f0d68f94247089e870510aebc60928e2a6b0c0dde9584414",
       "packed": false
     },
     {

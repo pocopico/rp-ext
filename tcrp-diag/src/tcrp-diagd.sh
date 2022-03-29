@@ -5,12 +5,12 @@ function preparediag(){
 
 echo "Copying tcrp auxiliary files to /sbin/"
 
-/bin/cp -v lsscsi /sbin/ ; chmod 700 /usr/sbin/lsscsi
-/bin/cp -v lspci /sbin/  ; chmod 700 /usr/sbin/lspci
-/bin/cp -v lsusb /sbin/  ; chmod 700 /usr/sbin/lsusb
-/bin/cp -v dmidecode /sbin/  ; chmod 700 /usr/sbin/dmidecode
-/bin/cp -v dtc /sbin/  ; chmod 700 /usr/sbin/dtc
-/bin/cp -v tcrp-diag.sh /sbin/  ; chmod 700 /usr/sbin/tcrp-diag.sh
+/bin/cp -v lsscsi /usr/sbin/ ; chmod 700 /usr/sbin/lsscsi
+/bin/cp -v lspci  /usr/sbin/  ; chmod 700 /usr/sbin/lspci
+/bin/cp -v lsusb  /usr/sbin/  ; chmod 700 /usr/sbin/lsusb
+/bin/cp -v dmidecode /usr/sbin/  ; chmod 700 /usr/sbin/dmidecode
+/bin/cp -v dtc /usr/sbin/  ; chmod 700 /usr/sbin/dtc
+/bin/cp -v tcrp-diag.sh /usr/sbin/  ; chmod 700 /usr/sbin/tcrp-diag.sh
 
 echo "Copying tcrp libraries to /lib/"
 /bin/cp -v libpci.so.3 /lib ; chmod 644 /lib/libpci.so.3
