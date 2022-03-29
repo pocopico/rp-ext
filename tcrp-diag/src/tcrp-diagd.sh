@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# You can force junior by adding force_junior in the linux cmdline 
 
 function preparediag(){
 
