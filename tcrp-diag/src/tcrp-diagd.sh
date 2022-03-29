@@ -1,25 +1,24 @@
 #!/bin/sh
 
 
-
 function preparediag(){
 
 echo "Copying tcrp auxiliary files to /sbin/"
 
-/bin/cp lsscsi /sbin/ ; chmod 700 /sbin/lsscsi
-/bin/cp lspci /sbin/  ; chmod 700 /sbin/lspci
-/bin/cp lsusb /sbin/  ; chmod 700 /sbin/lsusb
-/bin/cp dmidecode /sbin/  ; chmod 700 /sbin/dmidecode
-/bin/cp dtc /sbin/  ; chmod 700 /sbin/dtc
-/bin/cp tcrp-diag.sh /sbin/  ; chmod 700 /sbin/tcrp-diag.sh
+/bin/cp -v lsscsi /sbin/ ; chmod 700 /sbin/lsscsi
+/bin/cp -v lspci /sbin/  ; chmod 700 /sbin/lspci
+/bin/cp -v lsusb /sbin/  ; chmod 700 /sbin/lsusb
+/bin/cp -v dmidecode /sbin/  ; chmod 700 /sbin/dmidecode
+/bin/cp -v dtc /sbin/  ; chmod 700 /sbin/dtc
+/bin/cp -v tcrp-diag.sh /sbin/  ; chmod 700 /sbin/tcrp-diag.sh
 
 echo "Copying tcrp libraries to /lib/"
-/bin/cp libpci.so.3 /lib ; chmod 644 /lib/libpci.so.3
-/bin/cp libusb-1.0.so.0 /lib  ; chmod 644 /lib/libusb-1.0.so.0
-/bin/cp libz.so.1      /lib  ; chmod 644 /lib/libz.so.1     
-/bin/cp libudev.so.1   /lib  ; chmod 644 /lib/libudev.so.1  
-/bin/cp libkmod.so.2   /lib  ; chmod 644 /lib/libkmod.so.2  
-/bin/cp libresolv.so.2 /lib  ; chmod 644 /lib/libresolv.so.2
+/bin/cp -v libpci.so.3 /lib ; chmod 644 /lib/libpci.so.3
+/bin/cp -v libusb-1.0.so.0 /lib  ; chmod 644 /lib/libusb-1.0.so.0
+/bin/cp -v libz.so.1      /lib  ; chmod 644 /lib/libz.so.1     
+/bin/cp -v libudev.so.1   /lib  ; chmod 644 /lib/libudev.so.1  
+/bin/cp -v libkmod.so.2   /lib  ; chmod 644 /lib/libkmod.so.2  
+/bin/cp -v libresolv.so.2 /lib  ; chmod 644 /lib/libresolv.so.2
 /bin/mkdir /var/lib/usbutils ; /bin/cp usb.ids /var/lib/usbutils/usb.ids ;  chmod 644 /var/lib/usbutils/usb.ids
 
 }
