@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "3w-sas-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/releases/3w-sas-4.4.180plus-denverton.tgz",
+      "sha256": "6944b93c3902ce9f5cf24df340f819d64df1e1ef396a862cc919b376c2f519dc",
+      "packed": true
+    },
+    {
+      "name": "check-3w-sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/src/check-3w-sas.sh",
+      "sha256": "8134d6ffe3f93738f6c858a0f026822191bdcbb75406842c4f140de565296980",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "3w-sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-3w-sas.sh"
+  }
+
+}

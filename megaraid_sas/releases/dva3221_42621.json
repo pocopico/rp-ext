@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "megaraid_sas-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/megaraid_sas-4.4.180plus-denverton.tgz",
+      "sha256": "bb140cb9a047b291572071bf1d70a1786a84c956ac737417c8fe5c9089509e1c",
+      "packed": true
+    },
+    {
+      "name": "check-megaraid_sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/src/check-megaraid_sas.sh",
+      "sha256": "9b373157274b28772d76a992bfc6b9b8b1edc6e6d0f52dcef2775b741e750372",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "megaraid_sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-megaraid_sas.sh"
+  }
+
+}

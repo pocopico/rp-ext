@@ -1,0 +1,30 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mpt3sas-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.180plus-denverton.tgz",
+      "sha256": "d798235b083ec94d2e7b9f4fa4085898980afef2658d6b90f84a0761514f9238",
+      "packed": true
+    },
+    {
+      "name": "check-mpt3sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/src/check-mpt3sas.sh",
+      "sha256": "dda35a6a428de55589e4e96d9de02e5911cf977dd777cb348b908ed6a165adaa",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "raid_class.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mpt3sas.ko": ""
+
+  },
+
+    "scripts": {
+    "on_boot": "check-mpt3sas.sh"
+  }
+
+}

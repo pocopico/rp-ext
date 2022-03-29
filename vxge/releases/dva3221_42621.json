@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vxge-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/releases/vxge-4.4.180plus-denverton.tgz",
+      "sha256": "e1c44c733de61bd0c59fa8702265d2bd75dd31ef48dc999c551e8bf3a9edca31",
+      "packed": true
+    },
+    {
+      "name": "check-vxge.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/src/check-vxge.sh",
+      "sha256": "2991b8d35642a6bbdb1f805865e620f150981fec2566df57f6b0720c591523e2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vxge.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vxge.sh"
+  }
+
+}

@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8125-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/r8125-4.4.180plus-denverton.tgz",
+      "sha256": "4c3751153f0258aa0db0a32b97dcf80b4b6cecaecf78935a677a1e547282f26e",
+      "packed": true
+    },
+    {
+      "name": "check-r8125.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/src/check-r8125.sh",
+      "sha256": "15eac7a0f4da571ed85921b6d5dc7b03fa9ebf7ec5af7850cadc338a9f867a03",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8125.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8125.sh"
+  }
+
+}

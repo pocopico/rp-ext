@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vmxnet3-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-4.4.180plus-denverton.tgz",
+      "sha256": "cff3dd74285a82dd5f6817f95916758ed104c12498caccebf61b13d38fee34cb",
+      "packed": true
+    },
+    {
+      "name": "check-vmxnet3.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/src/check-vmxnet3.sh",
+      "sha256": "07c105ae35e5718ab7ab1f7c4fcf7b6243ee5f99fb49b7c287bd03b7d1ffc23b",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vmxnet3.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vmxnet3.sh"
+  }
+
+}

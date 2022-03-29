@@ -1,0 +1,30 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "dm9601-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/releases/dm9601-4.4.180plus-denverton.tgz",
+      "sha256": "5f7b7ec755e7ed4da9dfd8b612b31f4863afb299db7bcecfd8eb54826aeea536",
+      "packed": true
+    },
+    {
+      "name": "check-dm9601.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/src/check-dm9601.sh",
+      "sha256": "36516bfc33a8e46b56bb5d069b35b6953daa27be9910a53eae56ffc0052458c8",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "dm9601.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-dm9601.sh"
+  }
+
+}
