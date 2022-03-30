@@ -191,7 +191,7 @@ function cmdcontent() {
 
 echo "<pre>"
 echo "<h${HEAD}> $1 </h${HEAD}>"
-$1
+$@
 echo "</pre>"
 
 }
@@ -265,7 +265,7 @@ add_head "NETSTAT -an : "
 cmdcontent "netstat -an "
 
 add_head "Ethtool -i : "
-for netdev in `ifconfig |grep -i eth | awk '{print $1}'`
+for netdev in `ifconfig |grep -i eth | cut -c 1-4`
 do
 cmdcontent "ethtool -i $netdev"
 done 
