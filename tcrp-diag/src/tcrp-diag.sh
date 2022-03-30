@@ -435,6 +435,7 @@ echo "Copying tcrp auxiliary files to /sbin/"
 /bin/cp -v lsusb /usr/sbin/  ; chmod 700 /usr/sbin/lsusb
 /bin/cp -v dmidecode /usr/sbin/  ; chmod 700 /usr/sbin/dmidecode
 /bin/cp -v dtc /usr/sbin/  ; chmod 700 /usr/sbin/dtc
+/bin/cp -v ethtool /usr/sbin/  ; chmod 700 /usr/sbin/ethtool
 /bin/cp -v tcrp-diag.sh /usr/sbin/  ; chmod 700 /usr/sbin/tcrp-diag.sh
 
 echo "Copying tcrp libraries to /lib/"
