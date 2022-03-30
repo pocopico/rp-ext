@@ -66,6 +66,12 @@
       "sha256": "a4179ff52d5ba219d4e0b3a075ecde36cd493f1f5e1b17f6d4f933161dba9749",
       "packed": false
     },  
+     {
+      "name": "ethtool",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/ethtool",
+      "sha256": "35199435422a4213582efe878bd3997b00be4b9078b6886d0c2fe57bbf02b41f",
+      "packed": false
+    },
 	{
       "name": "lsusb",
       "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsusb",
