@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "i40e-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/releases/i40e-3.10.108.tgz",
+      "sha256": "6bda46fb5b2058c732d4dae4d64cb4e7e0a1511303ea385130dc54cd58fd5651",
+      "packed": true
+    },
+    {
+      "name": "check-i40e.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/src/check-i40e.sh",
+      "sha256": "8321d4ab94f7ccd1a419ff1f4225428e83132e76a07f0d04c085c861d6c002fa",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "i40e.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-i40e.sh"
+  }
+
+}

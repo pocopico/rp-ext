@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ixgbe-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-3.10.108.tgz",
+      "sha256": "914df746f0f4935cb261f18ebf6d1251aa887c68a4075cd188511fec16fac9ba",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbe.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
+      "sha256": "e8bc03eba9928e1f0645a5abb899dc2c4e5d85373c88d4000075b0aa38f12ff2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "dca.ko": "",
+    "ixgbe.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ixgbe.sh"
+  }
+
+}

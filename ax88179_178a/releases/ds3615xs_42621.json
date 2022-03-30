@@ -1,0 +1,31 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ax88179_178a-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/releases/ax88179_178a-3.10.108.tgz",
+      "sha256": "d551cb9a1ac3145d0e27aa8194e988d1c970b61a92b598240f8f1017d8ddaae9",
+      "packed": true
+    },
+    {
+      "name": "check-ax88179_178a.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/src/check-ax88179_178a.sh",
+      "sha256": "36072c85e429b378de3653b51dab6e29a7e4731e4ed9b1e8b602f353f3ed7b80",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usb-common.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "usbnet.ko": "",
+    "ax88179_178a.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ax88179_178a.sh"
+  }
+
+}

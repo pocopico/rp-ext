@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "sky2-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/releases/sky2-3.10.108.tgz",
+      "sha256": "2b906cf5d20d49cd9c6deb4cff3069cc2be36ae3635a6691fb2d82ba9d6e72a3",
+      "packed": true
+    },
+    {
+      "name": "check-sky2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/src/check-sky2.sh",
+      "sha256": "e92eb2f3eb079d11db3d239a674212810c82968a53a80e522c1b5d52c00fd431",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "sky2.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-sky2.sh"
+  }
+
+}

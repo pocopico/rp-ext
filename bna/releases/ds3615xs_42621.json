@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "bna-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/releases/bna-3.10.108.tgz",
+      "sha256": "d1372a46543aaa88255093873456275b76cc85d2c4c4e9799a843031e6474abe",
+      "packed": true
+    },
+    {
+      "name": "check-bna.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/src/check-bna.sh",
+      "sha256": "2d3fd1b971f7f5059c74d43bb0e52013c9846abc32228d45701f42017b5c3234",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "bna.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-bna.sh"
+  }
+
+}

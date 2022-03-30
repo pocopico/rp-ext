@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8168-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/releases/r8168-3.10.108.tgz",
+      "sha256": "ce323776b4ebb37ba2dceb61448dd2001f51e13408f6eb0e533e71581d58aa8a",
+      "packed": true
+    },
+    {
+      "name": "check-r8168.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/src/check-r8168.sh",
+      "sha256": "7685b6d7ef1a1f994c7a95da2b5afbfa94d9e9fa78b26d3901a8c2814b9f963e",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8168.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8168.sh"
+  }
+
+}

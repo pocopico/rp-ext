@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "via-velocity-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/releases/via-velocity-3.10.108.tgz",
+      "sha256": "d3cb315e7724a8963ee07c296fa33aa78661e4236120d705e6c6559901f1e030",
+      "packed": true
+    },
+    {
+      "name": "check-via-velocity.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/src/check-via-velocity.sh",
+      "sha256": "09ea5e3336bb4617dd6d40c265441466c06285e0e6b544dfc6a26ebaabac5e80",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "crc-ccitt.ko": "",
+    "via-velocity.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-via-velocity.sh"
+  }
+
+}

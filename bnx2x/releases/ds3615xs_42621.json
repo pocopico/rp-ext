@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "bnx2x-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/releases/bnx2x-3.10.108.tgz",
+      "sha256": "64166ce3a1d514e6eb7f2746284cdf97a3952bd13c972d03b549463ab587d8eb",
+      "packed": true
+    },
+    {
+      "name": "check-bnx2x.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/src/check-bnx2x.sh",
+      "sha256": "42425dbe2e2e68712a733c63b8b0fc34b4d3cf7d06d121680190d1a697c5078e",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mdio.ko": "",
+    "libcrc32c.ko": "",
+    "bnx2x.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-bnx2x.sh"
+  }
+
+}

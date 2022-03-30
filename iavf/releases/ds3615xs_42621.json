@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "iavf-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/releases/iavf-3.10.108.tgz",
+      "sha256": "9193ead2f97e8ffc73afe4b27e68b6b28279e06a96b75ed335009127ba68e78a",
+      "packed": true
+    },
+    {
+      "name": "check-iavf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/src/check-iavf.sh",
+      "sha256": "3508a13f8793f872dbe5a820d83d71230e5a4be454050877fc6fe6845dc3b824",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "iavf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-iavf.sh"
+  }
+
+}

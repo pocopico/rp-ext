@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igb-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-3.10.108.tgz",
+      "sha256": "9df74a08a60feb5c03f6b3cde5f03a45422b2eddc690ae4179870bb874f61b95",
+      "packed": true
+    },
+    {
+      "name": "check-igb.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/src/check-igb.sh",
+      "sha256": "6a20d999ff8adbe897cbd0f57bd8383b9025dc8526b5b19f53786eec54df7e74",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "dca.ko": "",
+    "igb.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-igb.sh"
+  }
+
+}
