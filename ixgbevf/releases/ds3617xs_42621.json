@@ -1,0 +1,23 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "ixgbevf-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/releases/ixgbevf-4.4.180plus-broadwell.tgz",
+      "sha256": "6b4d0b80d675518f09913d7ca69fb93d9d11bd156344fd91df6b6448c346621b",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbevf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/src/check-ixgbevf.sh",
+      "sha256": "cef4b3e3b2b63c56cbc80de4b797e7bbb178f9f95d94b1608e33d8705331e8b7",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "ixgbevf.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-ixgbevf.sh"
+  }
+}

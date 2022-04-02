@@ -1,0 +1,23 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "aacraid-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/aacraid-4.4.180plus-broadwell.tgz",
+      "sha256": "cf1b935fbb7ffa76876a4e4f25ec3ad1c1f448d9e1fbb2ecd403a92b0608ea3e",
+      "packed": true
+    },
+    {
+      "name": "check-aacraid.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/src/check-aacraid.sh",
+      "sha256": "1c5b11b036ab7a9e98be8531366ce0b93884140e24036046d8be4add9dc19f82",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "aacraid.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-aacraid.sh"
+  }
+}

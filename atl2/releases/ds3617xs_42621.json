@@ -1,0 +1,23 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "atl2-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/releases/atl2-4.4.180plus-broadwell.tgz",
+      "sha256": "45af44ff9ca9794c8d8db06a2a07fcba7aea5ea644a72aa854955737750fb813",
+      "packed": true
+    },
+    {
+      "name": "check-atl2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/src/check-atl2.sh",
+      "sha256": "50dbef892a75a1654245056853c8a6db9d94202228d53ac63483ca5f53abcaf0",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "atl2.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-atl2.sh"
+  }
+}

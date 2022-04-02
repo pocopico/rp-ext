@@ -1,0 +1,24 @@
+{
+  "mod_version": "v1",
+  "files": [
+    {
+      "name": "hpsa-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/releases/hpsa-4.4.180plus-broadwell.tgz",
+      "sha256": "c086b76c140791e50e78c90c2c5a2972d8c6fdddfa8eba060447551947fcfc4a",
+      "packed": true
+    },
+    {
+      "name": "check-hpsa.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/src/check-hpsa.sh",
+      "sha256": "cd3fee3f2a0c0d9c045ee7a226196fcee1332c1716529a92f6a6b51518fab1ec",
+      "packed": false
+    }
+  ],
+  "kmods": {
+    "scsi_transport_sas.ko": "",
+    "hpsa.ko": ""
+  },
+  "scripts": {
+    "on_boot": "check-hpsa.sh"
+  }
+}
