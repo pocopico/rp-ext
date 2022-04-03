@@ -11,14 +11,21 @@
     "ds3615xs_25556": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds3615xs_41222": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds3615xs_42218": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+    "ds3615xs_42218u2": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+    "ds3615xs_42218u3": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds3615xs_42621": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+    "ds3617xs_41222": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+    "ds3617xs_42218": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds3617xs_42621": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds1621p_42621": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds1621p_42218": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+    "dva3221_42218": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+    "dva3221_42621": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds918p_25556": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds918p_41890": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
     "ds918p_42621": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
-    "ds920p_42621": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
-    "ds918p_42218": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json"
+    "ds920p_42218": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json",
+    "ds920p_42621": "https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/recipes/universal.json"
+   
   }
 }
