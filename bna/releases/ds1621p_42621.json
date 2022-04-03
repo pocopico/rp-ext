@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "bna-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/releases/bna-4.4.180plus-v1000.tgz",
+      "sha256": "ded6d521553998dc189cd3eaf8546932f39cff4cb53ca98c44177e344dc2fee7",
+      "packed": true
+    },
+    {
+      "name": "check-bna.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/src/check-bna.sh",
+      "sha256": "2d3fd1b971f7f5059c74d43bb0e52013c9846abc32228d45701f42017b5c3234",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "bna.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-bna.sh"
+  }
+
+}
