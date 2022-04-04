@@ -1,0 +1,20 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "redpill-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/redpill-4.4.180plus-geminilake.tgz",
+      "sha256": "83e2126b626281f0e7e4bde331f744c1fd74efa150a0b212d8dfbce7bb79a613",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+    "redpill.ko": ""
+  },
+
+    "scripts": {
+  }
+
+}
