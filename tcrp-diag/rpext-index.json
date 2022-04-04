@@ -1,6 +1,6 @@
 {
   "id": "pocopico.tcrp-diag",
-  "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/rpext-index.json",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tcrp-diag/rpext-index.json",
   "info": {
     "name": "Tinycore Diag",
     "description": "An extension that will assist in collecting DSM diagnostic information",

@@ -43,7 +43,7 @@ Extension Name: "e1000" Description : "Adds Intel(R) PRO/1000 Network Driver Sup
 Extension Name: "e1000e" Description : "Adds Intel(R) PRO/1000 Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json">LINK</a><br>
 Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
-<a href="https://github.com/pocopico/rp-ext/raw/main/early-telnet/rpext-index.json">LINK</a><br>
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/early-telnet/rpext-index.json">LINK</a><br>
 Extension Name: "forcedeth" Description : "Adds Reverse Engineered nForce ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/rpext-index.json">LINK</a><br>
 Extension Name: "hpsa" Description : "Adds Driver for HP Smart Array Controller version 3.4.14-0 Support"
@@ -58,6 +58,8 @@ Extension Name: "igbvf" Description : "Adds Intel(R) Gigabit Virtual Function Ne
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json">LINK</a><br>
+Extension Name:  Description : 
+<a href=>LINK</a><br>
 Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Function Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json">LINK</a><br>
 Extension Name: "megaraid_sas" Description : "Adds Avago MegaRAID SAS Driver Support"
@@ -87,13 +89,13 @@ Extension Name: "r8168" Description : "Adds RealTek RTL-8168 Gigabit Ethernet dr
 Extension Name: "r8169" Description : "Adds RealTek RTL-8169 Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json">LINK</a><br>
 Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
-<a href="https://github.com/pocopico/rp-ext/raw/main/raspbi-pill/rpext-index.json">LINK</a><br>
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/raspbi-pill/rpext-index.json">LINK</a><br>
 Extension Name: "redpill" Description : "Static Redpill Module"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/rpext-index.json">LINK</a><br>
 Extension Name: "ACPI Daemon v2" Description : "ACPI Daemon v2 that handles power button events"
 <a href="https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json">LINK</a><br>
 Extension Name: "RedPill Bootwait" Description : "Simple extension which stops the execution early waiting for the boot device to appear"
-<a href="https://github.com/pocopico/rp-ext/raw/main/redpill-boot-wait/rpext-index.json">LINK</a><br>
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-boot-wait/rpext-index.json">LINK</a><br>
 Extension Name: "rtl8150" Description : "Adds rtl8150 based usb-ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/rpext-index.json">LINK</a><br>
 Extension Name: "sfc" Description : "Adds Solarflare network driver Support"
@@ -103,7 +105,7 @@ Extension Name: "skge" Description : "Adds SysKonnect Gigabit Ethernet driver Su
 Extension Name: "sky2" Description : "Adds Marvell Yukon 2 Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json">LINK</a><br>
 Extension Name: "Tinycore Diag" Description : "An extension that will assist in collecting DSM diagnostic information"
-<a href="https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/rpext-index.json">LINK</a><br>
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tcrp-diag/rpext-index.json">LINK</a><br>
 Extension Name: "tg3" Description : "Adds Broadcom Tigon3 ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
 Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
