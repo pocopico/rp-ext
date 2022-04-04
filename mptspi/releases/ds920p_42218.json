@@ -5,7 +5,7 @@
     {
       "name": "mptspi-4.4.180plus-geminilake.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/releases/mptspi-4.4.180plus-geminilake.tgz",
-      "sha256": "cb7080989354e34b31c7d5692e3a137707d6878f0c38c8116d78b1e1df7fd726",
+      "sha256": "d9bf876a8ccc76c9f2d3065c5c74efddbeae78a3c5c34f02521d40678767bca0",
       "packed": true
     },
     {
@@ -17,8 +17,9 @@
   ],
 
   "kmods": {
-    "mptscsih.ko": "",
     "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "scsi_transport_spi.ko": "",
     "mptspi.ko":""
   },
 
