@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ixgbe-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.180plus-geminilake.tgz",
+      "sha256": "acf8b39bf1c9487f7adcd82b39fc327a80b634109f03e977080c2486a0e5ca10",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbe.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
+      "sha256": "e8bc03eba9928e1f0645a5abb899dc2c4e5d85373c88d4000075b0aa38f12ff2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "dca.ko": "",
+    "vxlan.ko": "",
+    "ixgbe.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ixgbe.sh"
+  }
+
+}

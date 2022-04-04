@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mptsas-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/mptsas-4.4.180plus-geminilake.tgz",
+      "sha256": "abe1a8b309d48d2a090bd3900faa57f1a42b868f2a6a0c977c35ed35c904677f",
+      "packed": true
+    },
+    {
+      "name": "check-mptsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mptsas.sh",
+      "sha256": "17b2fe3d68f9237d7ceb3b9709ef2cd029fe24cba16eeb53cc8bba1426a64074",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mptscsih.ko": "",
+    "mptbase.ko": "",
+    "mptsas.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-mptsas.sh"
+  }
+
+}

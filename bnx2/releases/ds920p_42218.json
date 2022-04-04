@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "bnx2-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/releases/bnx2-4.4.180plus-geminilake.tgz",
+      "sha256": "ccce8e1e674a1f91f64bf791581ca54df4b50618c92f759832db6c68d9840214",
+      "packed": true
+    },
+    {
+      "name": "check-bnx2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/src/check-bnx2.sh",
+      "sha256": "08998c338254da13dbb9ae3849aa9108b2a3a73498afd91936fedbf07ce3f11b",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "bnx2.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-bnx2.sh"
+  }
+
+}

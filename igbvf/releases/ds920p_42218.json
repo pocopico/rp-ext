@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igbvf-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/releases/igbvf-4.4.180plus-geminilake.tgz",
+      "sha256": "2d5ec6646f0f12711e45d18a50067adf7c8bddbc46fa064483cebbaa1d067797",
+      "packed": true
+    },
+    {
+      "name": "check-igbvf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/src/check-igbvf.sh",
+      "sha256": "519661a9fd3d82d6277910412b4a5fad0d637534bf622451a81b09a5fcba6e46",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igbvf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igbvf.sh"
+  }
+
+}

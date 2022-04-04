@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "skge-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/releases/skge-4.4.180plus-geminilake.tgz",
+      "sha256": "c8dda8da60755e90b6b190592fbffbad04dd18f8d9fe9ed67fae8bea6242e5fa",
+      "packed": true
+    },
+    {
+      "name": "check-skge.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/src/check-skge.sh",
+      "sha256": "c00d5791d105657fcf2f73e7beddd7e45f42b06f8a5544ad7c054eed0f19cc7e",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "skge.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-skge.sh"
+  }
+
+}
