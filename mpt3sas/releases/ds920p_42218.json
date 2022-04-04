@@ -5,7 +5,7 @@
     {
       "name": "mpt3sas-4.4.180plus-geminilake.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.180plus-geminilake.tgz",
-      "sha256": "c572ee9eaee65c6bccd7cba8997dd6091c80d8a9ee6418bc4df9c23915be1259",
+      "sha256": "367dbd698ce5dd14b2bf46a5615ebd9a26e46d3e6f5294fd9ebaf1c810324d64",
       "packed": true
     },
     {
@@ -17,6 +17,8 @@
   ],
 
   "kmods": {
+    "raid_class.ko": "",
+    "scsi_transport_sas.ko": "",
     "mpt3sas.ko": ""
   },
 
