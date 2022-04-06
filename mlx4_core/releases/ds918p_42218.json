@@ -29,7 +29,6 @@
 
     "scripts": {
     "on_boot": "check-mlx4_core.sh",
-    "on_os_load": "on_os_load_mlx4_core.sh"
   }
 
 }
