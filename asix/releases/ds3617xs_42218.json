@@ -1,0 +1,33 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "asix-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-4.4.180plus-broadwell.tgz",
+      "sha256": "7ac8f2d84dfc9bdbbcf3364c8843f8ab57cdd7ba63d552309fd3a39341728f5e",
+      "packed": true
+    },
+    {
+      "name": "check-asix.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/src/check-asix.sh",
+      "sha256": "105ee5b5ba5e096eebc50b4ed0d7225b9bf3265f57067f0a7dd7689a1ed11a79",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "libphy.ko": "",
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii": "",
+    "usb-common.ko": "",
+    "asix.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-asix.sh"
+  }
+
+}

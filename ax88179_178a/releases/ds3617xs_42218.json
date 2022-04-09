@@ -1,0 +1,32 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ax88179_178a-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/releases/ax88179_178a-4.4.180plus-broadwell.tgz",
+      "sha256": "e25482098fb0fe24c348cb459f45edb0edf28fcecaacebbe03af78c89f0b5ff6",
+      "packed": true
+    },
+    {
+      "name": "check-ax88179_178a.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/src/check-ax88179_178a.sh",
+      "sha256": "36072c85e429b378de3653b51dab6e29a7e4731e4ed9b1e8b602f353f3ed7b80",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "mii": "",
+    "usb-common.ko": "",
+    "ax88179_178a.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ax88179_178a.sh"
+  }
+
+}

@@ -1,0 +1,32 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "dm9601-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/releases/dm9601-4.4.180plus-broadwell.tgz",
+      "sha256": "4ac0f1c350de7afa8f86d01f14ef713b995f1fdb34783f7bc9a202ae2ab396ff",
+      "packed": true
+    },
+    {
+      "name": "check-dm9601.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/src/check-dm9601.sh",
+      "sha256": "36516bfc33a8e46b56bb5d069b35b6953daa27be9910a53eae56ffc0052458c8",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "mii": "",
+    "usb-common.ko": "",
+    "dm9601.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-dm9601.sh"
+  }
+
+}
