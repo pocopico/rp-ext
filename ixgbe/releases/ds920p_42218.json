@@ -5,7 +5,7 @@
     {
       "name": "ixgbe-4.4.180plus-geminilake.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.180plus-geminilake.tgz",
-      "sha256": "acf8b39bf1c9487f7adcd82b39fc327a80b634109f03e977080c2486a0e5ca10",
+      "sha256": "856d89fbe910779b4dfff1224cc793f22faea5aa864129f19ae1b20bf5bd9988",
       "packed": true
     },
     {
