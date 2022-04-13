@@ -4,7 +4,7 @@
 
 echo -n "Loading module ixgbevf -> "
 
-if [ `/sbin/lsmod |grep -i ixgbevf|wc -l` -gt 0 ] ; then
+if [ `/sbin/lsmod |grep -i ixgbevf|wc -l` -eq 1 ] ; then
         echo "Module ixgbevf loaded succesfully"
         else echo "Module ixgbevf is not loaded "
 fi
