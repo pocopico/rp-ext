@@ -11,7 +11,7 @@
     {
       "name": "check-v9fs.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/src/check-v9fs.sh",
-      "sha256": "3842f014c0aaff3d5a9f58d1ccf60243437f1b93593bc3d1a067f7caea78f309",
+      "sha256": "ae70453c9c4eff7da48756eb7ccadadbc95cae1fadd4e3fa6ca25a2105045e6c",
       "packed": false
     }
   ],

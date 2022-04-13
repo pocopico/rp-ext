@@ -4,7 +4,7 @@ vmxnet3
 vmw_pvscsi
 via-velocity
 via-rhine
-v9fs/src
+v9fs
 tn40xx
 tg3
 sky2
