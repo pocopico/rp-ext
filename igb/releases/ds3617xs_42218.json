@@ -4,7 +4,7 @@
     {
       "name": "igb-4.4.180plus-broadwell.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/releases/igb-4.4.180plus-broadwell.tgz",
-      "sha256": "23d8428a53507fa2defb4c5a64df82a1a85e3a8ed22a30fd543fd7756a53a57f",
+      "sha256": "41ae2e9b7828e89088e6020486dabb0907f1db3f9b71d4e795b87b5fcafe5ff1",
       "packed": true
     },
     {
@@ -15,7 +15,9 @@
     }
   ],
   "kmods": {
-    "igb.ko": ""
+   "i2c-algo-bit.ko": "",
+   "dca.ko": "",
+   "igb.ko": ""
   },
   "scripts": {
     "on_boot": "check-igb.sh"
