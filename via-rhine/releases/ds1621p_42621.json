@@ -11,7 +11,7 @@
     {
       "name": "check-via-rhine.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/src/check-via-rhine.sh",
-      "sha256": "1d4fcc77472825476917162a4f4ff42deb7285a072a37a60c9b980bfc1344cd6",
+      "sha256": "07a7e3203e04891fd6182e830b48f180171be32f925aa6dad421593c851a187e",
       "packed": false
     }
   ],

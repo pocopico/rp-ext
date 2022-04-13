@@ -10,7 +10,7 @@
     {
       "name": "check-r8169.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/src/check-r8169.sh",
-      "sha256": "dc9d34f07c8c2e7ead58d4eaec312c58784fae9594a495324bd8b8b410cb5247",
+      "sha256": "d9d57d704d83fdb3eaba72096511ba6b43a44da014ffa4b079dcaced3a9005a0",
       "packed": false
     }
   ],

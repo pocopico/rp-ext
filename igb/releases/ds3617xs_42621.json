@@ -10,7 +10,7 @@
     {
       "name": "check-igb.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/src/check-igb.sh",
-      "sha256": "6a20d999ff8adbe897cbd0f57bd8383b9025dc8526b5b19f53786eec54df7e74",
+      "sha256": "1c287077390c24764eeb0f1e768232cfd4e26e0cb5b01154464d7181d1c3ebf4",
       "packed": false
     }
   ],

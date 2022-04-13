@@ -11,7 +11,7 @@
     {
       "name": "check-tn40xx.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/src/check-tn40xx.sh",
-      "sha256": "eb54963100a2049774c35243f41cf146cb099d75efbcb93fa6be89a3fba0d6f6",
+      "sha256": "28ac0bb7f88301a200f0284dd0f590011417ef64956afd0098d26938768052e5",
       "packed": false
     }
   ],

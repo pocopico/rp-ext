@@ -11,7 +11,7 @@
     {
       "name": "check-e1000.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/src/check-e1000.sh",
-      "sha256": "2f0b8f1369089a813bd3b7f1aaa7a82f946d887b4b3379de22519621cb8ebd1e",
+      "sha256": "5288f8de85a16943b510e176cbb8a6422a31486c915456c7a74eef62409017ef",
       "packed": false
     }
   ],

@@ -10,7 +10,7 @@
     {
       "name": "check-qlcnic.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/src/check-qlcnic.sh",
-      "sha256": "b8b43cc2383860143196c290a9cba5662fdc801233863749d32e166831aeea82",
+      "sha256": "ea4177481b0914e1cb55338dca310d7f07ef39a39dd95e0158e773d1d59d8092",
       "packed": false
     }
   ],

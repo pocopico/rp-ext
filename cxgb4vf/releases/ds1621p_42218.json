@@ -11,7 +11,7 @@
     {
       "name": "check-cxgb4vf.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb4vf/src/check-cxgb4vf.sh",
-      "sha256": "fed6c302e963deaa82a43b4eae4220c319c8b1134560f39e7c57d69612616aa9",
+      "sha256": "cfd46da5e2f9c6e628ae3cc873c1ca5c9f10c48764008b58922fce6f5104a359",
       "packed": false
     }
   ],

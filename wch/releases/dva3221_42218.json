@@ -11,7 +11,7 @@
     {
       "name": "check-wch.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/wch/src/check-wch.sh",
-      "sha256": "5a1cd1eda0b78ec558bfa16089774abbb9b347e3bf3c348916a79f6671b6ffdf",
+      "sha256": "12589cd7d0b5da3f672abe811096920bf00ce9cb0c71a636ca0c7d44c0b52395",
       "packed": false
     }
   ],

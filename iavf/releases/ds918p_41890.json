@@ -11,7 +11,7 @@
     {
       "name": "check-iavf.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/src/check-iavf.sh",
-      "sha256": "3508a13f8793f872dbe5a820d83d71230e5a4be454050877fc6fe6845dc3b824",
+      "sha256": "344c4a1ed652e9e7c66713b69b362add23b3d911b985ce2d9b4c06666ba98be7",
       "packed": false
     }
   ],

@@ -10,7 +10,7 @@
     {
       "name": "check-via-velocity.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/src/check-via-velocity.sh",
-      "sha256": "09ea5e3336bb4617dd6d40c265441466c06285e0e6b544dfc6a26ebaabac5e80",
+      "sha256": "43b3d64995e470968fe17d41a9de2451467b2240f967a00e9a92cd480e49e873",
       "packed": false
     }
   ],

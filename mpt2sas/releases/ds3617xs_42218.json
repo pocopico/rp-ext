@@ -10,7 +10,7 @@
     {
       "name": "check-mpt2sas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/src/check-mpt2sas.sh",
-      "sha256": "b9c09701fd6b4ef964149218b28afa05f6dff78318af332da6b8be1e72106000",
+      "sha256": "e490b2507e421a44e5651c7db2de87330684c964edde432819bbb9da8abd6b66",
       "packed": false
     }
   ],

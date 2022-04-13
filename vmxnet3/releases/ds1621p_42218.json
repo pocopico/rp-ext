@@ -11,7 +11,7 @@
     {
       "name": "check-vmxnet3.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/src/check-vmxnet3.sh",
-      "sha256": "07c105ae35e5718ab7ab1f7c4fcf7b6243ee5f99fb49b7c287bd03b7d1ffc23b",
+      "sha256": "ac30bf116182d716706938117d21fddbe011f636c7bbe38d9ba0ac07aebdc49d",
       "packed": false
     }
   ],

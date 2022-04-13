@@ -11,7 +11,7 @@
     {
       "name": "check-sfc.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/src/check-sfc.sh",
-      "sha256": "ad83469b095395040bccd37ca3c4210ff6862d7cd3b4faaccba5ad714cf48dac",
+      "sha256": "ebf30a2b5f21497ae12ac559cb96de65b84453e3ae19edc79460120e095d4240",
       "packed": false
     }
   ],

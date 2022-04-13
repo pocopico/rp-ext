@@ -11,7 +11,7 @@
     {
       "name": "check-r8152.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8152/src/check-r8152.sh",
-      "sha256": "268d81aa474d4d816ababbc093dad6a32e8b49c9c2579bffa92b6ab5be6a5644",
+      "sha256": "82c40b3f3bd92877108836c8d1d2fe0c0ba89c24e802c51b04f9d0a92efb8bce",
       "packed": false
     }
   ],

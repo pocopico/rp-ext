@@ -11,7 +11,7 @@
     {
       "name": "check-asix.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/src/check-asix.sh",
-      "sha256": "105ee5b5ba5e096eebc50b4ed0d7225b9bf3265f57067f0a7dd7689a1ed11a79",
+      "sha256": "61a655451e9c14bea679604f41defb771288cb09947c832f5739304e8af35e0f",
       "packed": false
     }
   ],

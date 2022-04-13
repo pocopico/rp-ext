@@ -11,7 +11,7 @@
     {
       "name": "check-mptsas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mptsas.sh",
-      "sha256": "17b2fe3d68f9237d7ceb3b9709ef2cd029fe24cba16eeb53cc8bba1426a64074",
+      "sha256": "ee1e7c249fc081e09a97837877087b154fa4ef468cbc5605eb49ade2c72e4f34",
       "packed": false
     }
   ],

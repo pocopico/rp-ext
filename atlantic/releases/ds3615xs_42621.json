@@ -11,7 +11,7 @@
     {
       "name": "check-atlantic.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/src/check-atlantic.sh",
-      "sha256": "4edfe9aaa827aa853979a9182f9a1ae50b72cea972800b6312af473e96ba87e6",
+      "sha256": "4c6b0176cdf63dc9c714d673df93c5d049e4d2d0815f4e047cd5adc2ae0145a1",
       "packed": false
     }
   ],

@@ -11,7 +11,7 @@
     {
       "name": "check-bnx2x.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/src/check-bnx2x.sh",
-      "sha256": "42425dbe2e2e68712a733c63b8b0fc34b4d3cf7d06d121680190d1a697c5078e",
+      "sha256": "b72f68c52684de17db0e0dc2d10be91a26b560360e9d2b38e1c221a286b35f74",
       "packed": false
     }
   ],

@@ -11,7 +11,7 @@
     {
       "name": "check-ixgbevf.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/src/check-ixgbevf.sh",
-      "sha256": "cef4b3e3b2b63c56cbc80de4b797e7bbb178f9f95d94b1608e33d8705331e8b7",
+      "sha256": "2602c2a1441e2422060eb4c667974ee38db79b58f37506188e1720bca33bd741",
       "packed": false
     }
   ],

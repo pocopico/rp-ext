@@ -11,7 +11,7 @@
     {
       "name": "check-ixgbe.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
-      "sha256": "e8bc03eba9928e1f0645a5abb899dc2c4e5d85373c88d4000075b0aa38f12ff2",
+      "sha256": "af25f8357bc4eb8b300ed0ecd84bf081e1e469a1cd7d9b341289ae7dba2814e6",
       "packed": false
     }
   ],

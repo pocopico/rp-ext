@@ -11,7 +11,7 @@
     {
       "name": "check-mpt3sas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/src/check-mpt3sas.sh",
-      "sha256": "dda35a6a428de55589e4e96d9de02e5911cf977dd777cb348b908ed6a165adaa",
+      "sha256": "646be700c55c976bd1d925893601447d5faae0292e2683e3e3e946154f40c1ea",
       "packed": false
     }
   ],

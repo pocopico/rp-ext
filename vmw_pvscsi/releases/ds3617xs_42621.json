@@ -10,7 +10,7 @@
     {
       "name": "check-vmw_pvscsi.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmw_pvscsi/src/check-vmw_pvscsi.sh",
-      "sha256": "e6bd1801c198c7f62becf049811c8e3df8975cebd321eb844571d773a1f41c89",
+      "sha256": "e45adec7e53b2b871068b6e8232126247887c809056fa808dd061bc600f0f0f0",
       "packed": false
     }
   ],

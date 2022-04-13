@@ -11,7 +11,7 @@
     {
       "name": "check-megaraid_sas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/src/check-megaraid_sas.sh",
-      "sha256": "9b373157274b28772d76a992bfc6b9b8b1edc6e6d0f52dcef2775b741e750372",
+      "sha256": "9e09a23fcd9a2b8ce9c94b75c722197dc415d4c5fc674b13262c967e39e10253",
       "packed": false
     }
   ],

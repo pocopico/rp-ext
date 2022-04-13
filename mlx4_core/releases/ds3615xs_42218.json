@@ -11,7 +11,7 @@
     {
       "name": "check-mlx4_core.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/check-mlx4_core.sh",
-      "sha256": "d24d5f64409d61d440851b3c893ca9ec95a3688122d188266b2e06cc23dfe00b",
+      "sha256": "79105bd32ada068b12121a1da888115e0b2b22a1942f614a31ab32566bdea779",
       "packed": false
     },
     {

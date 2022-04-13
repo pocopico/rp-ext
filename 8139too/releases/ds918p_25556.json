@@ -11,7 +11,7 @@
     {
       "name": "check-8139too.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/src/check-8139too.sh",
-      "sha256": "17577c38ba0b4c85d4b3a7ac72241b967843733ad7d7e089635d8629cef57006",
+      "sha256": "709c03f879bbbf32b504345c8653e057690675b6f030ed6f19b7ab6e1bd6f8e2",
       "packed": false
     }
   ],

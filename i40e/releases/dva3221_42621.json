@@ -11,7 +11,7 @@
     {
       "name": "check-i40e.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/src/check-i40e.sh",
-      "sha256": "8321d4ab94f7ccd1a419ff1f4225428e83132e76a07f0d04c085c861d6c002fa",
+      "sha256": "11901e8f70ed4e17354b306dddc36bbe2548d33e9e7a000ddf5625e17052f2c1",
       "packed": false
     }
   ],

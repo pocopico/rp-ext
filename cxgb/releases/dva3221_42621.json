@@ -11,7 +11,7 @@
     {
       "name": "check-cxgb.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/src/check-cxgb.sh",
-      "sha256": "4637417343bbe7649e2c497381b9408eb485032c853ae6c8703ab05201631fe6",
+      "sha256": "beaace288c94247fa47a4ad0ea73d4f4abfb7456600f2f4f77d377379d1e3400",
       "packed": false
     }
   ],

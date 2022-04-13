@@ -10,7 +10,7 @@
     {
       "name": "check-3w-sas.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/3w-sas/src/check-3w-sas.sh",
-      "sha256": "8134d6ffe3f93738f6c858a0f026822191bdcbb75406842c4f140de565296980",
+      "sha256": "918a66c241bf48dcc71af587f038206ac4d8b87ab58b5954c9c9edddd6cd4b5f",
       "packed": false
     }
   ],

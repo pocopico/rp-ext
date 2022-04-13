@@ -10,7 +10,7 @@
     {
       "name": "check-be2net.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/src/check-be2net.sh",
-      "sha256": "00ba09e696f23dae54667e874f37043db5ac583ec1d52ec1167b4c239bbe43d4",
+      "sha256": "3f1248c64479eff9fb069613f66407824c9fe8d64bad1867945bf8b09318ff1e",
       "packed": false
     }
   ],

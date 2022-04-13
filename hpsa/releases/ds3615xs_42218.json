@@ -11,7 +11,7 @@
     {
       "name": "check-hpsa.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/src/check-hpsa.sh",
-      "sha256": "cd3fee3f2a0c0d9c045ee7a226196fcee1332c1716529a92f6a6b51518fab1ec",
+      "sha256": "08d8a429134b1cfcd3a498ffe8f686804de8f621f8b86336fed60569c1427952",
       "packed": false
     }
   ],

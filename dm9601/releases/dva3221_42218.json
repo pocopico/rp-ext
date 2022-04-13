@@ -11,7 +11,7 @@
     {
       "name": "check-dm9601.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/src/check-dm9601.sh",
-      "sha256": "36516bfc33a8e46b56bb5d069b35b6953daa27be9910a53eae56ffc0052458c8",
+      "sha256": "eae4059e84042f4e241a55f54d5659a380de96ae59eb7c1b4fad1daf88469364",
       "packed": false
     }
   ],

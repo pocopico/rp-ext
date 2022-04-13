@@ -11,7 +11,7 @@
     {
       "name": "check-rtl8150.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/src/check-rtl8150.sh",
-      "sha256": "abb8d4a43de1b8b7ad6f0bc20ad20b4e3450324f3ffdbee2e8a618b87770fa50",
+      "sha256": "12e2c4767ae35ed2e7b5c752d47f6e7dcd441380f976be5d361a2c47d20483df",
       "packed": false
     }
   ],

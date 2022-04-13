@@ -11,7 +11,7 @@
     {
       "name": "check-bna.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/bna/src/check-bna.sh",
-      "sha256": "2d3fd1b971f7f5059c74d43bb0e52013c9846abc32228d45701f42017b5c3234",
+      "sha256": "18ee6a13f8038b42a3c2c16242f926fba44e8d463c4edf6ce9730624b69ad31b",
       "packed": false
     }
   ],
