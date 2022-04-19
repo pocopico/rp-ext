@@ -5,7 +5,7 @@
     {
       "name": "v9fs-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/releases/v9fs-3.10.108.tgz",
-      "sha256": "de9906271870b007109aaf5ffe7364ae8e5cfef3761ca8a3d9334f80890d0faf",
+      "sha256": "25d8f1f868df0cb9007610f104caa9a878913717ac0a37c28895fef567313f04",
       "packed": true
     },
     {
@@ -18,6 +18,8 @@
 
   "kmods": {
     "9pnet.ko": "",
+    "9pnet_rdma.ko": "",
+    "9pnet_virtio.ko": "",
     "9p.ko": ""
   },
 

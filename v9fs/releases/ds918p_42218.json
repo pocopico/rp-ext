@@ -5,7 +5,7 @@
     {
       "name": "v9fs-4.4.180plus.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/releases/v9fs-4.4.180plus.tgz",
-      "sha256": "109fdea17a508abaded85714864751f9b443ecd7edc3ea05f657fab0a571f1b3",
+      "sha256": "105afa0d32667e1cd15a642125d79145e94cdbbc59d0449c280133d4143720f1",
       "packed": true
     },
     {
@@ -18,6 +18,8 @@
 
   "kmods": {
     "9pnet.ko": "",
+    "9pnet_rdma.ko": "",
+    "9pnet_virtio.ko": "",
     "9p.ko": ""
   },
 
