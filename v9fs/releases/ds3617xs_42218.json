@@ -18,7 +18,6 @@
 
   "kmods": {
     "9pnet.ko": "",
-    "9pnet_rdma.ko": "",
     "9pnet_virtio.ko": "",
     "9p.ko": ""
   },
