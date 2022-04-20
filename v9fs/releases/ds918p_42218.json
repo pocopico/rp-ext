@@ -13,7 +13,13 @@
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/src/check-v9fs.sh",
       "sha256": "ae70453c9c4eff7da48756eb7ccadadbc95cae1fadd4e3fa6ca25a2105045e6c",
       "packed": false
-    }
+    },
+    {
+      "name": "9pnet_virtio.ko",
+      "url": "https://github.com/pocopico/4.4.180plus-modules/raw/main/9pnet_virtio.ko",
+      "sha256": "d1abfa8850c009ce353945ef32d9fb2488dcf46ff4ff22bb9d335b05041d7d3c",
+      "packed": false
+    }    
   ],
 
   "kmods": {
