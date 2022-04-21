@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mvsas-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/releases/mvsas-4.4.180plus-broadwell.tgz",
+      "sha256": "8616a07cd85b06e0d75ba579ff8efa5c1233dc95d71da42a05e7f2de58e76e35",
+      "packed": true
+    },
+    {
+      "name": "check-mvsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/src/check-mvsas.sh",
+      "sha256": "63105c515e3bca3461f05af77205c4e8f997161efcde6bb6d256b6620ed7d317",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "libsas.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mvsas.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-mvsas.sh"
+  }
+
+}

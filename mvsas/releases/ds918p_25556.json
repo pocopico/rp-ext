@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mvsas-4.4.59plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/releases/mvsas-4.4.59plus.tgz",
+      "sha256": "9785ac61f04e3cfb4d6428e077fb5ab35474907aa1f2aef2e6dc87f2f08aa5e1",
+      "packed": true
+    },
+    {
+      "name": "check-mvsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/src/check-mvsas.sh",
+      "sha256": "63105c515e3bca3461f05af77205c4e8f997161efcde6bb6d256b6620ed7d317",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "libsas.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mvsas.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-mvsas.sh"
+  }
+
+}

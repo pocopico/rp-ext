@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mvsas-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/releases/mvsas-4.4.180plus-denverton.tgz",
+      "sha256": "34ba4080d15f61b1fb344166e0c5be7e31ec1f995f6b4fdd4a98fc5f123946d5",
+      "packed": true
+    },
+    {
+      "name": "check-mvsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/src/check-mvsas.sh",
+      "sha256": "63105c515e3bca3461f05af77205c4e8f997161efcde6bb6d256b6620ed7d317",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "libsas.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mvsas.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-mvsas.sh"
+  }
+
+}
