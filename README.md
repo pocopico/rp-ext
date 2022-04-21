@@ -1,6 +1,6 @@
 <h3 align=”center”>This repo holds some redpill extensions, use at your own risk</h3>
 <h3 align=”center”>Test the extensions and if they do not work as intended please open an issue</h3>
-Extension Name: "aacraid" Description : "Adds Dell PERC2, 2/Si, 3/Si, 3/Di, Adaptec Advanced Raid Products, HP NetRAID-4M, IBM ServeRAID & ICP SCSI driver Support"
+Extension Name: "aacraid" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/rpext-index.json">LINK</a><br>
 Extension Name: "aic94xx" Description : "Adds Adaptec aic94xx SAS/SATA driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json">LINK</a><br>
@@ -44,15 +44,17 @@ Extension Name: "e1000e" Description : "Adds Intel(R) PRO/1000 Network Driver Su
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json">LINK</a><br>
 Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/early-telnet/rpext-index.json">LINK</a><br>
-Extension Name: "forcedeth" Description : "Adds Reverse Engineered nForce ethernet driver Support"
+Extension Name: "forcedeth" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/rpext-index.json">LINK</a><br>
-Extension Name: "hpsa" Description : "Adds Driver for HP Smart Array Controller version 3.4.14-0 Support"
+Extension Name: "hpsa" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
 Extension Name: "i40e" Description : "Adds Intel(R) Ethernet Connection XL710 Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/rpext-index.json">LINK</a><br>
+Extension Name:  Description : 
+<a href=>LINK</a><br>
 Extension Name: "iavf" Description : "Adds Intel(R) Ethernet Adaptive Virtual Function Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/rpext-index.json">LINK</a><br>
-Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Linux Driver Support"
+Extension Name: "igb" Description : "Adds Intel(R) Gigabit Ethernet Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json">LINK</a><br>
 Extension Name: "igbvf" Description : "Adds Intel(R) Gigabit Virtual Function Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json">LINK</a><br>
@@ -64,9 +66,9 @@ Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Functi
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json">LINK</a><br>
 Extension Name: "megaraid_sas" Description : "Adds Avago MegaRAID SAS Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json">LINK</a><br>
-Extension Name: "mlx4_core" Description : "Adds Mellanox ConnectX HCA low-level driver Support"
+Extension Name: "mlx4_core" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/rpext-index.json">LINK</a><br>
-Extension Name: "mpt2sas" Description : "Adds Support"
+Extension Name: "mpt2sas" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json">LINK</a><br>
 Extension Name: "mpt3sas" Description : "Adds LSI MPT Fusion SAS 3.0 Device Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/rpext-index.json">LINK</a><br>
@@ -74,7 +76,9 @@ Extension Name: "mptsas" Description : "Adds Fusion MPT SAS Host driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/rpext-index.json">LINK</a><br>
 Extension Name: "mptspi" Description : "Adds Fusion MPT SPI Host driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/rpext-index.json">LINK</a><br>
-Extension Name: "qla2xxx" Description : "Adds QLogic Fibre Channel HBA Driver Support"
+Extension Name: "mvsas" Description : "Adds Marvell 88SE6440 SAS/SATA controller driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/rpext-index.json">LINK</a><br>
+Extension Name: "qla2xxx" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/qla2xxx/rpext-index.json">LINK</a><br>
 Extension Name: "qlcnic" Description : "Adds QLogic 1/10 GbE Converged/Intelligent Ethernet Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/rpext-index.json">LINK</a><br>
@@ -90,7 +94,7 @@ Extension Name: "r8169" Description : "Adds RealTek RTL-8169 Gigabit Ethernet dr
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json">LINK</a><br>
 Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/raspbi-pill/rpext-index.json">LINK</a><br>
-Extension Name: "redpill" Description : "Static Redpill Module"
+Extension Name: "redpill" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/rpext-index.json">LINK</a><br>
 Extension Name: "ACPI Daemon v2" Description : "ACPI Daemon v2 that handles power button events"
 <a href="https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json">LINK</a><br>
@@ -98,7 +102,7 @@ Extension Name: "RedPill Bootwait" Description : "Simple extension which stops t
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-boot-wait/rpext-index.json">LINK</a><br>
 Extension Name: "rtl8150" Description : "Adds rtl8150 based usb-ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/rpext-index.json">LINK</a><br>
-Extension Name: "sfc" Description : "Adds Solarflare network driver Support"
+Extension Name: "sfc" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/rpext-index.json">LINK</a><br>
 Extension Name: "skge" Description : "Adds SysKonnect Gigabit Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/rpext-index.json">LINK</a><br>
@@ -108,9 +112,9 @@ Extension Name: "Tinycore Diag" Description : "An extension that will assist in 
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tcrp-diag/rpext-index.json">LINK</a><br>
 Extension Name: "tg3" Description : "Adds Broadcom Tigon3 ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json">LINK</a><br>
-Extension Name: "tn40xx" Description : "Adds Tehuti Network Driver Support"
+Extension Name: "tn40xx" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/rpext-index.json">LINK</a><br>
-Extension Name: "v9fs" Description : "Adds v9fs Support"
+Extension Name: "v9fs" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/rpext-index.json">LINK</a><br>
 Extension Name: "via-rhine" Description : "Adds VIA Rhine PCI Fast Ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/via-rhine/rpext-index.json">LINK</a><br>
@@ -122,7 +126,7 @@ Extension Name: "vmxnet3" Description : "Adds VMware vmxnet3 virtual NIC driver 
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/rpext-index.json">LINK</a><br>
 Extension Name: "vxge" Description : "Adds Neterion's X3100 Series 10GbE PCIe I/OVirtualized Server Adapter Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/vxge/rpext-index.json">LINK</a><br>
-Extension Name: "wch" Description : "Adds WCH Multi-I/O Board Driver Module Support"
+Extension Name: "wch" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/wch/rpext-index.json">LINK</a><br>
 <br><br><br>
 <h3>Extensions will be updated upon request, please open an issue to include extensions</h3>
