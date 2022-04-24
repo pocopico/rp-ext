@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "arcmsr-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/arcmsr/releases/arcmsr-4.4.180plus-broadwellnk.tgz",
+      "sha256": "4341602c26c45e756f45767a14907a1bb8334b932e2da003487f36b8fed112a7",
+      "packed": true
+    },
+    {
+      "name": "check-arcmsr.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/arcmsr/src/check-arcmsr.sh",
+      "sha256": "3a485445fc8b1bf0e2a0a00ee044e802576912c6007e9d2956c1edc330ece97b",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "arcmsr.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-arcmsr.sh"
+  }
+
+}

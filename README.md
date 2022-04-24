@@ -6,6 +6,8 @@ Extension Name: "aic94xx" Description : "Adds Adaptec aic94xx SAS/SATA driver Su
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/rpext-index.json">LINK</a><br>
 Extension Name: "alx" Description : "Adds Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/rpext-index.json">LINK</a><br>
+Extension Name: "arcmsr" Description : "Adds Areca ARC11xx/12xx/16xx/188x SAS/SATA RAID Controller Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/arcmsr/rpext-index.json">LINK</a><br>
 Extension Name: "asix" Description : "Adds ASIX AX8817X based USB 2.0 Ethernet Devices Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/rpext-index.json">LINK</a><br>
 Extension Name: "atl1" Description : "Adds Atheros L1 Gigabit Ethernet Driver Support"

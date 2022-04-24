@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "arcmsr-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/arcmsr/releases/arcmsr-3.10.108.tgz",
+      "sha256": "7f064d104fe065fe7f65a1511bb7b762d438dd7b7c22ec12a79c4a581c1e887e",
+      "packed": true
+    },
+    {
+      "name": "check-arcmsr.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/arcmsr/src/check-arcmsr.sh",
+      "sha256": "3a485445fc8b1bf0e2a0a00ee044e802576912c6007e9d2956c1edc330ece97b",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "arcmsr.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-arcmsr.sh"
+  }
+
+}
