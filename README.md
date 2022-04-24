@@ -62,14 +62,16 @@ Extension Name: "igbvf" Description : "Adds Intel(R) Gigabit Virtual Function Ne
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json">LINK</a><br>
-Extension Name:  Description : 
-<a href=>LINK</a><br>
+Extension Name: "ixgbe" Description : "Adds Intel(R) 10GbE PCI Express Linux Network Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe.vanilla/rpext-index.json">LINK</a><br>
 Extension Name: "ixgbevf" Description : "Adds Intel(R) 10 Gigabit Virtual Function Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/rpext-index.json">LINK</a><br>
 Extension Name: "megaraid_sas" Description : "Adds Avago MegaRAID SAS Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/rpext-index.json">LINK</a><br>
 Extension Name: "mlx4_core" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/rpext-index.json">LINK</a><br>
+Extension Name: "mlx5_core" Description : "Adds Mellanox Connect-IB, ConnectX-4 core driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx5_core/rpext-index.json">LINK</a><br>
 Extension Name: "mpt2sas" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/rpext-index.json">LINK</a><br>
 Extension Name: "mpt3sas" Description : "Adds LSI MPT Fusion SAS 3.0 Device Driver Support"

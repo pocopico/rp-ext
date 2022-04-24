@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mlx5_core-4.4.180plus.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx5_core/releases/mlx5_core-4.4.180plus.tgz",
+      "sha256": "7188840f7bb38dfab04d0bf10ff13fe53f7cee72a6cf01e7d88d07f81d314457",
+      "packed": true
+    },
+    {
+      "name": "check-mlx5_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx5_core/src/check-mlx5_core.sh",
+      "sha256": "f509960f489626057889deab284fe23ba7f9b9e461348bb7636a1eb94562996c",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mlx5_core.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mlx5_core.sh"
+  }
+
+}

@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mlx5_core-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx5_core/releases/mlx5_core-4.4.180plus-broadwellnk.tgz",
+      "sha256": "d8e5f9e2aa592c8a64a36e3e8aad1bd1d487d52dd71a2aab93aec462e4cfc5ef",
+      "packed": true
+    },
+    {
+      "name": "check-mlx5_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx5_core/src/check-mlx5_core.sh",
+      "sha256": "f509960f489626057889deab284fe23ba7f9b9e461348bb7636a1eb94562996c",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mlx5_core.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mlx5_core.sh"
+  }
+
+}

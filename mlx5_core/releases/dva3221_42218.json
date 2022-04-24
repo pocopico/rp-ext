@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mlx5_core-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx5_core/releases/mlx5_core-4.4.180plus-denverton.tgz",
+      "sha256": "2f5466b541a73be786f7250e89454c2677646a4f9b3e566ee0fd40e47135c9e0",
+      "packed": true
+    },
+    {
+      "name": "check-mlx5_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx5_core/src/check-mlx5_core.sh",
+      "sha256": "f509960f489626057889deab284fe23ba7f9b9e461348bb7636a1eb94562996c",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mlx5_core.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mlx5_core.sh"
+  }
+
+}
