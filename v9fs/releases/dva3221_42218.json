@@ -5,7 +5,7 @@
     {
       "name": "v9fs-4.4.180plus-denverton.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/releases/v9fs-4.4.180plus-denverton.tgz",
-      "sha256": "9b52f7e4bfafc8c734373081b0fa4e1139f1987fc7a3e05eaecbc184dad336cd",
+      "sha256": "e8b1d960a65db667188d6c010576780d3274ec05ec900fefe88aa11c760fe13d",
       "packed": true
     },
     {
@@ -17,6 +17,13 @@
   ],
 
   "kmods": {
+    "virtio.ko": "",
+    "virtio_ring.ko": "",
+    "virtio_mmio.ko": "",
+    "virtio_pci.ko": "",
+    "virtio_blk.ko": "",
+    "virtio_net.ko": "",
+    "virtio_scsi.ko": "",
     "9pnet.ko": "",
     "9pnet_virtio.ko": "",
     "9p.ko": ""

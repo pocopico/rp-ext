@@ -5,7 +5,7 @@
     {
       "name": "v9fs-4.4.180plus-broadwell.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/releases/v9fs-4.4.180plus-broadwell.tgz",
-      "sha256": "95f0674c0fdca2002ded447291474640d89930a7ef805ecb6e09610ee235c104",
+      "sha256": "228413e7c2d8e2d49c1a861ef26d13093a2c6f0edd791d58300a06775e2b85a2",
       "packed": true
     },
     {
@@ -17,6 +17,12 @@
   ],
 
   "kmods": {
+    "virtio.ko": "",
+    "virtio_ring.ko": "",
+    "virtio_mmio.ko": "",
+    "virtio_pci.ko": "",
+    "virtio_net.ko": "",
+    "virtio_scsi.ko": "",
     "9pnet.ko": "",
     "9pnet_virtio.ko": "",
     "9p.ko": ""

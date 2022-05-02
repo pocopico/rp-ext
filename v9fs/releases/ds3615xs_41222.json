@@ -5,7 +5,7 @@
     {
       "name": "v9fs-3.10.108.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/v9fs/releases/v9fs-3.10.108.tgz",
-      "sha256": "25d8f1f868df0cb9007610f104caa9a878913717ac0a37c28895fef567313f04",
+      "sha256": "069c049135967f795b2f8cb5adec25fd5c5a9749496f8432d7c64db71f078ab4",
       "packed": true
     },
     {
@@ -17,6 +17,13 @@
   ],
 
   "kmods": {
+    "virtio.ko": "",
+    "virtio_ring.ko": "",
+    "virtio_mmio.ko": "",
+    "virtio_pci.ko": "",
+    "virtio_blk.ko": "",
+    "virtio_net.ko": "",
+    "virtio_scsi.ko": "",
     "9pnet.ko": "",
     "9pnet_virtio.ko": "",
     "9p.ko": ""
