@@ -19,7 +19,6 @@
   "kmods": {
     "usbcore.ko": "",
     "mii.ko": "",
-    "usb-common.ko": "",
     "r8152.ko":""
   },
 
