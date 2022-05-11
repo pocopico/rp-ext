@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "hv_netvsc-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hv_netvsc/releases/hv_netvsc-4.4.180plus-denverton.tgz",
+      "sha256": "fcecf08b1613a739982c232a0156f364b856285a816425a87ecae4e739631926",
+      "packed": true
+    },
+    {
+      "name": "check-hv_netvsc.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/hv_netvsc/src/check-hv_netvsc.sh",
+      "sha256": "62053d1fa65851812db307c69f2cff39e62408b7e423c5a41433fb79104b0e05",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "hv_netvsc.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-hv_netvsc.sh"
+  }
+
+}
