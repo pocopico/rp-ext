@@ -50,6 +50,8 @@ Extension Name: "forcedeth" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/rpext-index.json">LINK</a><br>
 Extension Name: "hpsa" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
+Extension Name: "hv_netvsc" Description : "Adds Microsoft Hyper-V network driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hv_netvsc/rpext-index.json">LINK</a><br>
 Extension Name: "i40e" Description : "Adds Intel(R) Ethernet Connection XL710 Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/i40e/rpext-index.json">LINK</a><br>
 Extension Name:  Description : 
@@ -82,6 +84,8 @@ Extension Name: "mptspi" Description : "Adds Fusion MPT SPI Host driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mptspi/rpext-index.json">LINK</a><br>
 Extension Name: "mvsas" Description : "Adds Marvell 88SE6440 SAS/SATA controller driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/mvsas/rpext-index.json">LINK</a><br>
+Extension Name: "nct6775" Description : "Adds Driver for NCT6775F and compatible chips Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/rpext-index.json">LINK</a><br>
 Extension Name: "qla2xxx" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/qla2xxx/rpext-index.json">LINK</a><br>
 Extension Name: "qlcnic" Description : "Adds QLogic 1/10 GbE Converged/Intelligent Ethernet Driver Support"
