@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "nct6775-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/releases/nct6775-4.4.180plus-geminilake.tgz",
+      "sha256": "2a570ee5d947baf811159d44d477c0a4923b3e58805dee882370682df7198ae2",
+      "packed": true
+    },
+    {
+      "name": "check-nct6775.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/src/check-nct6775.sh",
+      "sha256": "49a563b4fe55bca7085aa93afa2fc18c96be9dfb4b61884882e25989acf90781",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "hwmon.ko": "",
+    "nct6775.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-nct6775.sh"
+  }
+
+}

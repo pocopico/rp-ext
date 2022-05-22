@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "nct6775-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/releases/nct6775-4.4.180plus-broadwell.tgz",
+      "sha256": "fc9a129357b4fe35b2ffecc5a97cdbc39c34c05b4941e7e81b4faed4fdcd3d98",
+      "packed": true
+    },
+    {
+      "name": "check-nct6775.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/src/check-nct6775.sh",
+      "sha256": "49a563b4fe55bca7085aa93afa2fc18c96be9dfb4b61884882e25989acf90781",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "hwmon.ko": "",
+    "nct6775.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-nct6775.sh"
+  }
+
+}

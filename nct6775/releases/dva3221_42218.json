@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "nct6775-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/releases/nct6775-4.4.180plus-denverton.tgz",
+      "sha256": "f7edfe8fe640d4a33fabc40f89fa020d5f3db5a69d9f3cddf10035ce94a952c7",
+      "packed": true
+    },
+    {
+      "name": "check-nct6775.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/src/check-nct6775.sh",
+      "sha256": "49a563b4fe55bca7085aa93afa2fc18c96be9dfb4b61884882e25989acf90781",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "hwmon-vid.ko": "",
+    "hwmon.ko": "",
+    "nct6775.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-nct6775.sh"
+  }
+
+}

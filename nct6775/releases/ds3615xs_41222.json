@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "nct6775-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/releases/nct6775-3.10.108.tgz",
+      "sha256": "deb099a67b6db87858c061bc54e01260217b6534d2b4cd3e5ccd1c0a67d3cc5a",
+      "packed": true
+    },
+    {
+      "name": "check-nct6775.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/nct6775/src/check-nct6775.sh",
+      "sha256": "49a563b4fe55bca7085aa93afa2fc18c96be9dfb4b61884882e25989acf90781",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "hwmon.ko": "",
+    "nct6775.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-nct6775.sh"
+  }
+
+}
