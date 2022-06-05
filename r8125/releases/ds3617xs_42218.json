@@ -1,10 +1,11 @@
 {
   "mod_version": "v1",
+
   "files": [
     {
       "name": "r8125-4.4.180plus-broadwell.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/r8125-4.4.180plus-broadwell.tgz",
-      "sha256": "c2cbd4f7d9ea99823fc75d6646966f38517d270baf376af1aed973c30eee16eb",
+      "sha256": "06e1920caa89d8537d06d217bf1563e6ddb14eb108fefaae6114d87d2d9874f4",
       "packed": true
     },
     {
@@ -14,10 +15,13 @@
       "packed": false
     }
   ],
+
   "kmods": {
     "r8125.ko": ""
   },
-  "scripts": {
+
+    "scripts": {
     "on_boot": "check-r8125.sh"
   }
+
 }
