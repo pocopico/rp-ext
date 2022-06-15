@@ -3,7 +3,7 @@
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/rpext-index.json",
   "info": {
     "name": "mlx4_core",
-    "description": "Adds  Support",
+    "description": "Adds MLX4 Support",
     "author_url": "https://github.com/pocopico",
     "packer_url": "https://github.com/pocopico/rp-ext/tree/main/mlx4_core",
     "help_url": "<todo>"
