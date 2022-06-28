@@ -9,7 +9,7 @@ for extension in $(cat exts); do
 
 	cp $extension/releases/ds920p_42218.json /mnt/hgfs/Downloads/rp-ext/$extension/releases/dva1622_42218.json
 	echo -n "Adding extension $extension from file"
-	newline=$(cat $extension/rp* | grep 920p_42218 | sort -n | head -1 | sed -e 's/ds920p/dva1622/g')
+	newline=$(cat $extension/rp* | grep 920p_42621 | sort -n | head -1 | sed -e 's/ds920p/dva1622/g')
 	echo "$newline"
 	sed -i "/\"dva3221_42661\": \"/a $newline" /mnt/hgfs/Downloads/rp-ext/${extension}/rpext-index.json
 
