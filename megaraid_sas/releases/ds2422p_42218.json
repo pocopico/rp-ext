@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "megaraid_sas-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/releases/megaraid_sas-4.4.180plus-v1000.tgz",
+      "sha256": "1ce4d27433f1a35bc2b6e112a956848d51607bd18e7885739eccc2a43cac6959",
+      "packed": true
+    },
+    {
+      "name": "check-megaraid_sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/megaraid_sas/src/check-megaraid_sas.sh",
+      "sha256": "9e09a23fcd9a2b8ce9c94b75c722197dc415d4c5fc674b13262c967e39e10253",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "megaraid_sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-megaraid_sas.sh"
+  }
+
+}

@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "name": "tcrp-diag.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/src/tcrp-diag.sh",
+      "sha256": "d7b4320d2092fa72086dbd7683f9c91e1aaafe5c01a3b0e2bbcd1d6a930a3e72",
+      "packed": false
+    },
+	{
+      "name": "tcrp-diagd.sh",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/src/tcrp-diagd.sh",
+      "sha256": "43008e6db046b4c8432f569d77683def9c5d59c5337a5aeecfbea9bae2e4ce43",
+      "packed": false
+    },
+    {
+      "name": "dmidecode",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/dmidecode",
+      "sha256": "d7e4b66b708db13ec1763fff8997e4546cd3ed4c1854fcf0b83b023d5506b7dc",
+      "packed": false
+    },
+    {
+      "name": "lspci",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lspci",
+      "sha256": "41ae35f0fdf9cf4fbc724aab7097f6dff92dd5fd588608058cf6420e46c7e3fc",
+      "packed": false
+    }, 
+	{
+      "name": "libpci.so.3",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libpci.so.3",
+      "sha256": "78d610d186db7f2d00aba4aefd52ffce75653a5f3895bb1731bdacf439b3437e",
+      "packed": false
+    },
+	{
+      "name": "libz.so.1",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libz.so.1",
+      "sha256": "219c6c0efe93bd6d751bba1e8ae84a162309c665cc5e36beddcf295b72f9bc09",
+      "packed": false
+    },
+	{
+      "name": "libudev.so.1",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libudev.so.1",
+      "sha256": "fe2e24387f28761bcb63cc30604e3d1ac3e6bc6fe09da278b67f4fb7c54edd77",
+      "packed": false
+    },
+	{
+      "name": "libkmod.so.2",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libkmod.so.2",
+      "sha256": "c15ed2472dd78504dd2d99c8263ad0eb535b9ba1d07a68419c902852b3564d15",
+      "packed": false
+    },
+	{
+      "name": "libresolv.so.2",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libresolv.so.2",
+      "sha256": "3a81ed26d8835da7e309bd55a03888c36f768ab243ca5dacf5aaede27661bd5d",
+      "packed": false
+    },
+    {
+      "name": "lsscsi",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsscsi",
+      "sha256": "53bf5ba40dcab1754781598d8e8ef19b810c7df2c945fbdd68065aae8222c5b0",
+      "packed": false
+    },  
+	{
+      "name": "dtc",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/dtc",
+      "sha256": "a4179ff52d5ba219d4e0b3a075ecde36cd493f1f5e1b17f6d4f933161dba9749",
+      "packed": false
+    },  
+     {
+      "name": "ethtool",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/ethtool",
+      "sha256": "35199435422a4213582efe878bd3997b00be4b9078b6886d0c2fe57bbf02b41f",
+      "packed": false
+    },
+	{
+      "name": "lsusb",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/lsusb",
+      "sha256": "eb3556d562ea8bf9453e536123bd0df261e215bec3811070c10c645f2fa55fe8",
+      "packed": false
+    },
+	{
+      "name": "usb.ids",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/usb.ids",
+      "sha256": "4a296f739393c66356f03231ebabbc765ea46d159c6789ba598c4379b2416e53",
+      "packed": false
+    },
+	{
+      "name": "libusb-1.0.so.0",
+      "url": "https://github.com/pocopico/rp-ext/raw/main/tcrp-diag/auxfiles/libusb-1.0.so.0",
+      "sha256": "a847a8f88d496d3db2f0f527c8d53e2efe793749cd14f4d0d701c637a515c33b",
+      "packed": false
+    }
+   
+  ],
+
+  "scripts": {
+      "on_os_load": "tcrp-diagd.sh",
+      "on_boot": "tcrp-diagd.sh"
+  }
+}

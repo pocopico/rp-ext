@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atlantic-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/releases/atlantic-4.4.180plus-v1000.tgz",
+      "sha256": "00ee4fe3e4d2b03fd854cbb4f1f8769d6ac027cf4408db9f9039b868dca239d8",
+      "packed": true
+    },
+    {
+      "name": "check-atlantic.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/src/check-atlantic.sh",
+      "sha256": "4c6b0176cdf63dc9c714d673df93c5d049e4d2d0815f4e047cd5adc2ae0145a1",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "crc-itu-t.ko": "",
+    "atlantic.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-atlantic.sh"
+  }
+
+}

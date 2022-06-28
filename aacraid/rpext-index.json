@@ -23,6 +23,8 @@
     "ds1621p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds1621p_42218.json",
     "ds1621p_42621": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds1621p_42218.json",
     "ds1621p_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds1621p_42218.json",
+    "ds2422p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds2422p_42218.json",
+    "ds2422p_42621": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds2422p_42218.json",
     "dva3221_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/dva3221_42218.json",
     "dva3221_42621": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/dva3221_42218.json",
     "dva3221_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/dva3221_42218.json",
@@ -32,7 +34,7 @@
     "ds918p_42621": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds918p_42218.json",
     "ds918p_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds918p_42218.json",
     "ds920p_42621": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds920p_42218.json",
-"ds920p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds920p_42218.json",
+    "ds920p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds920p_42218.json",
     "ds920p_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/ds920p_42218.json"
   }
 }

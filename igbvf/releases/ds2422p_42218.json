@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igbvf-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/releases/igbvf-4.4.180plus-v1000.tgz",
+      "sha256": "1258329976498600e2350a2615e7e03245b318d5cdc62f26741d92399f53596d",
+      "packed": true
+    },
+    {
+      "name": "check-igbvf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/src/check-igbvf.sh",
+      "sha256": "92138a12d53438609816dbdd32e88ee806f541a133a4a25b5b1bbad61f1f3586",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igbvf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igbvf.sh"
+  }
+
+}

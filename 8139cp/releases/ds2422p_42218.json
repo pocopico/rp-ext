@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "8139cp-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139cp/releases/8139cp-4.4.180plus-v1000.tgz",
+      "sha256": "1a4c64ba2ea8df7f273f63956f26c8383eec8260be8e3363a6950580995b61b5",
+      "packed": true
+    },
+    {
+      "name": "check-8139cp.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139cp/src/check-8139cp.sh",
+      "sha256": "7cd15193b3e178d96df44852bb4344c72450c232b06fdf8fce2b0bad38facae2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "8139cp.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-8139cp.sh"
+  }
+
+}

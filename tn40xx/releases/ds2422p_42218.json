@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "tn40xx-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/releases/tn40xx-4.4.180plus-v1000.tgz",
+      "sha256": "da5c4904447cbc19a06e521dc801f1c6ab6cc0740e33e44602cb164638d21f8b",
+      "packed": true
+    },
+    {
+      "name": "check-tn40xx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/src/check-tn40xx.sh",
+      "sha256": "28ac0bb7f88301a200f0284dd0f590011417ef64956afd0098d26938768052e5",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "tn40xx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-tn40xx.sh"
+  }
+
+}

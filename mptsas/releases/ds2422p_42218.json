@@ -1,0 +1,32 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mptsas-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/releases/mptsas-4.4.180plus-v1000.tgz",
+      "sha256": "cf28907374a6b8018e2c0d56267e82562e64d9f88f42fa2b708786707a315387",
+      "packed": true
+    },
+    {
+      "name": "check-mptsas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mptsas/src/check-mptsas.sh",
+      "sha256": "ee1e7c249fc081e09a97837877087b154fa4ef468cbc5605eb49ade2c72e4f34",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "raid_class.ko": "",
+    "scsi_transport_sas.ko": "",
+    "mptbase.ko": "",
+    "mptscsih.ko": "",
+    "mptsas.ko":""
+
+  },
+
+    "scripts": {
+    "on_boot": "check-mptsas.sh"
+  }
+
+}

@@ -1,0 +1,29 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ixgbe-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/releases/ixgbe-4.4.180plus-v1000.tgz",
+      "sha256": "cfae2bbb7138e4064d6b44ec1c9e36d4d895831f2535a6c49f322b6f5413e95d",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbe.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/src/check-ixgbe.sh",
+      "sha256": "af25f8357bc4eb8b300ed0ecd84bf081e1e469a1cd7d9b341289ae7dba2814e6",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "dca.ko": "",
+    "vxlan.ko": "",
+    "ixgbe.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ixgbe.sh"
+  }
+
+}

@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "e1000e-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/releases/e1000e-4.4.180plus-v1000.tgz",
+      "sha256": "76d1b393e2cc0be6e589710edc28edd7cf62dfb0bd5547443f1a304b5f0f2755",
+      "packed": true
+    },
+    {
+      "name": "check-e1000e.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/src/check-e1000e.sh",
+      "sha256": "75fa3cd936f623162a133274b343f030bea848e85105ffdada5a2b2e12a4f021",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "e1000e.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-e1000e.sh"
+  }
+
+}

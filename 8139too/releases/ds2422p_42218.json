@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "8139too-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/releases/8139too-4.4.180plus-v1000.tgz",
+      "sha256": "886af32041642e01630cd06578a622b70c57ccf9e5fb7a7a5d92f58939c6fd4b",
+      "packed": true
+    },
+    {
+      "name": "check-8139too.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/src/check-8139too.sh",
+      "sha256": "709c03f879bbbf32b504345c8653e057690675b6f030ed6f19b7ab6e1bd6f8e2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "8139too.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-8139too.sh"
+  }
+
+}

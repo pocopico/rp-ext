@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/releases/cxgb-4.4.180plus-v1000.tgz",
+      "sha256": "15015fc9218bbcbf758ed21d11e947af3e87068dcbd83fcba4d82fb6064524a9",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/src/check-cxgb.sh",
+      "sha256": "beaace288c94247fa47a4ad0ea73d4f4abfb7456600f2f4f77d377379d1e3400",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mdio.ko": "",
+    "cxgb.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb.sh"
+  }
+
+}

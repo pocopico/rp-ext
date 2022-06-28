@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mpt3sas-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/releases/mpt3sas-4.4.180plus-v1000.tgz",
+      "sha256": "ef06d7c1b9ecdd717b98906b0097dc8f691045bf9dad77a3217f91e347c4cb22",
+      "packed": true
+    },
+    {
+      "name": "check-mpt3sas.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt3sas/src/check-mpt3sas.sh",
+      "sha256": "646be700c55c976bd1d925893601447d5faae0292e2683e3e3e946154f40c1ea",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mpt3sas.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mpt3sas.sh"
+  }
+
+}
