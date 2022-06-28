@@ -31,6 +31,12 @@
       "packed": false
     },
     {
+      "name": "model_dva1622.dtb",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-dtb-static/releases/model_dva1622.dtb",
+      "sha256": "c566d78387b1efd73ff339c1f3ceea7fd0089593d253a3b7be712250a72e9087",
+      "packed": false
+    },
+    {
       "name": "dtc",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-dtb-static/releases/dtc",
       "sha256": "14f7f87a5822050eab7c30a064912a6efe99f49bf6b896bbb38c2ba003803e78",
