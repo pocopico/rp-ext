@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/releases/cxgb-4.4.180plus-geminilake.tgz",
+      "sha256": "d0459a3b3fb53b1f2da8d137b68d2bba05d4ee9e92962b2146a802fa6f94198d",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb/src/check-cxgb.sh",
+      "sha256": "beaace288c94247fa47a4ad0ea73d4f4abfb7456600f2f4f77d377379d1e3400",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "cxgb.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb.sh"
+  }
+
+}

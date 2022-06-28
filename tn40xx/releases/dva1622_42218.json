@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "tn40xx-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/releases/tn40xx-4.4.180plus-geminilake.tgz",
+      "sha256": "7ac2a2719abfaedfb9555426840343e6fff2c7dfc2769119b58ede403e7b0a75",
+      "packed": true
+    },
+    {
+      "name": "check-tn40xx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tn40xx/src/check-tn40xx.sh",
+      "sha256": "28ac0bb7f88301a200f0284dd0f590011417ef64956afd0098d26938768052e5",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "tn40xx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-tn40xx.sh"
+  }
+
+}

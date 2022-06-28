@@ -1,0 +1,31 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "asix-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/releases/asix-4.4.180plus-geminilake.tgz",
+      "sha256": "3aa5a11f3bb46cc25c256d01afa5f2af07c1b15386c1283e786f3c547e57e46c",
+      "packed": true
+    },
+    {
+      "name": "check-asix.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/asix/src/check-asix.sh",
+      "sha256": "61a655451e9c14bea679604f41defb771288cb09947c832f5739304e8af35e0f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "libphy.ko": "",
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "asix.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-asix.sh"
+  }
+
+}

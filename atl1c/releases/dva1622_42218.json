@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl1c-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1c/releases/atl1c-4.4.180plus-geminilake.tgz",
+      "sha256": "baa75be79f0ba71b8af3523be6c9c6e2c515ea591bb91153c3b8a1dcfb573d51",
+      "packed": true
+    },
+    {
+      "name": "check-atl1c.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1c/src/check-atl1c.sh",
+      "sha256": "72f49168803fb12840215370379198dfe07c14cc9bf7f9dd82b28fae88162eac",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "atl1c.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl1c.sh"
+  }
+
+}

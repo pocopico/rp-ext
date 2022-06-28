@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "iavf-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/releases/iavf-4.4.180plus-geminilake.tgz",
+      "sha256": "844fef8bcf6f4ae27a09afba93b4bc2d4f41d714eff6733cda334c33c21bc2a1",
+      "packed": true
+    },
+    {
+      "name": "check-iavf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/src/check-iavf.sh",
+      "sha256": "344c4a1ed652e9e7c66713b69b362add23b3d911b985ce2d9b4c06666ba98be7",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "iavf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-iavf.sh"
+  }
+
+}

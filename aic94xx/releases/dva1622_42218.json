@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "aic94xx-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/releases/aic94xx-4.4.180plus-geminilake.tgz",
+      "sha256": "a2a2bf4146dcd87215399a0471e1e3e01da4e995acfc072b18e04153298ee2c8",
+      "packed": true
+    },
+    {
+      "name": "check-aic94xx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aic94xx/src/check-aic94xx.sh",
+      "sha256": "93427adcc1a091c8f23b15e58c8fc9df2218a67af74a5f160ba0a667274af765",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "aic94xx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-aic94xx.sh"
+  }
+
+}

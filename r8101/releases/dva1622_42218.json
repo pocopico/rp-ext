@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8101-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/releases/r8101-4.4.180plus-geminilake.tgz",
+      "sha256": "a63585967e54024a92626457a5bd6fdb55b45b97c0dd689733ad75e0300f00fc",
+      "packed": true
+    },
+    {
+      "name": "check-r8101.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/src/check-r8101.sh",
+      "sha256": "197c1042dd90c148983527cf86d9c97aecae9e51ffaf394fef53d118608dc41d",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8101.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8101.sh"
+  }
+
+}

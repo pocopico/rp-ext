@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "atl2-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/releases/atl2-4.4.180plus-geminilake.tgz",
+      "sha256": "0b86669014016f3a7772028d08bcfd8c8fd00d6edb73a00770ffcbc33f90de12",
+      "packed": true
+    },
+    {
+      "name": "check-atl2.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/src/check-atl2.sh",
+      "sha256": "973a248ebce5c9781d06badd299809e1e75c65538640609205729a71624e19d3",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "atl2.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-atl2.sh"
+  }
+
+}

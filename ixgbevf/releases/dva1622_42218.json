@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ixgbevf-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/releases/ixgbevf-4.4.180plus-geminilake.tgz",
+      "sha256": "6f84a9e9fc82065898838055f0df919a157971cd5881bcb648d7e8bcc04a5f51",
+      "packed": true
+    },
+    {
+      "name": "check-ixgbevf.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbevf/src/check-ixgbevf.sh",
+      "sha256": "2602c2a1441e2422060eb4c667974ee38db79b58f37506188e1720bca33bd741",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "ixgbevf.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-ixgbevf.sh"
+  }
+
+}

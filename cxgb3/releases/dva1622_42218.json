@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "cxgb3-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb3/releases/cxgb3-4.4.180plus-geminilake.tgz",
+      "sha256": "f5bb821264177e0f14df42f095484c463bae6fae3c5b2aa6fc18a8980f3b6543",
+      "packed": true
+    },
+    {
+      "name": "check-cxgb3.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/cxgb3/src/check-cxgb3.sh",
+      "sha256": "6071c58eb77d6415dca4feb0bbc049a0faeb67979d9f59675aaf882072ab3f5a",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "cxgb3.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-cxgb3.sh"
+  }
+
+}

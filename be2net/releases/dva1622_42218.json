@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "be2net-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/releases/be2net-4.4.180plus-geminilake.tgz",
+      "sha256": "225a7c722d1bfd3895cc7840e7803f5ad16e824345a860e911e51d40efd40bcf",
+      "packed": true
+    },
+    {
+      "name": "check-be2net.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/be2net/src/check-be2net.sh",
+      "sha256": "3f1248c64479eff9fb069613f66407824c9fe8d64bad1867945bf8b09318ff1e",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "be2net.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-be2net.sh"
+  }
+
+}

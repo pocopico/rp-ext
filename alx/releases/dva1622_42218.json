@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "alx-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/releases/alx-4.4.180plus-geminilake.tgz",
+      "sha256": "90f803c71909256555ae6b6c77784c4fdde9a4974c49702f164bed2243bc2f0e",
+      "packed": true
+    },
+    {
+      "name": "check-alx.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/alx/src/check-alx.sh",
+      "sha256": "989c02872ca98938b408bc1b238b34d75342e16d8a262670b7fc5f797ff8d563",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "alx.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-alx.sh"
+  }
+
+}

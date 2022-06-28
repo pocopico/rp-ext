@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "qlcnic-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/releases/qlcnic-4.4.180plus-geminilake.tgz",
+      "sha256": "45ded6a530d696030612d7c11f2a8a9846fcbd4dc041f2cab744908142153a7f",
+      "packed": true
+    },
+    {
+      "name": "check-qlcnic.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/qlcnic/src/check-qlcnic.sh",
+      "sha256": "ea4177481b0914e1cb55338dca310d7f07ef39a39dd95e0158e773d1d59d8092",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "qlcnic.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-qlcnic.sh"
+  }
+
+}

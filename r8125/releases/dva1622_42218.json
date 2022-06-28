@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "r8125-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/releases/r8125-4.4.180plus-geminilake.tgz",
+      "sha256": "2903156c3803fb4ddf53c7df693578022ae85b1cf0d634bb2c94af024ddca2eb",
+      "packed": true
+    },
+    {
+      "name": "check-r8125.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/src/check-r8125.sh",
+      "sha256": "ec4f266812ed308c0e15363315cfe696a2eee48b024130260fca15bd6e63dd91",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "r8125.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-r8125.sh"
+  }
+
+}

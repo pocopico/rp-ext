@@ -1,0 +1,30 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "dm9601-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/releases/dm9601-4.4.180plus-geminilake.tgz",
+      "sha256": "4aa331933eadeeaaa8a044ec2b64eb0eb64471e8079ec94a001631e8db7c9317",
+      "packed": true
+    },
+    {
+      "name": "check-dm9601.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/src/check-dm9601.sh",
+      "sha256": "eae4059e84042f4e241a55f54d5659a380de96ae59eb7c1b4fad1daf88469364",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "dm9601.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-dm9601.sh"
+  }
+
+}

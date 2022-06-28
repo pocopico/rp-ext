@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "8139cp-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139cp/releases/8139cp-4.4.180plus-geminilake.tgz",
+      "sha256": "d1b20c741285b209d5795cba802567cb9a60e421528561bc13464d10237fa672",
+      "packed": true
+    },
+    {
+      "name": "check-8139cp.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/8139cp/src/check-8139cp.sh",
+      "sha256": "7cd15193b3e178d96df44852bb4344c72450c232b06fdf8fce2b0bad38facae2",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mii.ko": "",
+    "8139cp.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-8139cp.sh"
+  }
+
+}

@@ -1,0 +1,30 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "ax88179_178a-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/releases/ax88179_178a-4.4.180plus-geminilake.tgz",
+      "sha256": "0c038a8be556f2872cde6d5367df2675621965a863e17deddff81577954768be",
+      "packed": true
+    },
+    {
+      "name": "check-ax88179_178a.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/src/check-ax88179_178a.sh",
+      "sha256": "a0d2839fe566a0b6d2275d11af7e6eb70c9c0b54282abee9321dd3b429a91282",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "usbnet.ko": "",
+    "usbcore.ko": "",
+    "mii.ko": "",
+    "ax88179_178a.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-ax88179_178a.sh"
+  }
+
+}

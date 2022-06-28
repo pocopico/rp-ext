@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "via-velocity-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/releases/via-velocity-4.4.180plus-geminilake.tgz",
+      "sha256": "5f54ab592460f24ffca8f3e36320a9e4bdfdef4d82a0cdf9fadeac577b167fda",
+      "packed": true
+    },
+    {
+      "name": "check-via-velocity.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/src/check-via-velocity.sh",
+      "sha256": "43b3d64995e470968fe17d41a9de2451467b2240f967a00e9a92cd480e49e873",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "crc-ccitt.ko": "",
+    "via-velocity.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-via-velocity.sh"
+  }
+
+}
