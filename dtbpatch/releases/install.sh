@@ -28,6 +28,7 @@ if [ "$HASBOOTED" = "no" ]; then
   else
     cp -vf output.dtb /etc.defaults/model.dtb
     cp -vf output.dtb /var/run/model.dtb
+    cp -vf /etc.defaults/model.dtb /tmpRoot/etc.defaults/model.dtb
   fi
 elif [ "$HASBOOTED" = "yes" ]; then
   echo "dtbpatch - late"
