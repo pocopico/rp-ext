@@ -3,10 +3,11 @@
 if [ "${1}" = "early" ]; then
   echo "dtbpatch - early"
   # fix executable flag
+  cp dtbpatch /usr/sbin/
   chmod +x /usr/sbin/dtbpatch
 
   # Dynamic generation
-  dtbpatch /etc.defaults/model.dtb output.dtb
+  /usr/bin/dtbpatch /etc.defaults/model.dtb output.dtb
   if [ $? -ne 0 ]; then
     echo "Error patching dtb"
   else
