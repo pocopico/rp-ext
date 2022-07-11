@@ -15,7 +15,7 @@
     {
       "name": "install.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/releases/install.sh",
-      "sha256": "12454caad6ce6a21fa861bd632748ec0c709aeb8a2e6cc4f02b983fe11f07abe",
+      "sha256": "1e1cac4dc54a6649734b308947cedab51993ed27023b7d1ede0ea1f76caac932",
       "packed": false
     }
   ],
