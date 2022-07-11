@@ -8,7 +8,7 @@
 
 if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
 HASBOOTED="yes"
-echo "System has completed init process"
+echo "System passed junior"
 else
 echo "System is booting"
 HASBOOTED="no"
