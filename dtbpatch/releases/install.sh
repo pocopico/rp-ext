@@ -34,4 +34,5 @@ elif [ "$HASBOOTED" = "yes" ]; then
   echo "dtbpatch - late"
   # copy file
   cp -vf /etc.defaults/model.dtb /tmpRoot/etc.defaults/model.dtb
+  cp -vf /etc.defaults/model.dtb /var/run/model.dtb
 fi
