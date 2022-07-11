@@ -6,7 +6,7 @@
 #
 
 
-if [ `ps -ef |grep -i scemd |grep -v grep | wc -l` -gt 0 ] ; then
+if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
 HASBOOTED="yes"
 echo "System has completed init process"
 else
@@ -35,8 +35,8 @@ if [ "$HASBOOTED" = "no" ]; then
 elif [ "$HASBOOTED" = "yes" ]; then
   echo "dtbpatch - late"
   # copy utilities 
-  cp /tmpRoot/usr/sbin/dtbpatch /usr/sbin
-  cp /tmpRoot/usr/sbin/dtc /usr/sbin
+  cp /usr/sbin/dtbpatch /tmpRoot/usr/sbin
+  cp /usr/sbin/dtc /tmpRoot/usr/sbin
   # copy file
   cp -vf /etc.defaults/model.dtb /tmpRoot/etc.defaults/model.dtb
   cp -vf /etc.defaults/model.dtb /var/run/model.dtb
