@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "sata_nv-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sata_nv/releases/sata_nv-4.4.180plus-geminilake.tgz",
+      "sha256": "5718ed6a363da4c96ff620d78a6cf2d7a3b0a35d003e339f176d9518d78c35c0",
+      "packed": true
+    },
+    {
+      "name": "check-sata_nv.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sata_nv/src/check-sata_nv.sh",
+      "sha256": "ec638bb54b494c784156b1c70267283ea41a50f39cf108aaebfbc1e82b7aaa48",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "sata_nv.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-sata_nv.sh"
+  }
+
+}

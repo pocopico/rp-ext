@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "sata_nv-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sata_nv/releases/sata_nv-4.4.180plus-v1000.tgz",
+      "sha256": "c5747a5e23dd6e239c6d65c9a21a9bdf4615d4353347359a027a8edae8cc71c8",
+      "packed": true
+    },
+    {
+      "name": "check-sata_nv.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/sata_nv/src/check-sata_nv.sh",
+      "sha256": "ec638bb54b494c784156b1c70267283ea41a50f39cf108aaebfbc1e82b7aaa48",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "sata_nv.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-sata_nv.sh"
+  }
+
+}

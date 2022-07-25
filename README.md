@@ -1,5 +1,7 @@
 <h3 align=”center”>This repo holds some redpill extensions, use at your own risk</h3>
 <h3 align=”center”>Test the extensions and if they do not work as intended please open an issue</h3>
+Extension Name: "sata_nv" Description : "Adds low-level driver for NVIDIA nForce SATA controller  Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/sata_nv/rpext-index.json">LINK</a><br>
 Extension Name: "aacraid" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/rpext-index.json">LINK</a><br>
 Extension Name: "aic94xx" Description : "Adds Adaptec aic94xx SAS/SATA driver Support"
