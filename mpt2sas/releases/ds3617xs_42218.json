@@ -3,7 +3,7 @@
   "files": [
     {
       "name": "mpt2sas-4.4.180plus-broadwell.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mpt2sas/releases/mpt2sas-4.4.180plus-broadwell.tgz",
+      "url": "https://github.com/pocopico/rp-ext/blob/main/mpt2sas/releases/mpt2sas-4.4.180plus-broadwell.tgz",
       "sha256": "4aa1b4861c86862d237a9f5d7dc372fe77ec48dd88ee411222727e4c480f6371",
       "packed": true
     },
