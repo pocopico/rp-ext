@@ -1,0 +1,24 @@
+{
+  "id": "dtbpatch",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/rpext-index.json",
+  "info": {
+    "name": "Device tree binary",
+    "description": "Create your own device tree binary",
+    "author_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb",
+    "packer_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb",
+    "help_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb"
+  },
+  "releases": {
+  "3.10.108" : {
+    "bromolow": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json"
+  },
+  "4.4.180": {
+    "apollolake": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json",
+    "v1000": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json",
+    "broadwell": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json",
+    "broadwellnk": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json",
+    "geminilake": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json",
+    "denverton": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json"
+  }
+}
+}
