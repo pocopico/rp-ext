@@ -4,9 +4,9 @@
   "info": {
     "name": "Device tree binary",
     "description": "Create your own device tree binary",
-    "author_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb",
-    "packer_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb",
-    "help_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-dtb"
+    "author_url": "https://github.com/pocopico/redpill-load/raw/develop/redpill-dtb",
+    "packer_url": "https://github.com/pocopico/redpill-load/raw/develop/redpill-dtb",
+    "help_url": "https://github.com/pocopico/redpill-load/raw/develop/redpill-dtb"
   },
   "releases": {
     "ds920p_42951": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json",
