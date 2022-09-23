@@ -3,10 +3,10 @@
   "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/rpext-index.json",
   "info": {
     "name": "Device tree binary",
-    "description": "Create your own device tree binary",
-    "author_url": "https://github.com/pocopico/redpill-load/raw/develop/redpill-dtb",
-    "packer_url": "https://github.com/pocopico/redpill-load/raw/develop/redpill-dtb",
-    "help_url": "https://github.com/pocopico/redpill-load/raw/develop/redpill-dtb"
+    "description": "Update device tree binary automatically on boot",
+    "author_url": "https://github.com/pocopico/rp-ext/master/dtbpatch",
+    "packer_url": "https://github.com/pocopico/rp-ext/master/dtbpatch/",
+    "help_url": "https://github.com/pocopico/rp-ext/master/dtbpatch/"
   },
   "releases": {
     "ds920p_42951": "https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/recipes/universal.json",
