@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "forcedeth-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/releases/forcedeth-4.4.180plus-v1000.tgz",
+      "sha256": "a691a95df9ca9d325c58834dd27cb709789b3219e6554f55ef81704d35dc645c",
+      "packed": true
+    },
+    {
+      "name": "check-forcedeth.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/src/check-forcedeth.sh",
+      "sha256": "ab5f20d773adba2ca193bfba2caf10b15cac396caeee3653de8da715d925043b",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "forcedeth.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-forcedeth.sh"
+  }
+
+}
