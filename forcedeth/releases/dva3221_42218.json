@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "forcedeth-4.4.180plus-broadwell.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/releases/forcedeth-4.4.180plus-broadwell.tgz",
-      "sha256": "c75b4970815cf0af7ed0f3871e0337284af14efd77b839b06053da4d3f5bf903",
+      "name": "forcedeth-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/releases/forcedeth-4.4.180plus-denverton.tgz",
+      "sha256": "7e6e6638b6d6862806b56cbc9f895d6dcecdc313ac3fafe53a239c624c5daadc",
       "packed": true
     },
     {
