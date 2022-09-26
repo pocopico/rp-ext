@@ -5,7 +5,7 @@
     {
       "name": "tg3-4.4.180plus-geminilake.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-4.4.180plus-geminilake.tgz",
-      "sha256": "293cc4be5cc03ec7a0cbc253f3f16498db05f416fb654f9947b66bfc13c26e28",
+      "sha256": "b319c861d10ff08cbe18e2420e3f55c7aaad6467909adced0495fec074fdff9a",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "libphy.ko": "",
-    "tg3.ko":""
+    "tg3.ko": ""
   },
 
     "scripts": {

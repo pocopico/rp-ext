@@ -5,7 +5,7 @@
     {
       "name": "tg3-4.4.180plus-broadwellnk.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-4.4.180plus-broadwellnk.tgz",
-      "sha256": "e9bc47b0d122044be2452d2695f1316240430b8dabbcad2e29164083ae6af634",
+      "sha256": "3911b8542e0a786bb5ddd345d878de07ddae2bf9dfe51e838b23b58e8f1d6ece",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "libphy.ko": "",
-    "tg3.ko":""
+    "tg3.ko": ""
   },
 
     "scripts": {

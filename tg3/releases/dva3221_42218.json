@@ -5,7 +5,7 @@
     {
       "name": "tg3-4.4.180plus-denverton.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/releases/tg3-4.4.180plus-denverton.tgz",
-      "sha256": "d24ce2bdf64f11739b5c184c3a3fcda52105c7f0c0c984aceb86880dfed6de97",
+      "sha256": "57109df501951a4a0976f99140447fe153d8056147ccdf208ccaf792b364970d",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "libphy.ko": "",
-    "tg3.ko":""
+    "tg3.ko": ""
   },
 
     "scripts": {
