@@ -54,6 +54,12 @@
 "dva1622_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/dva1622_42218.json",
 "dva1622_42951": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/dva1622_42218.json",
 "dva1622_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/dva1622_42218.json",
+"rs4021xsp_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/ds3622xsp_42218.json",
+"rs4021xsp_42621": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/ds3622xsp_42218.json",
+"rs4021xsp_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/ds3622xsp_42218.json",
+"rs4021xsp_42951": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/ds3622xsp_42218.json",
+"rs4021xsp_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-prod/releases/ds3622xsp_42218.json",
+
 "endofmodel": "endofurls"
   }
 }
