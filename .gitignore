@@ -4,3 +4,4 @@ create-rp-ext.json.sh
 add-plaform-release.sh
 create-index.sh
 create-readme.sh
+cloneplatform.sh
