@@ -1,11 +1,11 @@
 {
-  "id": "pocopico.acpid",
-  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/button/rpext-index.json",
+  "id": "redpill-acpid",
+  "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/rpext-index.json",
   "info": {
     "name": "button",
     "description": "Adds ACPI Button Driver Support",
     "author_url": "https://github.com/pocopico",
-    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/button",
+    "packer_url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid",
     "help_url": "<todo>"
   },
   "releases": {
