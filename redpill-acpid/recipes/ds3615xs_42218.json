@@ -27,7 +27,7 @@
   },
 
     "scripts": {
-    "on_boot": "install-acpid.sh"
+    "on_os_load": "install-acpid.sh"
   }
 
 }
