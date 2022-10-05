@@ -1,0 +1,33 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "button-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/recipes/button-3.10.108.tgz",
+      "sha256": "c0c7f36ea5d468ed249793a56f97a281ab49e484a5b22c859f1bea2fa86d84e6",
+      "packed": true
+    },
+    {
+      "name": "install-acpid_v6.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/src/install-acpid_v6.sh",
+      "sha256": "d6fff6c18d1c719acd2ee01dee367fd7ee3bfc3f1edb3f9dfb74ab7323bfbad9",
+      "packed": false
+    },
+     {
+      "name": "acpid_v6.tar.gz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/recipes/acpid.tar.gz",
+      "sha256": "4007bbf6b86185e96415ba4dbbb3bed0ab9124bb0a57e43b9ebf21ee260162c7",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "button.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "install-acpid.sh"
+  }
+
+}

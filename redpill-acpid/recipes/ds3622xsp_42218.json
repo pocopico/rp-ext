@@ -1,0 +1,33 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "button-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/recipes/button-4.4.180plus-broadwellnk.tgz",
+      "sha256": "308406ee68df94b65ff9212de6717791605d600cf43828f1a97bf8fd752b5b38",
+      "packed": true
+    },
+     {
+      "name": "install-acpid.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/src/install-acpid.sh",
+      "sha256": "ba1c57011eeb312059872014afa7b2749ea7dc55add039588cfd48c59f1fe2c7",
+      "packed": false
+    },
+     {
+      "name": "acpid.tar.gz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/recipes/acpid.tar.gz",
+      "sha256": "2dfb078b54e63802c48393b1f488a4c7303a14c7ee3bd16c7f169e5fca661c73",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "button.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "install-acpid.sh"
+  }
+
+}
