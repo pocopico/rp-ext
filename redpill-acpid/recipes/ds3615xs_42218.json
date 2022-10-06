@@ -16,7 +16,7 @@
     },
      {
       "name": "acpid_v6.tar.gz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/recipes/acpid.tar.gz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/recipes/acpid_v6.tar.gz",
       "sha256": "4007bbf6b86185e96415ba4dbbb3bed0ab9124bb0a57e43b9ebf21ee260162c7",
       "packed": false
     }
