@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "rtc-cmos-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/releases/rtc-cmos-4.4.180plus-geminilake.tgz",
+      "sha256": "f222c951b05b8f5a827dca9f684942cb3b3706b25dcd1e3feb4e1da234a1948d",
+      "packed": true
+    },
+    {
+      "name": "check-rtc-cmos.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/check-rtc-cmos.sh",
+      "sha256": "8b08a517490e0dd27ade1a8ba4930d19a94b525b44f150e7a8faf86e1015585f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "rtc-core.ko": "",
+    "rtc-cmos.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-rtc-cmos.sh"
+  }
+
+}

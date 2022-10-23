@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "rtc-cmos-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/releases/rtc-cmos-3.10.108.tgz",
+      "sha256": "6a4830b2cf15a8e9d2648ee69be287be5ebabd3963875ec4465dca2ad7cc17b0",
+      "packed": true
+    },
+    {
+      "name": "check-rtc-cmos.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/check-rtc-cmos.sh",
+      "sha256": "8b08a517490e0dd27ade1a8ba4930d19a94b525b44f150e7a8faf86e1015585f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "rtc-cmos.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-rtc-cmos.sh"
+  }
+
+}

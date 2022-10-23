@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "rtc-cmos-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/releases/rtc-cmos-4.4.180plus-v1000.tgz",
+      "sha256": "40ad5a0d4c67056ee0f6bf1a320ed3bc2f137be84dc18ec35ee942d88e4618ac",
+      "packed": true
+    },
+    {
+      "name": "check-rtc-cmos.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/check-rtc-cmos.sh",
+      "sha256": "8b08a517490e0dd27ade1a8ba4930d19a94b525b44f150e7a8faf86e1015585f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "rtc-cmos.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-rtc-cmos.sh"
+  }
+
+}
