@@ -5,7 +5,7 @@
     {
       "name": "rtc-cmos-4.4.180plus-geminilake.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/releases/rtc-cmos-4.4.180plus-geminilake.tgz",
-      "sha256": "f222c951b05b8f5a827dca9f684942cb3b3706b25dcd1e3feb4e1da234a1948d",
+      "sha256": "44444a5625b270839a2ad5953b85120fd42216f255cb78f3ddd7f81eb82f7d08",
       "packed": true
     },
     {
@@ -17,7 +17,6 @@
   ],
 
   "kmods": {
-    "rtc-core.ko": "",
     "rtc-cmos.ko":""
   },
 
