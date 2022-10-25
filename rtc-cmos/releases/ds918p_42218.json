@@ -17,7 +17,7 @@
      {
       "name": "install-rtcwake.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/install-rtcwake.sh",
-      "sha256": "b8627bd98998b45fa9367bb2d061476185bcd3ebe433a96644a0349a7531d4a1",
+      "sha256": "46ed4d176026f12f54a7ce6342bb0b3527ab0b191612881bbdc338734e320d17",
       "packed": false
     },
     {
