@@ -53,6 +53,7 @@ function setpowerup() {
 case $1 in
 
 start)
+	touch /etc/power_sched.conf
 	/etc/rtcwake/adhocify -d -m IN_MODIFY -w /etc/power_sched.conf /etc/rtcwake/setpowerup.sh -o /etc/rtcwake/adhocify.log
 	setpowerup
 	;;
