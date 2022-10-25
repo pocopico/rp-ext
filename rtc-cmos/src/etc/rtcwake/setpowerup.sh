@@ -11,7 +11,7 @@ function getvalues() {
 		#	echo  "$char"
 		if [ -n $char ] && [ "$char" = "1" ]; then
 
-			if [ "${days[$day]}" = "$(date +%a -d 'today')" ]; then
+			if [ "${days[$day]}" = "$(date +%a -d 'today')" ] && [ "$(date +%s)" -le "$(date +%s -d "today $hour:$minutes")" ]; then
 				echo "$(date +%s -d "this ${days[$day]} $hour:$minutes")"
 			else
 				echo "$(date +%s -d "next ${days[$day]} $hour:$minutes")"
