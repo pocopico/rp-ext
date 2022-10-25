@@ -1,0 +1,14 @@
+[Unit]
+Description=rtcwake Daemon
+After=syno-bootup-done.target
+DefaultDependencies=yes
+IgnoreOnIsolate=yes
+
+[Install]
+WantedBy=syno-bootup-done.target
+
+[Service]
+Type=forking
+ExecStart=/etc/rtcwake/setpowerup.sh start
+ExecStop=/etc/rtcwake/setpowerup.sh stop
+
