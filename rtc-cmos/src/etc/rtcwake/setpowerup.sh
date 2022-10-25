@@ -2,7 +2,7 @@
 
 function getvalues() {
 
-	days=(sat mon tue wed thu fri sunday)
+	days=(Sat Mon Tue Wed Thu Fri Sun)
 
 	let day=0
 
@@ -10,8 +10,12 @@ function getvalues() {
 		# display one character at a time
 		#	echo  "$char"
 		if [ -n $char ] && [ "$char" = "1" ]; then
-			#echo "${days[$day]} Time: $hour $minutes"
-			echo "$(date +%s -d "next ${days[$day]} $hour:$minutes")"
+
+			if [ "${days[$day]}" = "$(date +%a -d 'today')"]; then
+				echo "$(date +%s -d "this ${days[$day]} $hour:$minutes")"
+			else
+				echo "$(date +%s -d "next ${days[$day]} $hour:$minutes")"
+			fi
 		fi
 		let day=$day+1
 	done | sort -n | head -1
