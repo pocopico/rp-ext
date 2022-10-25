@@ -59,6 +59,7 @@ start)
 
 stop)
 	killall adhocify
+	setpowerup
 	;;
 
 *)
@@ -66,4 +67,3 @@ stop)
 	;;
 
 esac
-
