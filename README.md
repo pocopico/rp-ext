@@ -48,7 +48,7 @@ Extension ID : "pocopico.dm9601" Extension Name: "dm9601" Description : "Adds Da
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/dm9601/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.dtb-patch" Extension Name: "Tinycore Diag" Description : "An extension that will assist in collecting DSM diagnostic information"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/dtb-patch/rpext-index.json">LINK</a><br>
-Extension ID : "dtbpatch" Extension Name: "Device tree binary" Description : "Create your own device tree binary"
+Extension ID : "dtbpatch" Extension Name: "Device tree binary" Description : "Update device tree binary automatically on boot"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.e1000e" Extension Name: "e1000e" Description : "Adds Intel(R) PRO/1000 Network Driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json">LINK</a><br>
@@ -56,7 +56,9 @@ Extension ID : "pocopico.e1000" Extension Name: "e1000" Description : "Adds Inte
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.early-telnet" Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/early-telnet/rpext-index.json">LINK</a><br>
-Extension ID : "pocopico.forcedeth" Extension Name: "forcedeth" Description : "Adds  Support"
+Extension ID : "dtbpatch" Extension Name: "Device tree binary" Description : "Create your own device tree binary"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/dtbpatch/rpext-index.json">LINK</a><br>
+Extension ID : "pocopico.forcedeth" Extension Name: "forcedeth" Description : "Adds Reverse Engineered nForce ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/forcedeth/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.hpsa" Extension Name: "hpsa" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/hpsa/rpext-index.json">LINK</a><br>
@@ -110,14 +112,20 @@ Extension ID : "pocopico.r8169" Extension Name: "r8169" Description : "Adds Real
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.raspbi-pill" Extension Name: "Early telnet start" Description : "Simple extension which starts telnet early at boot"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/raspbi-pill/rpext-index.json">LINK</a><br>
-Extension ID : "jumkey.acpid2" Extension Name: "ACPI Daemon v2" Description : "ACPI Daemon v2 that handles power button events"
-<a href="https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json">LINK</a><br>
+Extension ID : "redpill-acpid" Extension Name: "button" Description : "Adds ACPI Button Driver Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-acpid/rpext-index.json">LINK</a><br>
 Extension ID : "redpill-boot-wait" Extension Name: "RedPill Bootwait" Description : "Simple extension which stops the execution early waiting for the boot device to appear"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-boot-wait/rpext-index.json">LINK</a><br>
+Extension ID : "pocopico.redpilldev" Extension Name: "redpill" Description : "Adds  Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/rpext-index.json">LINK</a><br>
 Extension ID : "redpill-dtb-static" Extension Name: "Device tree binary" Description : "Create your own device tree binary"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill-dtb-static/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.redpill" Extension Name: "redpill" Description : "Adds  Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/rpext-index.json">LINK</a><br>
+Extension ID : "pocopico.redpill" Extension Name: "redpill" Description : "Adds  Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/rpext-index.json">LINK</a><br>
+Extension ID : "pocopico.rtc-cmos" Extension Name: "rtc-cmos" Description : "Adds Driver for PC-style 'CMOS' RTCs Support"
+<a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.rtl8150" Extension Name: "rtl8150" Description : "Adds rtl8150 based usb-ethernet driver Support"
 <a href="https://raw.githubusercontent.com/pocopico/rp-ext/master/rtl8150/rpext-index.json">LINK</a><br>
 Extension ID : "pocopico.sata_nv" Extension Name: "sata_nv" Description : "Adds low-level driver for NVIDIA nForce SATA controller Support"
