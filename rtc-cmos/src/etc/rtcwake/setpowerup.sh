@@ -25,7 +25,7 @@ function setpowerup() {
 
 	if [ -f /etc/power_sched.conf ]; then
 
-		setting="$(grep -A 1 "Power On schedule" /etc/power_sched.conf | tail -1 | /bin/dec2bin)"
+		setting="$(sed -n '/Power On/,/Power Off/ p' /etc/power_sched.conf | grep -v Power | sort -n | head -1 | /bin/dec2bin)"
 
 		if [ -n $setting ] && [ $(printf $setting | wc -c) -eq 32 ]; then
 			dayset="$(echo $setting | cut -c 10-16)"
@@ -71,3 +71,9 @@ stop)
 	;;
 
 esac
+
+for line in $(sed -n '/Power On/,/Power Off/ p' /etc/power_sched.conf | grep -v Power | sort -n); do
+	hr="$((2#$(echo $line | dec2bin | cut -c 17-24)))"
+	min="$((2#$(echo $line | dec2bin | cut -c 25-32)))"
+	echo $line $hr $min
+done

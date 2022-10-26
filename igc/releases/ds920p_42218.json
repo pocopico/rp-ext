@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igc-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igc/releases/igc-4.4.180plus-geminilake.tgz",
+      "sha256": "b3f36e2614a1de657bf08c98cbdde0f12d9a8f3664db964e90c4dc1657b7a275",
+      "packed": true
+    },
+    {
+      "name": "check-igc.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igc/src/check-igc.sh",
+      "sha256": "4892e37cc4f974700b88332e005d61676257876938f8e57677c655a2eca5a8ef",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igc.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igc.sh"
+  }
+
+}
