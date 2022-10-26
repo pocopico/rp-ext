@@ -4,25 +4,25 @@
   "files": [
     {
       "name": "rtc-cmos-4.4.180plus-v1000.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/releases/rtc-cmos-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/releases/rtc-cmos-4.4.180plus-v1000.tgz",
       "sha256": "40ad5a0d4c67056ee0f6bf1a320ed3bc2f137be84dc18ec35ee942d88e4618ac",
       "packed": true
     },
        {
       "name": "powershed",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/powersched",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/powersched",
       "sha256": "b43fbf343fe5f5fb632f5ff0e3dbf32ef5fb84c5c1b28f1498bd64b1fb261fc6",
       "packed": false
     },
      {
       "name": "install-powersched.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/install-powersched.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/install-powersched.sh",
       "sha256": "e26d503bcb215a3437b4aad2ea6c70c82a6dbdc0abdfe020fd4ba719e05b1e47",
       "packed": false
     },
     {
       "name": "check-rtc-cmos.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/check-rtc-cmos.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/check-rtc-cmos.sh",
       "sha256": "8b08a517490e0dd27ade1a8ba4930d19a94b525b44f150e7a8faf86e1015585f",
       "packed": false
     }
