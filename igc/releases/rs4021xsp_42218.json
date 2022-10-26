@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igc-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igc/releases/igc-4.4.180plus-broadwellnk.tgz",
+      "sha256": "5cbfde577c297273e3aee912b563c4780b81e2f8bc7a85f180489ce1a206172e",
+      "packed": true
+    },
+    {
+      "name": "check-igc.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/igc/src/check-igc.sh",
+      "sha256": "4892e37cc4f974700b88332e005d61676257876938f8e57677c655a2eca5a8ef",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igc.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igc.sh"
+  }
+
+}
