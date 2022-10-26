@@ -11,7 +11,7 @@ Persistent=true
 WantedBy=timers.target
 EOF
   mkdir -p /tmpRoot/etc/systemd/system/timers.target.wants
-  ln -sf /tmpRoot/etc/systemd/system/powersched.timer /tmpRoot/etc/systemd/system/timers.target.wants/powersched.timer
+  ln -sf /etc/systemd/system/powersched.timer /tmpRoot/etc/systemd/system/timers.target.wants/powersched.timer
   cat > /tmpRoot/etc/systemd/system/powersched.service <<'EOF'
 [Unit]
 Description=Configure RTC to DSM power schedule
@@ -22,4 +22,4 @@ ExecStart=/usr/sbin/powersched
 WantedBy=multi-user.target
 EOF
   mkdir -p /tmpRoot/etc/systemd/system/multi-user.target.wants
-  ln -sf /tmpRoot/etc/systemd/system/powersched.service /tmpRoot/etc/systemd/system/multi-user.target.wants/powersched.service
+  ln -sf /etc/systemd/system/powersched.service /tmpRoot/etc/systemd/system/multi-user.target.wants/powersched.service
