@@ -17,7 +17,7 @@
      {
       "name": "install-powersched.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/install-powersched.sh",
-      "sha256": "ebb728b5cf33b914bea6a47ea92b72f4767acdead14b62ccfd26029b791423a8",
+      "sha256": "faa3dab02f8cfb489b361382b8d1d869e976f32c585a68ca5718079b87201039",
       "packed": false
     },
     {
