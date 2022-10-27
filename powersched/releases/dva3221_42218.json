@@ -9,7 +9,7 @@
       "packed": true
     },
        {
-      "name": "powershed",
+      "name": "powersched",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/powersched",
       "sha256": "b43fbf343fe5f5fb632f5ff0e3dbf32ef5fb84c5c1b28f1498bd64b1fb261fc6",
       "packed": false
