@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "netxen_nic-3.10.108.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/netxen_nic/releases/netxen_nic-3.10.108.tgz",
+      "sha256": "db7de94ef8d8ca6953c0cfb9322e9a4fa7ac1b4c3ca0e6edf145b55c00729fca",
+      "packed": true
+    },
+    {
+      "name": "check-netxen_nic.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/netxen_nic/src/check-netxen_nic.sh",
+      "sha256": "6462e390d3289a907549b2cb608cf6bdd4448ad41880d168e73d25559808f054",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "netxen_nic.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-netxen_nic.sh"
+  }
+
+}

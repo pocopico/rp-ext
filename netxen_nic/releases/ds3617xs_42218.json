@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "netxen_nic-4.4.180plus-broadwell.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/netxen_nic/releases/netxen_nic-4.4.180plus-broadwell.tgz",
+      "sha256": "be6fb322334e82360921554e4f1c1ae8d9101bd94526e6282834ffe291b5093e",
+      "packed": true
+    },
+    {
+      "name": "check-netxen_nic.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/netxen_nic/src/check-netxen_nic.sh",
+      "sha256": "6462e390d3289a907549b2cb608cf6bdd4448ad41880d168e73d25559808f054",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "netxen_nic.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-netxen_nic.sh"
+  }
+
+}

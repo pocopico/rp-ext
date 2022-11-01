@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "netxen_nic-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/netxen_nic/releases/netxen_nic-4.4.180plus-v1000.tgz",
+      "sha256": "ae42217474135e14d7acad49087fbabc3c3f8000a368c0400a21874395e96516",
+      "packed": true
+    },
+    {
+      "name": "check-netxen_nic.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/netxen_nic/src/check-netxen_nic.sh",
+      "sha256": "6462e390d3289a907549b2cb608cf6bdd4448ad41880d168e73d25559808f054",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "netxen_nic.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-netxen_nic.sh"
+  }
+
+}
