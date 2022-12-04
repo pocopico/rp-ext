@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "redpill-5.10.55plus-epyc.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/redpill-5.10.55plus-epyc.tgz",
+      "sha256": "57d10880fb7510ba29063cf6ad3b08da8d60e541dab5be176777b9c4a0c7588d",
+      "packed": true
+    },
+    {
+      "name": "check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/src/check-redpill.sh",
+      "sha256": "59ebc3776123812ad7c19363dddfd4d02592d08c038d3a555d6059b003c7213a",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "redpill.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-redpill.sh"
+  }
+
+}
