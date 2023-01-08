@@ -5,7 +5,14 @@
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/eudev.tgz",
       "sha256": "57892f7e5abc5f5dab42ed04a952cb796a6f0627f7623f5bd17736d7f4182849",
       "packed": true
+    },
+    {
+      "name": "install.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/install.sh",
+      "sha256": "41c667c64e41f0b2c07488c5e209290e64907a4f9a2f2ce59955883b7a9181ad",
+      "packed": false
     }
+
   ],
   "scripts": {
     "on_boot": "install.sh"
