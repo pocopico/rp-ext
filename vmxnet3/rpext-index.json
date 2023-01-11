@@ -62,6 +62,7 @@
     "ds920p_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/ds920p_42218.json",
     "ds920p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/ds920p_42218.json",
     "ds920p_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/ds920p_42218.json",
-    "ds923p_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/ds923p_42218.json"
+    "ds923p_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/ds923p_42218.json",
+    "sa6400_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/sa6400_42218.json"
   }
 }

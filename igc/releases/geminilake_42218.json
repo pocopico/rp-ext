@@ -1,0 +1,27 @@
+{
+  "mod_version": "1.3.0",
+
+  "files": [
+    {
+      "name": "igc-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/jim3ma/synology-igc/master/igc/releases/igc-geminilake.tgz",
+      "sha256": "9a08e024567cab65a4c6c1206c3bbef481a15725a34eef8508498195cc4358ac",
+      "packed": true
+    },
+    {
+      "name": "check-igc.sh",
+      "url": "https://raw.githubusercontent.com/jim3ma/synology-igc/master/igc/src/check-igc.sh",
+      "sha256": "4892e37cc4f974700b88332e005d61676257876938f8e57677c655a2eca5a8ef",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igc.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igc.sh"
+  }
+
+}

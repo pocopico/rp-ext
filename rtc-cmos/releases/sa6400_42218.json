@@ -1,0 +1,42 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "rtc-cmos-5.10.55plus-epyc.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/releases/rtc-cmos-5.10.55plus-epyc.tgz",
+      "sha256": "20074bcfae773ac2a7fcea902a7bceacfdd7d8f86716d226a61fe34cb29a9239",
+      "packed": true
+    },
+      {
+      "name": "rtcwake.tar.gz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/releases/rtcwake.tar.gz",
+      "sha256": "a77f600ec78d51e01fbae1a52fb811180c234d205b3801d391aa0815b72b129c",
+      "packed": false
+    },
+     {
+      "name": "install-rtcwake.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/install-rtcwake.sh",
+      "sha256": "46ed4d176026f12f54a7ce6342bb0b3527ab0b191612881bbdc338734e320d17",
+      "packed": false
+    },
+    {
+      "name": "check-rtc-cmos.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/rtc-cmos/src/check-rtc-cmos.sh",
+      "sha256": "8b08a517490e0dd27ade1a8ba4930d19a94b525b44f150e7a8faf86e1015585f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "rtc-cmos.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-rtc-cmos.sh",
+    "on_os_load": "install-rtcwake.sh"
+
+  }
+
+}
+

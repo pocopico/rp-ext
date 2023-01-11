@@ -1,0 +1,28 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+   {
+      "name": "e1000-5.10.55plus-epyc.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/e1000-5.10.55plus-epyc.tgz",
+      "sha256": "2d07f25eafd2cfbf535f271403ca5165274da3a8ce0f3477bca024e4794c67f5",
+      "packed": true
+    },
+
+    {
+      "name": "check-e1000.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/src/check-e1000.sh",
+      "sha256": "5288f8de85a16943b510e176cbb8a6422a31486c915456c7a74eef62409017ef",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "e1000.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-e1000.sh"
+  }
+
+}

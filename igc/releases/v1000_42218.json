@@ -1,0 +1,27 @@
+{
+  "mod_version": "1.3.0",
+
+  "files": [
+    {
+      "name": "igc-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/jim3ma/synology-igc/master/igc/releases/igc-v1000.tgz",
+      "sha256": "502776736a295cd470f2dcde50be725254afc65a6bf50da644ade231633a81f1",
+      "packed": true
+    },
+    {
+      "name": "check-igc.sh",
+      "url": "https://raw.githubusercontent.com/jim3ma/synology-igc/master/igc/src/check-igc.sh",
+      "sha256": "4892e37cc4f974700b88332e005d61676257876938f8e57677c655a2eca5a8ef",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igc.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igc.sh"
+  }
+
+}
