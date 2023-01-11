@@ -4,7 +4,7 @@
   "files": [
     {
       "name": "vmxnet3-5.10.55plus-epyc.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/vmxnet3-5.10.55plus-epyc.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-5.10.55plus-epyc.tgz",
       "sha256": "830b17cb0cdb033a6c5a492bb64111f470ec5c538b96ecb1c5afc043ca87c73e",
       "packed": true
     },
