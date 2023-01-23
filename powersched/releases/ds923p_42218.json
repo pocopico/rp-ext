@@ -1,0 +1,42 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "rtc-cmos-4.4.180plus-r1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/releases/rtc-cmos-4.4.180plus-r1000.tgz",
+      "sha256": "8d50468d8f7e2a5bd8792e8af70e50177c026bdbff522e43c11a41bd655130ee",
+      "packed": true
+    },
+       {
+      "name": "powersched",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/powersched",
+      "sha256": "7e1dc0c2228fd92cb5cd0f5eb9472e0696a79cfdf09f86cc96ab42ca58750e75",
+      "packed": false
+    },
+     {
+      "name": "install-powersched.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/install-powersched.sh",
+      "sha256": "faa3dab02f8cfb489b361382b8d1d869e976f32c585a68ca5718079b87201039",
+      "packed": false
+    },
+    {
+      "name": "check-rtc-cmos.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/powersched/src/check-rtc-cmos.sh",
+      "sha256": "8b08a517490e0dd27ade1a8ba4930d19a94b525b44f150e7a8faf86e1015585f",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "rtc-cmos.ko":""
+  },
+
+    "scripts": {
+    "on_boot": "check-rtc-cmos.sh",
+    "on_os_load": "install-powersched.sh"
+
+  }
+
+}
+
