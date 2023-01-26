@@ -1,0 +1,35 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mlx4_core-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/mlx4_core-4.4.180plus-geminilake.tgz",
+      "sha256": "0d9142ba0e0e80635174179fb616dedd6b6b3340dd08aa5d47cf08820d13ace5",
+      "packed": true
+    },
+    {
+      "name": "check-mlx4_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/check-mlx4_core.sh",
+      "sha256": "79105bd32ada068b12121a1da888115e0b2b22a1942f614a31ab32566bdea779",
+      "packed": false
+    },
+    {
+      "name": "on_os_load_mlx4_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/on_os_load_mlx4_core.sh",
+      "sha256": "71c20b04a708e9811dc0dd4bce1ec8ae31d50e5f688a230d32ba24073ed2cffa",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mlx4_core.ko": "",
+    "mlx4_en.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mlx4_core.sh",
+    "on_os_load": "on_os_load_mlx4_core.sh"
+  }
+
+}
