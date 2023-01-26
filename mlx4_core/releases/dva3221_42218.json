@@ -1,0 +1,35 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "mlx4_core-4.4.180plus-denverton.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/releases/mlx4_core-4.4.180plus-denverton.tgz",
+      "sha256": "1d86ec16e5bef5dfaffc9d4f764854f9944c23f0e2e889575743cf7bd9bddb8b",
+      "packed": true
+    },
+    {
+      "name": "check-mlx4_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/check-mlx4_core.sh",
+      "sha256": "79105bd32ada068b12121a1da888115e0b2b22a1942f614a31ab32566bdea779",
+      "packed": false
+    },
+    {
+      "name": "on_os_load_mlx4_core.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/mlx4_core/src/on_os_load_mlx4_core.sh",
+      "sha256": "71c20b04a708e9811dc0dd4bce1ec8ae31d50e5f688a230d32ba24073ed2cffa",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "mlx4_core.ko": "",
+    "mlx4_en.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-mlx4_core.sh",
+    "on_os_load": "on_os_load_mlx4_core.sh"
+  }
+
+}
