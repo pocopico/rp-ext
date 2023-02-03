@@ -3,13 +3,13 @@
     {
       "name": "eudev",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/eudev.tgz",
-      "sha256": "0dfbfe4f00fc26b17363654d26844498a5539e396abd1f6a38af5e46493c8567",
+      "sha256": "73ecef7c4ddcd211a52c7940c776c641639beb5feec2e75047ef847fbbed34bc",
       "packed": true
     },
     {
       "name": "install.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/install.sh",
-      "sha256": "41c667c64e41f0b2c07488c5e209290e64907a4f9a2f2ce59955883b7a9181ad",
+      "sha256": "13520dd71f3adee6f16612b4986dcf9bb345e18d2669de7eff34783fed990291",
       "packed": false
     }
 
