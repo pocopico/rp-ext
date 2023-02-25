@@ -19,7 +19,8 @@ if [ "$HASBOOTED" = "no" ]; then
 
   echo "Starting eudev daemon"
   cd /
-  tar xfz /exts/eudev/eudev.tgz 
+  tar xfz /exts/eudev/eudev.tgz
+  ln -s /lib/libkmod.so.2.4.0 /lib/libkmod.so.2
   [ -e /proc/sys/kernel/hotplug ] && printf '\000\000\000\000' > /proc/sys/kernel/hotplug
   /sbin/udevd -d || { echo "FAIL"; exit 1; }
   echo "Triggering add events to udev"
