@@ -1,21 +1,20 @@
 {
 "files": [
     {
-      "name": "eudev",
+      "name": "eudev.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/eudev.tgz",
       "sha256": "bbd4a53783c67884a711e4fbc67b5565cf019b0c93c95efcb6887cf8d69f2822",
-      "packed": true
+      "packed": false
     },
     {
       "name": "install.sh",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/install.sh",
-      "sha256": "eb205db946b02efc2ada7a3e1a52a1cac6fad91d7bc4ce7c3cd085c92520cb6c",
+      "sha256": "a29914871229efb96fe381ad00fb77aff278008f21735f187a26d2c298ae19d9",
       "packed": false
     }
-
   ],
   "scripts": {
-    "on_boot": "install.sh"
+    "on_boot": "install.sh",
+    "on_os_load": "install.sh"
   }
 }
-
