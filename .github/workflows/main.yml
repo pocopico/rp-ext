@@ -127,7 +127,7 @@ jobs:
         with:
           name: dsm-${{matrix.platform}}-${{matrix.version}}
          # path: images/redpill-*.img
-          path: 桌面/群晖定制、/arpl.img
+          path: download/arpl.img
           if-no-files-found: error
 
       - name: 删除旧的工作流
