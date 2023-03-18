@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "redpill-4.4.180plus-apollolake.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-4.4.180plus-apollolake.tgz",
-      "sha256": "5eb4741b62bea798d16e19c14b660c2daa1c675ef9ae61f469754a0a554dc615",
+      "name": "redpill-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-4.4.180plus-geminilake.tgz",
+      "sha256": "d27c4b02987cc786f65c47c29f34120021ec9f5574e5fb042eef8ef0daf0886f",
       "packed": true
     },
     {

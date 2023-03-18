@@ -6,6 +6,7 @@
 # probably certain that system has finish init process
 #
 
+kernelver="$(uname -r)"
 
 if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
 HASBOOTED="yes"
