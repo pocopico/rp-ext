@@ -1,0 +1,20 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "redpill-4.4.302plus-r1000.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/redpill-4.4.302plus-r1000.tgz",
+      "sha256": "a985852443e21e8a64b7bd53f7de1848fdbd0260abb193ec3fd6205280951a98  redpill-4.4.302plus-r1000.tgz",
+      "packed": true
+    }
+  ],
+
+  "kmods": {
+    "redpill.ko": ""
+  },
+
+    "scripts": {
+  }
+
+}
