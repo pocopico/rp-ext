@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "redpill-4.4.302plus-geminilake.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/redpill-4.4.302plus-geminilake.tgz",
-      "sha256": "7b049e28f538ac1795941bdedeb3bb6cf51a579e5aa033b8f75a42b40af3239a",
+      "name": "redpill-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/redpill-4.4.180plus-geminilake.tgz",
+      "sha256": "94d4331f1fb25158ac4a4b0b060bf00c000d5dab677ee0fdeb64edaadd0887bc",
       "packed": true
     },
     {

@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "redpill-4.4.302plus-broadwellnk.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/redpill-4.4.302plus-broadwellnk.tgz",
-      "sha256": "f2da7c09885ad0b4002cccb571e78ef61edec12b100349578fc64060032ba447",
+      "name": "redpill-4.4.180plus-broadwellnk.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/releases/redpill-4.4.180plus-broadwellnk.tgz",
+      "sha256": "f454fb5ba95b370fc59185164453b577054a8d3fc523a40e2251dfb5077a0ac8",
       "packed": true
     },
     {
