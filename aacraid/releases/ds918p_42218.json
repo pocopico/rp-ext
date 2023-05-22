@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "aacraid-4.4.180plus.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/aacraid-4.4.180plus.tgz",
+      "url": "https://gh.api.99988866.xyz/https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/releases/aacraid-4.4.180plus.tgz",
       "sha256": "2374ff16c3608b6f7817dc38fdc04886bdd86006d890082c9cd29fb8ff110695",
       "packed": true
     },
     {
       "name": "check-aacraid.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/src/check-aacraid.sh",
+      "url": "https://gh.api.99988866.xyz/https://raw.githubusercontent.com/pocopico/rp-ext/master/aacraid/src/check-aacraid.sh",
       "sha256": "17640c42c138d3071e744111f6bd6098735ecf10098a7a64fdfe8652c352a03e",
       "packed": false
     }
