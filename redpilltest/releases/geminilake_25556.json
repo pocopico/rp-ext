@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "redpill-4.4.59-geminilake.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-geminilake-4.4.59.tgz",
-      "sha256": "801b9f5ee3e3802de832f992c1337f8f2e08bd46a2eef8b1d742638ba439eb57",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-geminilake-4.4.59.tgz",
+      "sha256": "71353bc58831aac60300d7244984100d8c2e25c7627feb688d87da92026c09f5",
       "packed": true
     },
     {
       "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/src/check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/src/check-redpill.sh",
       "sha256": "60825be580f1d152885b20a9210baf546fa10df70f0ec1d28fc25e4cfafa20bf",
       "packed": false
     }

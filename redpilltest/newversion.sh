@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PLATFORMS="apollolake broadwell broadwellnk bromolow denverton epyc7002 geminilake r1000 v1000"
-BUILDMODE="dev"
+BUILDMODE="test"
 
 function shacalc() {
   sha256sum "$1" | awk '{print $1}'
