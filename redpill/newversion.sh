@@ -106,7 +106,7 @@ function platforms() {
 
   case $1 in
 
-  ds1019p | ds918) platform="apollolake" ;;
+  ds1019p | ds918p) platform="apollolake" ;;
   ds1520p | ds920p | dva1622) platform="geminilake" ;;
   ds1621p | ds2422p | fs2500) platform="v1000" ;;
   ds1621xs | ds3622xs | rs4021xsp) platform="broadwellnk" ;;
@@ -123,7 +123,7 @@ function models() {
 
   case $1 in
 
-  apollolake) echo "ds1019p ds918" ;;
+  apollolake) echo "ds1019p ds918p" ;;
   geminilake) echo "ds1520p  ds920p  dva1622" ;;
   v1000) echo "ds1621p  ds2422p  fs2500" ;;
   broadwellnk) echo "ds1621xs  ds3622xs  rs4021xsp" ;;
