@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "redpill-4.4.59-apollolake.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-apollolake-4.4.59.tgz",
-      "sha256": "9504dd2384b05efb942e64d1b190683747495da4c993c449eba828324d16387f",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-apollolake-4.4.59.tgz",
+      "sha256": "df742973a614c5339a5bb1f58cab11643cfbb7823b402fd2dc6dcbf757d555a4",
       "packed": true
     },
     {
       "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/src/check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/src/check-redpill.sh",
       "sha256": "60825be580f1d152885b20a9210baf546fa10df70f0ec1d28fc25e4cfafa20bf",
       "packed": false
     }

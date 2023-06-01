@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PLATFORMS="apollolake broadwell broadwellnk bromolow denverton epyc7002 geminilake r1000 v1000"
-BUILDMODE="test"
+BUILDMODE="dev"
 
 function shacalc() {
   sha256sum "$1" | awk '{print $1}'
@@ -32,11 +32,13 @@ EOF
       platforms $platform
       for revision in $(revisions $kver); do
         for model in $(models $platform); do
-          echo "\"${model}_${revision}\": \"https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill${BUILDMODE}/releases/${platform}_${revision}.json\"," >>tmp.rpext
+          echo "\"${model}_${revision}\": \"https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill${BUILDMODE}/releases/${platform}_${revision}.json\"," >>tmp.versions
         done
       done
     done
   done
+
+  listmodels >>tmp.rpext
 
   cat <<EOF >>tmp.rpext
     "endofmodel": "endofurls"
@@ -44,7 +46,17 @@ EOF
 }
 EOF
 
-  jq . tmp.rpext >rpext-index.json && rm -f tmp.rpext
+  jq . tmp.rpext >rpext-index.json && rm -f tmp.rpext && rm -f tmp.versions
+
+}
+
+function listmodels() {
+
+  for platform in $PLATFORMS; do
+    for model in $(models $platform); do
+      grep $model tmp.versions
+    done
+  done
 
 }
 

@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "redpill-4.4.302-denverton.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-denverton-4.4.302.tgz",
-      "sha256": "6be8986dd4171eb098deea87b7cd17598b04984c2ca3c1513cdb67bdf766f8b6",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-denverton-4.4.302.tgz",
+      "sha256": "671a2685289697532138f13742f21eb4dc83cdbf670718bfcb05740370441dfb",
       "packed": true
     },
     {
       "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/src/check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/src/check-redpill.sh",
       "sha256": "60825be580f1d152885b20a9210baf546fa10df70f0ec1d28fc25e4cfafa20bf",
       "packed": false
     }

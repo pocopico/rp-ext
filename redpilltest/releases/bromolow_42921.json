@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "redpill-3.10.108-bromolow.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-bromolow-3.10.108.tgz",
-      "sha256": "40006a9b6bba9e7ad6b4dfb5b80b34c589caa53f4b8e4ef6c7ac249c8e8a0c4c",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-bromolow-3.10.108.tgz",
+      "sha256": "4168a125c3b1eccd557b386278bb6e23769dc6d085c19ac0ff5a0fd0d7638260",
       "packed": true
     },
     {
       "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/src/check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/src/check-redpill.sh",
       "sha256": "60825be580f1d152885b20a9210baf546fa10df70f0ec1d28fc25e4cfafa20bf",
       "packed": false
     }
