@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "redpill-4.4.302-r1000.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-r1000-4.4.302.tgz",
-      "sha256": "7734a15a1f367e57b08f966bd6c8cb16f604acc890574f1b762667ebe2ada4b9",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-r1000-4.4.302.tgz",
+      "sha256": "7a68bb03ef8110822c2368bc373139264ff341fa5ff56b41cc091bb8631b3826",
       "packed": true
     },
     {
       "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/src/check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/src/check-redpill.sh",
       "sha256": "60825be580f1d152885b20a9210baf546fa10df70f0ec1d28fc25e4cfafa20bf",
       "packed": false
     }

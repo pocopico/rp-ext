@@ -4,13 +4,13 @@
   "files": [
     {
       "name": "redpill-5.10.55-epyc7002.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-epyc7002-5.10.55.tgz",
-      "sha256": "b6450cf461cf03f4d66dcffdbdfecd53fc8e53515bc3370fec89ba3b49f14ed8",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-epyc7002-5.10.55.tgz",
+      "sha256": "603dac58e6d43ee3ce995b97c717b2141fe6888f059f74792f1ebf1b83d8abfe",
       "packed": true
     },
     {
       "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/src/check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/src/check-redpill.sh",
       "sha256": "60825be580f1d152885b20a9210baf546fa10df70f0ec1d28fc25e4cfafa20bf",
       "packed": false
     }

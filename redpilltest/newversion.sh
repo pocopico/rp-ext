@@ -66,13 +66,13 @@ function content() {
   "files": [
     {
       "name": "redpill-${kver}-${platform}.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-${platform}-${kver}.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill${BUILDMODE}/releases/redpill-${platform}-${kver}.tgz",
       "sha256": "$(shacalc redpill-${platform}-${kver}.tgz)",
       "packed": true
     },
     {
       "name": "check-redpill.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/src/check-redpill.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill${BUILDMODE}/src/check-redpill.sh",
       "sha256": "$(shacalc ../src/check-redpill.sh)",
       "packed": false
     }
