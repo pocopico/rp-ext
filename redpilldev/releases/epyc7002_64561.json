@@ -5,7 +5,7 @@
     {
       "name": "redpill-5.10.55-epyc7002.tgz",
       "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-epyc7002-5.10.55.tgz",
-      "sha256": "3d32adae55f1282b441bcca0ea250e9537739f19a9fa114842334e0e1f072da0",
+      "sha256": "d865bbfac9c8c22784f90610642fd2b710d2a2005a4dc01b8458e0d4b2142ca4",
       "packed": true
     },
     {

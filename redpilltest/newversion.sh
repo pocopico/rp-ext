@@ -67,8 +67,8 @@ function content() {
   revision="$3"
 
   gunzip -f lastmods/rp-${platform}-${kver}-${BUILDMODE}.ko.gz 2>/dev/null
-  cp -f lastmods/rp-${platform}-${kver}-${BUILDMODE}.ko ./redpill.ko
-  tar cfz redpill-${platform}-${kver}.tgz ./redpill.ko
+  cp -f lastmods/rp-${platform}-${kver}-${BUILDMODE}.ko redpill.ko
+  tar cfz redpill-${platform}-${kver}.tgz redpill.ko
   rm -f ./redpill.ko
   echo "Creating content for platform: $platform revision: $revision kver: $kver"
   cat <<EOF >${platform}_${revision}.json
