@@ -109,7 +109,7 @@ function platforms() {
   ds1019p | ds918p) platform="apollolake" ;;
   ds1520p | ds920p | dva1622) platform="geminilake" ;;
   ds1621p | ds2422p | fs2500) platform="v1000" ;;
-  ds1621xs | ds3622xs | rs4021xsp) platform="broadwellnk" ;;
+  ds1621xs | ds3622xsp | rs4021xsp) platform="broadwellnk" ;;
   ds3615xs | rs3413xsp) platform="bromolow" ;;
   ds3617xs | rs3618xs) platform="broadwell" ;;
   ds723p | ds923p) platform="r1000" ;;
@@ -126,7 +126,7 @@ function models() {
   apollolake) echo "ds1019p ds918p" ;;
   geminilake) echo "ds1520p  ds920p  dva1622" ;;
   v1000) echo "ds1621p  ds2422p  fs2500" ;;
-  broadwellnk) echo "ds1621xs  ds3622xs  rs4021xsp" ;;
+  broadwellnk) echo "ds1621xs  ds3622xsp  rs4021xsp" ;;
   bromolow) echo "ds3615xs rs3413xsp" ;;
   broadwell) echo "ds3617xs  rs3618xs" ;;
   r1000) echo "ds723p  ds923p" ;;
