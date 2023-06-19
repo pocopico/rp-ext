@@ -186,7 +186,7 @@ echo "Downloading latest rp-lkms release from GitHub"
 URL=$(curl --connect-timeout 15 -s --insecure -L https://api.github.com/repos/wjz304/redpill-lkm/releases/latest | jq -r -e .assets[].browser_download_url | grep rp-lkms.zip)
 
 curl --insecure -sL $URL -o rp-lkms.zip
-mkdir -p lastmods && unzip -o rp-lkms.zip *${BUILDMODE}* -d lastmods >/dev/null 2>&1
+mkdir -p lastmods && 7z x rp-lkms.zip *${BUILDMODE}* -olastmods >/dev/null 2>&1
 
 echo $PLATFORMS
 
