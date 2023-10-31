@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "redpill-3.10.108-bromolow.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-bromolow-3.10.108.tgz",
-      "sha256": "c4aa863764ff1046c24e02ce2db3cae3a2f6e39629c83cc7a0845b60eaa4004b",
+      "name": "redpill-4.4.302-apollolake.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-apollolake-4.4.302.tgz",
+      "sha256": "e2c98621232c3d133bead0f89330ff44c9c3cafbf1e17f936c397bb45def53d7",
       "packed": true
     },
     {

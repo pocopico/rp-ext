@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "redpill-3.10.108-bromolow.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-bromolow-3.10.108.tgz",
-      "sha256": "c4aa863764ff1046c24e02ce2db3cae3a2f6e39629c83cc7a0845b60eaa4004b",
+      "name": "redpill-4.4.180-purley.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilltest/releases/redpill-purley-4.4.180.tgz",
+      "sha256": "e137ec41847447adae8070123dc1b4c1fe9e50a93d32ecb1844d380c63364ccd",
       "packed": true
     },
     {

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PLATFORMS="apollolake broadwell broadwellnk bromolow denverton epyc7002 geminilake r1000 v1000"
+PLATFORMS="apollolake broadwell broadwellnk bromolow denverton epyc7002 geminilake r1000 v1000 purley"
 BUILDMODE="test"
 
 function shacalc() {
@@ -106,14 +106,14 @@ function platforms() {
 
   case $1 in
 
-  ds1019p | ds918p) platform="apollolake" ;;
-  ds1520p | ds920p | dva1622) platform="geminilake" ;;
-  ds1621p | ds2422p | fs2500) platform="v1000" ;;
-  ds1621xs | ds3622xsp | rs4021xsp) platform="broadwellnk" ;;
+  ds1019p | ds918p | ds620slim) platform="apollolake" ;;
+  ds1520p | ds920p | dva1622 | ds720p) platform="geminilake" ;;
+  ds1621p | ds1821p | rs1221p |ds2422p | fs2500) platform="v1000" ;;
+  ds1621xsp | ds3622xsp | rs3621xsp | rs4021xsp) platform="broadwellnk" ;;
   ds3615xs | rs3413xsp) platform="bromolow" ;;
   ds3617xs | rs3618xs) platform="broadwell" ;;
   ds723p | ds923p) platform="r1000" ;;
-  dva3219 | dva3221) platform="denverton" ;;
+  dva3219 | dva3221 |ds1819p ) platform="denverton" ;;
   fs6400) platform="purley" ;;
   sa6400) platform="epyc7002" ;;
   esac
@@ -123,14 +123,14 @@ function models() {
 
   case $1 in
 
-  apollolake) echo "ds1019p ds918p" ;;
-  geminilake) echo "ds1520p  ds920p  dva1622" ;;
-  v1000) echo "ds1621p  ds2422p  fs2500" ;;
-  broadwellnk) echo "ds1621xs  ds3622xsp  rs4021xsp" ;;
+  apollolake) echo "ds1019p ds918p ds620slim" ;;
+  geminilake) echo "ds1520p ds720p ds920p  dva1622" ;;
+  v1000) echo "ds1621p  ds2422p ds1821+ rs1221p fs2500" ;;
+  broadwellnk) echo "ds1621xs  ds3622xsp rs3621xsp rs4021xsp" ;;
   bromolow) echo "ds3615xs rs3413xsp" ;;
   broadwell) echo "ds3617xs  rs3618xs" ;;
   r1000) echo "ds723p  ds923p" ;;
-  denverton) echo "dva3219  dva3221" ;;
+  denverton) echo "dva3219  dva3221 ds1819p ds1823xsp" ;;
   purley) echo "fs6400" ;;
   epyc7002) echo "sa6400" ;;
   esac
@@ -139,10 +139,10 @@ function models() {
 function revisions() {
 
   case $1 in
-  5.10.55) echo "42218 42661 42962 64561 64570" ;;
+  5.10.55) echo "42218 42661 42962 64551 64570 69057" ;;
   4.4.59) echo "25556" ;;
   4.4.180) echo "42218 42661 42962" ;;
-  4.4.302) echo "64561 64570" ;;
+  4.4.302) echo "64561 64570 69057" ;;
   3.10.105) echo "25556" ;;
   3.10.108) echo "42218 42661 42962" ;;
   esac
@@ -162,6 +162,7 @@ function kvers() {
   geminilake) echo "4.4.59 4.4.180 4.4.302" ;;
   bromolow) echo "3.10.105 3.10.108" ;;
   epyc7002) echo "5.10.55" ;;
+  purley) echo "4.4.59 4.4.180 4.4.302" ;;
 
   esac
 
@@ -185,7 +186,7 @@ echo "Downloading latest rp-lkms release from GitHub"
 
 URL=$(curl --connect-timeout 15 -s --insecure -L https://api.github.com/repos/wjz304/redpill-lkm/releases/latest | jq -r -e .assets[].browser_download_url | grep rp-lkms.zip)
 
-curl --insecure -sL $URL -o rp-lkms.zip
+curl --insecure --progress-bar -sL $URL -o rp-lkms.zip
 mkdir -p lastmods && 7z x rp-lkms.zip *${BUILDMODE}* -olastmods >/dev/null 2>&1
 
 echo $PLATFORMS
