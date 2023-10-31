@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "redpill-5.10.55-epyc7002.tgz",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-epyc7002-5.10.55.tgz",
-      "sha256": "efd2c4d72fcd134ae277e806a4884b8d3eb071f696f369b8acede8916deb95b5",
+      "name": "redpill-4.4.59-purley.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpilldev/releases/redpill-purley-4.4.59.tgz",
+      "sha256": "d7e4dc73bf1dc02986c166cf6818cad405a42354ae4b0bf0520a198ccaf32067",
       "packed": true
     },
     {
