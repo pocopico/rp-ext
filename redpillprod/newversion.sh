@@ -139,10 +139,10 @@ function models() {
 function revisions() {
 
   case $1 in
-  5.10.55) echo "42218 42661 42962 64551 64570 69057" ;;
+  5.10.55) echo "42218 42661 42962 64551 64570 69057 72806" ;;
   4.4.59) echo "25556" ;;
   4.4.180) echo "42218 42661 42962" ;;
-  4.4.302) echo "64561 64570 69057" ;;
+  4.4.302) echo "64561 64570 69057 72806" ;;
   3.10.105) echo "25556" ;;
   3.10.108) echo "42218 42661 42962" ;;
   esac
@@ -184,7 +184,8 @@ rm -rf releases && mkdir -p releases && cd releases
 
 echo "Downloading latest rp-lkms release from GitHub"
 
-URL=$(curl --connect-timeout 15 -s --insecure -L https://api.github.com/repos/wjz304/redpill-lkm/releases/latest | jq -r -e .assets[].browser_download_url | grep rp-lkms.zip)
+#URL=$(curl --connect-timeout 15 -s --insecure -L https://api.github.com/repos/wjz304/redpill-lkm/releases/latest | jq -r -e .assets[].browser_download_url | grep rp-lkms.zip)
+URL=$(curl --connect-timeout 15 -s --insecure -L https://api.github.com/repos/AuxXxilium/arc-lkm/releases/latest | jq -r -e .assets[].browser_download_url | grep rp-lkms.zip)
 
 curl --insecure --progress-bar -sL $URL -o rp-lkms.zip
 mkdir -p lastmods && 7z x rp-lkms.zip *${BUILDMODE}* -olastmods >/dev/null 2>&1
